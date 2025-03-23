@@ -1,0 +1,194 @@
+import { Stack, useLocalSearchParams, Link, useRouter } from 'expo-router';
+import { View, ScrollView, StyleSheet, Text, Image, Dimensions } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+import { getAstros, Astro, getAstroBySlug } from '../../services/database';
+import { useEffect, useState } from 'react';
+import { Canvas, scale, Image as SkiaImage, useImage } from '@shopify/react-native-skia';
+import PageHeader from '@/components/PageHeader';
+import Button from '@/components/Button';
+
+const ORIGINAL_DESIGN_WIDTH = 144; // Largura do card no Figma
+const ORIGINAL_ICON_SIZE = 16; // Tamanho original do ícone no Figma
+const ORIGINAL_CLOSE_SIZE = 5;
+
+const { width: screenWidth } = Dimensions.get('window');
+
+// Mapeamento de nomes para imagens (ajuste conforme seus arquivos)
+export const astroIcons: { [key: string]: any } = {
+	'Mercúrio': require('../../assets/images/mercury.png'),
+	'Vênus': require('../../assets/images/venus.png'),
+	'Marte': require('../../assets/images/mars.png'),
+	'Júpiter': require('../../assets/images/jupiter.png'),
+	'Saturno': require('../../assets/images/saturn.png'),
+	'Lua': require('../../assets/images/moon.png'),
+	'Sol': require('../../assets/images/sun.png'),
+};
+
+export default function AstroDetails() {
+    const { name, isVisible } = useLocalSearchParams();
+	//const decodedName = decodeURIComponent(name as string);
+    const [astro, setAstro] = useState<Astro | null>(null);
+    const router = useRouter();
+    const closeIcon = useImage(require('../../assets/images/x.png'));
+	const backgroundImage = useImage(require('../../assets/images/header2.png'));
+	const isCurrentlyVisible = isVisible === 'true';
+
+	// Calcula a escala proporcional
+	const scaleFactor = screenWidth / ORIGINAL_DESIGN_WIDTH;
+	
+	// Tamanho do ícone ajustado
+	const iconSize = Math.round(ORIGINAL_ICON_SIZE * scaleFactor);
+	const closeSize = Math.round(ORIGINAL_CLOSE_SIZE * scaleFactor);
+	
+	// Mantém múltiplos de 2 para pixel perfect
+	const pixelPerfectIconSize = iconSize + (iconSize % 2);
+
+	const bgAspectRatio = backgroundImage ? backgroundImage.height() / backgroundImage.width() : 1;
+	const cardHeight = screenWidth * bgAspectRatio;
+
+    useEffect(() => {
+		const loadAstro = async () => {
+		  	if (typeof name === 'string') {
+				const astro = await getAstroBySlug(name);
+					setAstro(astro || null);
+			}
+		};
+		loadAstro();
+	}, [name]);
+
+    if (!astro) {
+        return (
+            <View style={styles.container}>
+                <Text>Astro não encontrado</Text>
+            </View>
+        );
+    }
+
+    const facts = JSON.parse(astro.facts);
+
+    return (
+		<View style={styles.container}>
+			{/* Cabeçalho com nome e ícone */}
+			<PageHeader
+				background={require('../../assets/images/header2.png')}
+				icon={astroIcons[astro.name]}
+				text={astro.name}
+			/>
+
+			<ScrollView contentContainerStyle={styles.content}>
+				{/* Card de Informações */}
+				<View style={styles.infoCard}>
+					<Text style={styles.sectionTitle}>DADOS ASTRONÔMICOS</Text>
+
+					<View style={styles.infoRow}>
+						<Text style={styles.label}>TIPO:</Text>
+						<Text style={styles.value}>{astro.type}</Text>
+					</View>
+
+					<View style={styles.infoRow}>
+						<Text style={styles.label}>DISTÂNCIA DA TERRA:</Text>
+						<Text style={styles.value}>{astro.distance}</Text>
+					</View>
+
+					<View style={styles.infoRow}>
+						<Text style={styles.label}>TAMANHO:</Text>
+						<Text style={styles.value}>{astro.size}</Text>
+					</View>
+
+					<View style={styles.infoRow}>
+						<Text style={styles.label}>MAGNITUDE:</Text>
+						<Text style={styles.value}>{astro.magnitude}</Text>
+					</View>
+
+					{astro.moons && (
+						<View style={styles.infoRow}>
+							<Text style={styles.label}>LUAS:</Text>
+							<Text style={styles.value}>{astro.moons}</Text>
+						</View>
+					)}
+
+					<View style={styles.infoRow}>
+						<Text style={styles.label}>CURIOSIDADES:</Text>
+						<View>
+							{facts.map((fact: string, index: number) => (
+								<Text key={index} style={styles.value}>
+									{fact}
+								</Text>
+							))}
+						</View>
+					</View>
+				</View>
+
+				{/* Botão de Encontrar no Céu */}
+				{isCurrentlyVisible && (
+					<View style={{ marginTop: Math.round(4 * scaleFactor) }}>
+						<Button 
+							image={require("../../assets/images/pink_button.png")}
+							text="ENCONTRAR NO CÉU"
+							onPress={() => router.push(`/compass?slug=${name}`)}
+						/>
+					</View>
+				)}
+
+			</ScrollView>
+		</View>
+	);
+}
+
+const styles = StyleSheet.create({
+	container: {
+		flex: 1,
+		backgroundColor: '#E9ECF5',
+	},
+	content: {
+		paddingHorizontal: 16,
+		paddingBottom: 32,
+	},
+	infoCard: {
+		backgroundColor: '#E9ECF5',
+	},
+	sectionTitle: {
+		fontFamily: 'Tiny5',
+		color: '#18122B',
+		fontSize: Math.round(8 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
+		marginBottom: 8,
+		textTransform: 'uppercase',
+		marginTop: 16,
+	},
+	infoRow: {
+		flexDirection: 'column',
+		justifyContent: 'space-between',
+		marginBottom: 10,
+		paddingBottom: 6,
+	},
+	label: {
+		fontFamily: 'Tiny5',
+		color: '#18122B',
+		fontSize: Math.round(7 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
+	},
+	value: {
+		fontFamily: 'TinyUnicode',
+		color: '#7A7D8D',
+		fontSize: Math.round(12 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
+	},
+	findButton: {
+		backgroundColor: '#18122B',
+		paddingVertical: 12,
+		borderRadius: 6,
+		marginTop: 20,
+		alignItems: 'center',
+	},
+	findButtonText: {
+		color: '#FFFFFF',
+		fontSize: Math.round(14 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
+		fontFamily: 'TinyUnicode',
+		textTransform: 'uppercase',
+	},
+	errorText: {
+		fontFamily: 'TinyUnicode',
+		fontSize: Math.round(16 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
+		color: '#333',
+		textAlign: 'center',
+		marginTop: 20,
+	},
+});

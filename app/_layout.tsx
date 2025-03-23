@@ -1,39 +1,63 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
+import React, { useCallback, useEffect, useState } from 'react';
+import { View, ActivityIndicator, Alert } from 'react-native';
 import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
-import { StatusBar } from 'expo-status-bar';
-import { useEffect } from 'react';
-import 'react-native-reanimated';
+import LoadingAnimation from '../components/LoadingAnimation';
+import { Stack } from 'expo-router';
+import { initDatabase } from '@/services/database';
 
-import { useColorScheme } from '@/hooks/useColorScheme';
-
-// Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
-  const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
-  });
+	const [fontsLoaded] = useFonts({
+		'GothicPixels': require('../assets/fonts/GothicPixels.ttf'),
+		'TinyUnicode': require('../assets/fonts/TinyUnicode.ttf'),
+		'Tiny5': require('../assets/fonts/Tiny5-Regular.ttf'),
+		'CD-Icons': require('../assets/fonts/CD-IconsPC.ttf'),
+	});
+	const [dbInitialized, setDbInitialized] = useState(false);
 
-  useEffect(() => {
-    if (loaded) {
-      SplashScreen.hideAsync();
-    }
-  }, [loaded]);
+	useEffect(() => {
+		// Força a verificação das condições sempre que os estados mudarem
+		if (fontsLoaded && dbInitialized) {
+		  console.log("✅ Condições atendidas! Ocultando splash...");
+		  SplashScreen.hideAsync();
+		}
+	  }, [fontsLoaded, dbInitialized]); // <-- Adicione esta dependência
 
-  if (!loaded) {
-    return null;
-  }
+	  useEffect(() => {
+		const initializeDatabase = async () => {
+		  try {
+			console.log("🔄 Iniciando banco de dados...");
+			await initDatabase();
+			console.log("✅ Banco inicializado!");
+			setDbInitialized(true);
+			
+			// Força nova verificação das condições
+			onLayoutRootView(); 
+		  } catch (error) {
+			console.error("💥 Falha crítica:", error);
+			Alert.alert("Erro", "Falha na inicialização do banco de dados");
+		  }
+		};
+		initializeDatabase();
+	  }, []);
 
-  return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
-  );
+	const onLayoutRootView = useCallback(async () => {
+		console.log("Verificando condições para hide:", { 
+			fontsLoaded, 
+			dbInitialized 
+		});
+		
+		if (fontsLoaded && dbInitialized) {
+			console.log("Ocultando splash screen...");
+			await SplashScreen.hideAsync();
+		}
+	}, [fontsLoaded, dbInitialized]);
+
+	return (
+		<View style={{ flex: 1 }} onLayout={onLayoutRootView}>
+			<Stack screenOptions={{ headerShown: false }} />
+		</View>
+	);
 }
