@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# Vega
+# 🌌 Aplicativo de Observação Astronômica
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um projeto de aplicativo mobile voltado para a observação de corpos celestes, como planetas, estrelas e constelações. O app permite que o usuário explore o céu com recursos interativos, obtenha informações astronômicas em tempo real e registre suas observações.
 
-## Get started
+## 📋 Funcionalidades
 
-1. Install dependencies
+O projeto está sendo desenvolvido em três sprints, conforme o backlog definido:
 
-   ```bash
-   npm install
-   ```
+### ✅ Sprint 1 — Funcionalidades Concluídas
 
-2. Start the app
+| Funcionalidade                                         | Descrição                                                                 | Requisitos |
+|--------------------------------------------------------|---------------------------------------------------------------------------|------------|
+| Lista de astros visíveis agora e em breve              | Exibe os corpos celestes que podem ser observados no momento e em breve  | 2, 4, 5    |
+| Detalhes do astro                                      | Apresenta informações como nome, tipo, visibilidade e magnitude           | 6          |
+| Bússola e termômetro astronômico                       | Mostra direção e altura do astro no céu em tempo real                     | 3          |
+| Filtro por tipo de astro                               | Permite selecionar apenas planetas, estrelas ou satélites                | 5          |
 
-   ```bash
-    npx expo start
-   ```
+### 🛠️ Sprint 2 — Em Desenvolvimento
 
-In the output, you'll find options to open the app in a
+| Funcionalidade                 | Descrição                                                                 | Requisitos |
+|--------------------------------|---------------------------------------------------------------------------|------------|
+| Login com Firebase             | Cadastro e autenticação por e-mail e senha                                | 1          |
+| Tela de perfil do usuário      | Visualiza e edita dados do usuário autenticado                            | 1, 15      |
+| Calendário astronômico        | Eventos futuros como eclipses, chuvas de meteoros e lançamentos espaciais | 10, 13, 14 |
+| Diário do observador           | Área para salvar observações e notas pessoais                             | 15         |
+| Condições de observação       | Exibe informações sobre as condições ideais para observar o céu           | 19         |
+| Modo noturno                  | Interface adaptada para não prejudicar a visão durante observações        | 16         |
+| Busca por astro                                 | Localiza constelações ou planetas pelo nome              | 17         |
+| Lembretes de eventos astronômicos               | Envia alertas configuráveis para o usuário               | 18         |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🚀 Sprint 3 — Funcionalidades Finais
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Funcionalidade                                  | Descrição                                                                 | Requisitos |
+|-------------------------------------------------|---------------------------------------------------------------------------|------------|
+| Visualização do céu noturno em tempo real       | Representação gráfica das estrelas, planetas e constelações               | 4          |
+| Scanner de objetos com a câmera do dispositivo  | Identifica planetas e estrelas apontando a câmera                        | 11         |
+| Compartilhamento em redes sociais               | Permite compartilhar observações                                          | 12         |
+| Mapa interativo do céu                          | Permite explorar o céu e encontrar astros específicos                     | 8, 9       |
 
-## Get a fresh project
+## 🚧 Tecnologias Utilizadas
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- React Native com Expo
+- Skia para renderização gráfica
+- Firebase Authentication (para login)
+- Astronomy Engine (cálculo de posição dos astros)
+- Expo Location & Sensors
