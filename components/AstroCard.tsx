@@ -61,7 +61,7 @@ export default function AstroCard({ background, icon, name, time, isVisible }: A
 			</Canvas>
 			<Link 
 				href={{
-					pathname: `/astro/[name]`,
+					pathname: `/(modals)/[name]`,
 					params: { name: getSlug(name), isVisible: isVisible ? 'true' : 'false' } // envia como string
 				}} 
 				asChild

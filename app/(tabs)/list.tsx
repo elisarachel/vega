@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { View, ScrollView, Alert, StyleSheet, Dimensions } from 'react-native';
 import * as Location from 'expo-location';
 import { Equator, Horizon, Body, Observer, SearchRiseSet, AstroTime } from 'astronomy-engine';
-import Header from '../components/Header';
-import FilterHeader from '../components/FilterHeader';
-import SectionHeader from '../components/SectionHeader';
-import AstroCard from '../components/AstroCard';
+import Header from '@/components/Header';
+import FilterHeader from '@/components/FilterHeader';
+import SectionHeader from '@/components/SectionHeader';
+import AstroCard from '@/components/AstroCard';
 import LoadingAnimation from '@/components/LoadingAnimation';
 import { getAstroType } from '@/services/database';
 import FilterPopup from '@/components/FilterPopup';
@@ -25,13 +25,13 @@ const astroNamesPT: { [key: string]: string } = {
 };
 
 const astroImages: { [key: string]: any } = {
-	mercury: require('../assets/images/mercury.png'),
-	venus: require('../assets/images/venus.png'),
-	mars: require('../assets/images/mars.png'),
-	jupiter: require('../assets/images/jupiter.png'),
-	saturn: require('../assets/images/saturn.png'),
-	moon: require('../assets/images/moon.png'),
-	sun: require('../assets/images/sun.png'),
+	mercury: require('@/assets/images/mercury.png'),
+	venus: require('@/assets/images/venus.png'),
+	mars: require('@/assets/images/mars.png'),
+	jupiter: require('@/assets/images/jupiter.png'),
+	saturn: require('@/assets/images/saturn.png'),
+	moon: require('@/assets/images/moon.png'),
+	sun: require('@/assets/images/sun.png'),
 };  
 
 export default function HomeScreen() {
@@ -145,7 +145,7 @@ export default function HomeScreen() {
 						data: {
 							name: astro,
 							time: `Até ${formattedSet}`,
-							icon: `../assets/images/${astro.toLowerCase()}.png`,
+							icon: `@/assets/images/${astro.toLowerCase()}.png`,
 							type
 						}
 					};
@@ -158,7 +158,7 @@ export default function HomeScreen() {
 						data: {
 							name: astro,
 							time: `Nasce às ${formattedRise}`,
-							icon: `../assets/images/${astro.toLowerCase()}.png`,
+							icon: `@/assets/images/${astro.toLowerCase()}.png`,
 							type
 						}
 					};
@@ -166,7 +166,7 @@ export default function HomeScreen() {
 				return null;
 			}));
 
-			const visibleNow = results.filter(r => r?.target === 'now').map(r => r!.data);
+		const visibleNow = results.filter(r => r?.target === 'now').map(r => r!.data);
 		const visibleSoon = results.filter(r => r?.target === 'soon').map(r => r!.data);
 
 		visibleNow.sort((a, b) => timeToNumber(a.time) - timeToNumber(b.time));
@@ -174,10 +174,10 @@ export default function HomeScreen() {
 
 		setVisibleAstros({ now: visibleNow, soon: visibleSoon });
 
-	} catch (error) {
-		console.error('Erro no cálculo:', error);
-		setVisibleAstros({ now: [], soon: [] });
-	}
+		} catch (error) {
+			console.error('Erro no cálculo:', error);
+			setVisibleAstros({ now: [], soon: [] });
+		}
 	};
 
 	const timeToNumber = (time: string) => {
@@ -210,14 +210,14 @@ export default function HomeScreen() {
     }, []);
 
     return (
-        <View>
+        <View style={{flex: 1, backgroundColor: "#e9ecf5"}}>
             <Header
-                background={require('../assets/images/header.png')}
+                background={require('@/assets/images/header.png')}
                 city={city}
-                pinIcon={require('../assets/images/pin_pink_outlined.png')}
+                pinIcon={require('@/assets/images/pin_pink_outlined.png')}
             />
 
-            <FilterHeader title="ASTROS" filterIcon={require('../assets/images/filter_icon.png')}
+            <FilterHeader title="ASTROS" filterIcon={require('@/assets/images/filter_icon.png')}
 			onPress={() => setIsFilterPopupVisible(true)} />
 
 			<FilterPopup
@@ -238,13 +238,13 @@ export default function HomeScreen() {
 					{/* Visíveis Agora */}
 					{visibleAstros.now.filter((astro) => !selectedType || astro.type === selectedType).length > 0 && (
 						<>
-							<SectionHeader icon={require('../assets/images/eye_icon.png')} text="Visíveis agora" />
+							<SectionHeader icon={require('@/assets/images/eye_icon.png')} text="Visíveis agora" />
 							{visibleAstros.now
 							.filter((astro) => !selectedType || astro.type === selectedType)
 							.map((astro, index) => (
 								<AstroCard
 									key={`now-${index}`}
-									background={require('../assets/images/blue_card.png')}
+									background={require('@/assets/images/blue_card.png')}
 									icon={astroImages[astro.name.toLowerCase()]}
 									name={astroNamesPT[astro.name]}
 									time={astro.time}
@@ -257,13 +257,13 @@ export default function HomeScreen() {
 					{/* Visíveis em Breve */}
 					{visibleAstros.soon.filter((astro) => !selectedType || astro.type === selectedType).length > 0 && (
 						<>
-							<SectionHeader icon={require('../assets/images/rise_icon.png')} text="Visíveis em breve" />
+							<SectionHeader icon={require('@/assets/images/rise_icon.png')} text="Visíveis em breve" />
 							{visibleAstros.soon
 							.filter((astro) => !selectedType || astro.type === selectedType)
 							.map((astro, index) => (
 								<AstroCard
 									key={`soon-${index}`}
-									background={require('../assets/images/purple_card.png')}
+									background={require('@/assets/images/purple_card.png')}
 									icon={astroImages[astro.name.toLowerCase()]}
 									name={astroNamesPT[astro.name]}
 									time={astro.time}
@@ -276,8 +276,8 @@ export default function HomeScreen() {
 					{/* Caso nenhum esteja visível */}
 					{visibleAstros.now.length === 0 && visibleAstros.soon.length === 0 && (
 						<AstroCard
-							background={require('../assets/images/blue_card.png')}
-							icon={require('../assets/images/moon.png')}
+							background={require('@/assets/images/blue_card.png')}
+							icon={require('@/assets/images/moon.png')}
 							name="Nenhum astro visível nas próximas horas"
 							time=""
 							isVisible={false}
@@ -294,7 +294,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 		justifyContent: 'center',
 		alignItems: 'center',
-		paddingLeft: Math.round(8 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
-		paddingTop: Math.round(8 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
+		backgroundColor: '#E9ECF5',
+		marginBottom: Math.round(52*(screenWidth / ORIGINAL_DESIGN_WIDTH)),
 	},
 });

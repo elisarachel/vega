@@ -1,7 +1,7 @@
 import { Stack, useLocalSearchParams, Link, useRouter } from 'expo-router';
 import { View, ScrollView, StyleSheet, Text, Image, Dimensions } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { getAstros, Astro, getAstroBySlug } from '../../services/database';
+import { getAstros, Astro, getAstroBySlug } from '@/services/database';
 import { useEffect, useState } from 'react';
 import { Canvas, scale, Image as SkiaImage, useImage } from '@shopify/react-native-skia';
 import PageHeader from '@/components/PageHeader';
@@ -11,17 +11,21 @@ const ORIGINAL_DESIGN_WIDTH = 144; // Largura do card no Figma
 const ORIGINAL_ICON_SIZE = 16; // Tamanho original do ícone no Figma
 const ORIGINAL_CLOSE_SIZE = 5;
 
+export const unstable_settings = {
+	href: null,
+};
+
 const { width: screenWidth } = Dimensions.get('window');
 
 // Mapeamento de nomes para imagens (ajuste conforme seus arquivos)
 export const astroIcons: { [key: string]: any } = {
-	'Mercúrio': require('../../assets/images/mercury.png'),
-	'Vênus': require('../../assets/images/venus.png'),
-	'Marte': require('../../assets/images/mars.png'),
-	'Júpiter': require('../../assets/images/jupiter.png'),
-	'Saturno': require('../../assets/images/saturn.png'),
-	'Lua': require('../../assets/images/moon.png'),
-	'Sol': require('../../assets/images/sun.png'),
+	'Mercúrio': require('@/assets/images/mercury.png'),
+	'Vênus': require('@/assets/images/venus.png'),
+	'Marte': require('@/assets/images/mars.png'),
+	'Júpiter': require('@/assets/images/jupiter.png'),
+	'Saturno': require('@/assets/images/saturn.png'),
+	'Lua': require('@/assets/images/moon.png'),
+	'Sol': require('@/assets/images/sun.png'),
 };
 
 export default function AstroDetails() {
@@ -29,8 +33,8 @@ export default function AstroDetails() {
 	//const decodedName = decodeURIComponent(name as string);
     const [astro, setAstro] = useState<Astro | null>(null);
     const router = useRouter();
-    const closeIcon = useImage(require('../../assets/images/x.png'));
-	const backgroundImage = useImage(require('../../assets/images/header2.png'));
+    const closeIcon = useImage(require('@/assets/images/x.png'));
+	const backgroundImage = useImage(require('@/assets/images/header2.png'));
 	const isCurrentlyVisible = isVisible === 'true';
 
 	// Calcula a escala proporcional
@@ -70,7 +74,7 @@ export default function AstroDetails() {
 		<View style={styles.container}>
 			{/* Cabeçalho com nome e ícone */}
 			<PageHeader
-				background={require('../../assets/images/header2.png')}
+				background={require('@/assets/images/header2.png')}
 				icon={astroIcons[astro.name]}
 				text={astro.name}
 			/>
@@ -123,7 +127,7 @@ export default function AstroDetails() {
 				{isCurrentlyVisible && (
 					<View style={{ marginTop: Math.round(4 * scaleFactor) }}>
 						<Button 
-							image={require("../../assets/images/pink_button.png")}
+							image={require("@/assets/images/pink_button.png")}
 							text="ENCONTRAR NO CÉU"
 							onPress={() => router.push(`/compass?slug=${name}`)}
 						/>

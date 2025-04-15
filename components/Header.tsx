@@ -36,7 +36,7 @@ export default function Header({ background, city, pinIcon }: HeaderProps) {
 	return (
 		<View style={[styles.container, { height: headerHeight }]}>
 			<Canvas style={[styles.canvas, { width: screenWidth, height: headerHeight }]}>
-				<Fill color="#E9ECF5" />
+				<Fill color="#e9ecf5" />
 				<SkiaImage 
 					image={backgroundImage} 
 					x={0} 

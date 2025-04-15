@@ -2,6 +2,7 @@ import React from 'react';
 import { View, StyleSheet, Text, ImageSourcePropType, Dimensions } from 'react-native';
 import { Canvas, FilterMode, MipmapMode, Image as SkiaImage, useImage } from '@shopify/react-native-skia';
 import { router } from 'expo-router';
+import BackButton from './BackButton';
 
 type PageHeaderProps = {
 	background: ImageSourcePropType;
@@ -18,7 +19,7 @@ const { width: screenWidth } = Dimensions.get('window');
 export default function PageHeader({ background, icon, text }: PageHeaderProps) {
 	const bgImage = typeof background === "number" ? useImage(background) : null;
 	const iconImg = typeof icon === "number" ? useImage(icon) : null;
-	const closeIcon = useImage(require('../assets/images/x.png'));
+	const closeIcon = useImage(require('@/assets/images/x.png'));
 	
 	if (!bgImage || !iconImg) return null;
 	
@@ -32,6 +33,9 @@ export default function PageHeader({ background, icon, text }: PageHeaderProps) 
 	
 	return (
 		<View style={[styles.container, { height: headerHeight }]}>
+			{/* Botão de voltar */}
+			<BackButton />
+
 			<Canvas style={StyleSheet.absoluteFill}>
 				<SkiaImage
 					image={bgImage}

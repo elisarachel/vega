@@ -3,7 +3,12 @@ import { View, Text, StyleSheet, ImageBackground } from 'react-native';
 import * as Font from 'expo-font';
 import { useRouter } from 'expo-router';
 import 'expo-router/entry';
-import LoadingAnimation from '../components/LoadingAnimation';
+import LoadingAnimation from '@/components/LoadingAnimation';
+
+export const unstable_settings = {
+	href: null,
+};
+
 
 export default function OnboardingScreen() {
 	const router = useRouter();
@@ -11,7 +16,7 @@ export default function OnboardingScreen() {
 
     useEffect(() => {
 		const timer = setTimeout(() => {
-		  router.push('/home');
+		  router.push('/list');
 		}, 3000);
 	
 		return () => clearTimeout(timer);
@@ -26,7 +31,7 @@ export default function OnboardingScreen() {
     }
 
     return (
-        <ImageBackground source={require('../assets/images/background.png')} style={styles.background}>
+        <ImageBackground source={require('@/assets/images/background.png')} style={styles.background}>
             <View style={styles.container}>
                 <Text style={styles.text}>Vega</Text>
             </View>
@@ -52,5 +57,6 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+		backgroundColor: 'E9ECF5'
     },
 });

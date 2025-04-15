@@ -6,7 +6,7 @@ import { Body, Observer, Equator, Horizon, AstroTime, Illumination } from 'astro
 import * as Location from 'expo-location';
 import * as Sensors from 'expo-sensors';
 import PageHeader from '@/components/PageHeader';
-import { astroIcons } from './astro/[name]';
+import { astroIcons } from './[name]';
 import { useLocalSearchParams } from 'expo-router';
 import LoadingAnimation from '@/components/LoadingAnimation';
 
@@ -315,6 +315,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 		justifyContent: 'center',
 		alignItems: 'center',
+		marginBottom: Math.round(32 * (SCREEN_WIDTH / ORIGINAL_DESIGN_WIDTH)),
 	}
 });
 

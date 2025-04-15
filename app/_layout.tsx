@@ -18,12 +18,11 @@ export default function RootLayout() {
 	const [dbInitialized, setDbInitialized] = useState(false);
 
 	useEffect(() => {
-		// Força a verificação das condições sempre que os estados mudarem
 		if (fontsLoaded && dbInitialized) {
 		  console.log("✅ Condições atendidas! Ocultando splash...");
 		  SplashScreen.hideAsync();
 		}
-	  }, [fontsLoaded, dbInitialized]); // <-- Adicione esta dependência
+	  }, [fontsLoaded, dbInitialized]);
 
 	  useEffect(() => {
 		const initializeDatabase = async () => {
@@ -33,7 +32,6 @@ export default function RootLayout() {
 			console.log("✅ Banco inicializado!");
 			setDbInitialized(true);
 			
-			// Força nova verificação das condições
 			onLayoutRootView(); 
 		  } catch (error) {
 			console.error("💥 Falha crítica:", error);
