@@ -26,9 +26,19 @@ export const toggleFavorite = async (astro: string) => {
 };
 
 export const getFavorites = async () => {
-	const uid = auth.currentUser?.uid;
-	if (!uid) return [];
-	const userRef = doc(db, 'users', uid);
-	const userSnap = await getDoc(userRef);
-	return userSnap.data()?.favorites || [];
+    try {
+        const uid = auth.currentUser?.uid;
+        if (!uid) return [];
+        const userRef = doc(db, 'users', uid);
+        const userSnap = await getDoc(userRef);
+        return userSnap.data()?.favorites || [];
+    } catch (error) {
+        console.error("Error fetching favorites from Firestore:", error);
+        return [];
+    }
+};
+
+export const isFavorite = async (astro: string) => {
+    const favorites = await getFavorites();
+    return favorites.includes(astro);
 };

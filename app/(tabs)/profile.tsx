@@ -290,7 +290,7 @@ export default function ProfileScreen() {
 						)}
 					</View>
 					<View style={styles.horizontalLine} />
-					<TouchableOpacity style={styles.linkRow} onPress={() => router.push('/(mobile)/favorites')}>
+					<TouchableOpacity style={styles.linkRow} onPress={() => router.push('/(modals)/favorites')}>
 						<View style={styles.inlineRow}>
 							<Text style={styles.linkText}>Meus Favoritos</Text>
 							<Canvas style={styles.rightIcon}>

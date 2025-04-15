@@ -1,11 +1,13 @@
 import { Stack, useLocalSearchParams, Link, useRouter } from 'expo-router';
-import { View, ScrollView, StyleSheet, Text, Image, Dimensions } from 'react-native';
+import { View, ScrollView, StyleSheet, Text, Image, Dimensions, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { getAstros, Astro, getAstroBySlug } from '@/services/database';
+import { toggleFavorite, isFavorite } from '@/services/favorites';
 import { useEffect, useState } from 'react';
 import { Canvas, scale, Image as SkiaImage, useImage } from '@shopify/react-native-skia';
 import PageHeader from '@/components/PageHeader';
 import Button from '@/components/Button';
+import { auth } from '@/services/firebaseConfig';
 
 const ORIGINAL_DESIGN_WIDTH = 144; // Largura do card no Figma
 const ORIGINAL_ICON_SIZE = 16; // Tamanho original do ícone no Figma
@@ -36,6 +38,10 @@ export default function AstroDetails() {
     const closeIcon = useImage(require('@/assets/images/x.png'));
 	const backgroundImage = useImage(require('@/assets/images/header2.png'));
 	const isCurrentlyVisible = isVisible === 'true';
+	const [isFav, setIsFav] = useState(false);
+    const heartIconSelected = useImage(require('@/assets/images/favorite_icon_selected.png'));
+    const heartIconUnselected = useImage(require('@/assets/images/favorite_icon_unselected.png'));
+	const [isLoggedIn, setIsLoggedIn] = useState(false);
 
 	// Calcula a escala proporcional
 	const scaleFactor = screenWidth / ORIGINAL_DESIGN_WIDTH;
@@ -60,6 +66,31 @@ export default function AstroDetails() {
 		loadAstro();
 	}, [name]);
 
+	useEffect(() => {
+        const checkFavorite = async () => {
+            if (astro) {
+                const fav = await isFavorite(astro.slug);
+                setIsFav(fav);
+            }
+        };
+        checkFavorite();
+    }, [astro]);
+
+	useEffect(() => {
+        const checkAuthState = () => {
+            const user = auth.currentUser;
+            setIsLoggedIn(!!user);
+        };
+        checkAuthState();
+    }, []);
+
+	const handleToggleFavorite = async () => {
+        if (astro) {
+            await toggleFavorite(astro.slug);
+            setIsFav((prev) => !prev);
+        }
+    };
+
     if (!astro) {
         return (
             <View style={styles.container}>
@@ -80,7 +111,23 @@ export default function AstroDetails() {
 			/>
 
 			<ScrollView contentContainerStyle={styles.content}>
-				{/* Card de Informações */}
+			<TouchableOpacity
+				onPress={handleToggleFavorite} 
+				style={styles.heartContainer}
+				disabled={!isLoggedIn}
+			>
+				{isLoggedIn && (
+					<Canvas style={{ width: iconSize, height: iconSize }}>
+						<SkiaImage
+							image={isFav ? heartIconSelected : heartIconUnselected}
+							x={0}
+							y={0}
+							width={iconSize}
+							height={iconSize}
+						/>
+					</Canvas>
+				)}
+			</TouchableOpacity>
 				<View style={styles.infoCard}>
 					<Text style={styles.sectionTitle}>DADOS ASTRONÔMICOS</Text>
 
@@ -145,8 +192,8 @@ const styles = StyleSheet.create({
 		backgroundColor: '#E9ECF5',
 	},
 	content: {
-		paddingHorizontal: 16,
-		paddingBottom: 32,
+		paddingHorizontal: Math.round(8 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
+		paddingBottom: Math.round(8 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
 	},
 	infoCard: {
 		backgroundColor: '#E9ECF5',
@@ -155,15 +202,14 @@ const styles = StyleSheet.create({
 		fontFamily: 'Tiny5',
 		color: '#18122B',
 		fontSize: Math.round(8 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
-		marginBottom: 8,
+		marginBottom: Math.round(4 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
 		textTransform: 'uppercase',
-		marginTop: 16,
+		marginTop: Math.round(4 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
 	},
 	infoRow: {
 		flexDirection: 'column',
 		justifyContent: 'space-between',
-		marginBottom: 10,
-		paddingBottom: 6,
+		paddingBottom: Math.round(8 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
 	},
 	label: {
 		fontFamily: 'Tiny5',
@@ -177,9 +223,9 @@ const styles = StyleSheet.create({
 	},
 	findButton: {
 		backgroundColor: '#18122B',
-		paddingVertical: 12,
-		borderRadius: 6,
-		marginTop: 20,
+		paddingVertical: Math.round(8 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
+		borderRadius: Math.round(8 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
+		marginTop: Math.round(8 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
 		alignItems: 'center',
 	},
 	findButtonText: {
@@ -193,6 +239,12 @@ const styles = StyleSheet.create({
 		fontSize: Math.round(16 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
 		color: '#333',
 		textAlign: 'center',
-		marginTop: 20,
+		marginTop: Math.round(8 * (screenWidth / ORIGINAL_DESIGN_WIDTH)),
 	},
+	heartContainer: {
+        position: 'absolute',
+        top: Math.round(4 * (screenWidth / ORIGINAL_DESIGN_WIDTH)), // Adjusted to place below the header
+        right: Math.round(4 * (screenWidth / ORIGINAL_DESIGN_WIDTH)), // Positioned to the right
+        zIndex: 1, // Ensures it appears above other elements
+    },
 });

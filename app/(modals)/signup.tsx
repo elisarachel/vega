@@ -88,6 +88,12 @@ export default function SignupScreen() {
 			/>
 			<TextBox placeholder="Email" selectionColor="#18122b" value={email} onChangeText={setEmail} keyboardType="email-address" autoCapitalize="none" />
 			<TextBox placeholder="Senha" selectionColor="#18122b" value={password} onChangeText={setPassword} secureTextEntry />
+			<Text style={styles.passwordRequirements}>
+				• Pelo menos 8 caracteres{'\n'}
+				• Letras maiúsculas e minúsculas{'\n'}
+				• Pelo menos 1 número{'\n'}
+				• Pelo menos 1 caractere especial (@$!%*?&)
+			</Text>
 
 			<IconButton 
 				image={require('@/assets/images/pink_button.png')} 
@@ -120,5 +126,13 @@ const styles = StyleSheet.create({
 		marginBottom: Math.round(4 * scaleFactor),
 		fontFamily: 'TinyUnicode',
 		fontSize: Math.round(6 * scaleFactor),
+	},
+	passwordRequirements: {
+		fontSize: Math.round(12 * scaleFactor),
+		color: '#18122B',
+		marginBottom: Math.round(6 * scaleFactor),
+		fontFamily: 'TinyUnicode',
+		lineHeight: Math.round(8 * scaleFactor),
+		textAlign: 'left',
 	},
 });

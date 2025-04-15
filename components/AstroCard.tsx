@@ -27,12 +27,6 @@ export default function AstroCard({ background, icon, name, time, isVisible }: A
 	const backgroundImage = typeof background === "number" ? useImage(background) : null;
 	const iconImage = typeof icon === "number" ? useImage(icon) : null;
 
-	if (!backgroundImage || !iconImage) {
-		return (
-			<LoadingAnimation />
-		)
-	}
-
 	// Calcula a escala proporcional
 	const scaleFactor = screenWidth / ORIGINAL_DESIGN_WIDTH;
 	
@@ -42,7 +36,7 @@ export default function AstroCard({ background, icon, name, time, isVisible }: A
 	// Mantém múltiplos de 2 para pixel perfect
 	const pixelPerfectIconSize = iconSize + (iconSize % 2);
 
-	const bgAspectRatio = backgroundImage.height() / backgroundImage.width();
+	const bgAspectRatio = backgroundImage ? backgroundImage.height() / backgroundImage.width() : 1;
 	const cardHeight = screenWidth * bgAspectRatio;
 
 	

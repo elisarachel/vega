@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, ScrollView, Alert, StyleSheet, Dimensions } from 'react-native';
 import * as Location from 'expo-location';
+import * as Notifications from 'expo-notifications';
 import { Equator, Horizon, Body, Observer, SearchRiseSet, AstroTime } from 'astronomy-engine';
 import Header from '@/components/Header';
 import FilterHeader from '@/components/FilterHeader';
@@ -9,6 +10,7 @@ import AstroCard from '@/components/AstroCard';
 import LoadingAnimation from '@/components/LoadingAnimation';
 import { getAstroType } from '@/services/database';
 import FilterPopup from '@/components/FilterPopup';
+import { getFavorites } from '@/services/favorites';
 
 const ORIGINAL_DESIGN_WIDTH = 144;
 
@@ -44,6 +46,7 @@ export default function HomeScreen() {
 	const [isLoading, setIsLoading] = useState(true);
 	const [selectedType, setSelectedType] = useState<string | null>(null);
 	const [isFilterPopupVisible, setIsFilterPopupVisible] = useState(false);
+    const [favorites, setFavorites] = useState<string[]>([]);
 
 	useEffect(() => {
 		const interval = setInterval(() => {
@@ -53,6 +56,23 @@ export default function HomeScreen() {
 	
 		return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
 	}, []);
+
+    useEffect(() => {
+        const setupNotifications = async () => {
+            const { status } = await Notifications.requestPermissionsAsync();
+            if (status !== 'granted') {
+                Alert.alert('Permissão necessária', 'Por favor, permita o envio de notificações nas configurações do dispositivo.');
+            }
+        };
+
+        const fetchFavorites = async () => {
+            const favs = await getFavorites();
+            setFavorites(favs);
+        };
+
+        setupNotifications();
+        fetchFavorites();
+    }, []);
 
     // Função para obter a localização do usuário
     const getLocation = async () => {
@@ -200,6 +220,29 @@ export default function HomeScreen() {
 			hour12: false 
 		}).slice(0, 5);
 	};
+
+    const checkFavoritesVisibility = (visibleAstrosNow: { name: string }[]) => {
+        const visibleFavorites = visibleAstrosNow.filter((astro) =>
+            favorites.includes(astroNamesPT[astro.name] || astro.name)
+        );
+
+        visibleFavorites.forEach((astro) => {
+            Notifications.scheduleNotificationAsync({
+                content: {
+                    title: 'Astro visível!',
+                    body: `${astroNamesPT[astro.name] || astro.name} está visível agora!`,
+                    data: { astro },
+                },
+                trigger: null, // Envia imediatamente
+            });
+        });
+    };
+
+    useEffect(() => {
+        if (visibleAstros.now.length > 0) {
+            checkFavoritesVisibility(visibleAstros.now);
+        }
+    }, [visibleAstros.now]);
 
     useEffect(() => {
         let isMounted = true;
