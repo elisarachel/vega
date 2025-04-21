@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from '@/components/Header';
 import { Canvas, scale, Text as SkiaText, useFont, useImage, Image as SkiaImage } from '@shopify/react-native-skia';
-import { DateTime } from 'luxon'; // ou use o próprio JS Date
+import { DateTime } from 'luxon';
 import { Dimensions, View, StyleSheet, Text, ScrollView } from 'react-native';
 
 const ORIGINAL_WIDTH = 144;
@@ -27,7 +27,7 @@ const CalendarOverlay = ({ year, month }: { year: number; month: number }) => {
 	const calendarBackground = useImage(require('@/assets/images/calendar.png'));
 	if (!font) return null;
 
-	const daysInMonth = DateTime.local(year, month).daysInMonth;
+	const daysInMonth = DateTime.local(year, month).daysInMonth ?? 0;
 	const startDay = DateTime.local(year, month, 1).weekday % 7; // Luxon: 1=Monday, JS: 0=Sunday
 
 	const cells = [];
@@ -91,7 +91,7 @@ export default function Calendar() {
 	const currentMonth = DateTime.now().month; // Obtém o mês atual (1 = Janeiro, 12 = Dezembro)
 
 	const handleYearChange = (direction: 'prev' | 'next') => {
-		setCurrentYear((prevYear) => (direction === 'prev' ? prevYear - 1 : prevYear + 1));
+		setCurrentYear((prevYear: number) => (direction === 'prev' ? prevYear - 1 : prevYear + 1));
 	};
 
 	return (
@@ -109,10 +109,10 @@ export default function Calendar() {
 			</View>
 
 			<ScrollView contentContainerStyle={styles.scrollContainer}>
-				{monthNamesPT.slice(currentMonth - 1).map((monthName, index) => (
+				{monthNamesPT.map((monthName, index) => (
 					<View key={index} style={styles.monthBlock}>
 						<Text style={styles.monthTitle}>{monthName}</Text>
-						<CalendarOverlay year={currentYear} month={currentMonth + index} />
+						<CalendarOverlay year={currentYear} month={index + 1} />
 					</View>
 				))}
 			</ScrollView>
