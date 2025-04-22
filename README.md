@@ -45,3 +45,6 @@ O projeto está sendo desenvolvido em três sprints, conforme o backlog definido
 - Firebase Authentication (para login)
 - Astronomy Engine (cálculo de posição dos astros)
 - Expo Location & Sensors
+
+### Créditos
+Eventos: Dominic Ford (https://in-the-sky.org/)

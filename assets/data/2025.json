@@ -1,0 +1,1730 @@
+{
+	"VCALENDAR": [
+		{
+			"VERSION": "2.0",
+			"PRODID": "-//in-the-sky.org//NONSGML v1.0//EN",
+			"VEVENT": [
+				{
+					"UID": "20250103_20_100@in-the-sky.org",
+					"DTSTAMP": "20250103T152345Z",
+					"DTSTART": "20250103T152345Z",
+					"SUMMARY": "Conjunction of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus share the same right ascension, at a separation of 1&deg;26&#39;. https://in-the-sky.org/news.php?id=20250103_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250103_20_100"
+				},
+				{
+					"UID": "20250103_10_100@in-the-sky.org",
+					"DTSTAMP": "20250103T162459Z",
+					"DTSTART": "20250103T162459Z",
+					"SUMMARY": "Quadrantid meteor shower 2025",
+					"DESCRIPTION": "The Quadrantid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250103_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250103_10_100"
+				},
+				{
+					"UID": "20250103_15_100@in-the-sky.org",
+					"DTSTAMP": "20250103T163216Z",
+					"DTSTART": "20250103T163216Z",
+					"SUMMARY": "Close approach of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus pass close to each other. https://in-the-sky.org/news.php?id=20250103_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250103_15_100"
+				},
+				{
+					"UID": "20250104_07_100@in-the-sky.org",
+					"DTSTAMP": "20250104T132811Z",
+					"DTSTART": "20250104T132811Z",
+					"SUMMARY": "The Earth at perihelion",
+					"DESCRIPTION": "The Earth reaches its closest point to the Sun. https://in-the-sky.org/news.php?id=20250104_07_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250104_07_100"
+				},
+				{
+					"UID": "20250104_15_100@in-the-sky.org",
+					"DTSTAMP": "20250104T165107Z",
+					"DTSTART": "20250104T165107Z",
+					"SUMMARY": "Close approach of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn pass close to each other. https://in-the-sky.org/news.php?id=20250104_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250104_15_100"
+				},
+				{
+					"UID": "20250104_20_100@in-the-sky.org",
+					"DTSTAMP": "20250104T172351Z",
+					"DTSTART": "20250104T172351Z",
+					"SUMMARY": "Conjunction of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn share the same right ascension, at a separation of 40&#39;. https://in-the-sky.org/news.php?id=20250104_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250104_20_100"
+				},
+				{
+					"UID": "20250106_08_100@in-the-sky.org",
+					"DTSTAMP": "20250106T235646Z",
+					"DTSTART": "20250106T235646Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20250106_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250106_08_100"
+				},
+				{
+					"UID": "20250110_15_100@in-the-sky.org",
+					"DTSTAMP": "20250110T013955Z",
+					"DTSTART": "20250110T013955Z",
+					"SUMMARY": "Close approach of the Moon and M45",
+					"DESCRIPTION": "The Moon and M45 pass close to each other. https://in-the-sky.org/news.php?id=20250110_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250110_15_100"
+				},
+				{
+					"UID": "20250110_11_101@in-the-sky.org",
+					"DTSTAMP": "20250110T083146Z",
+					"DTSTART": "20250110T083146Z",
+					"SUMMARY": "Venus at greatest elongation east",
+					"DESCRIPTION": "Venus is bright and well placed in the evening sky. https://in-the-sky.org/news.php?id=20250110_11_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250110_11_101"
+				},
+				{
+					"UID": "20250110_15_101@in-the-sky.org",
+					"DTSTAMP": "20250110T214544Z",
+					"DTSTART": "20250110T214544Z",
+					"SUMMARY": "Close approach of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter pass close to each other. https://in-the-sky.org/news.php?id=20250110_15_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250110_15_101"
+				},
+				{
+					"UID": "20250110_20_100@in-the-sky.org",
+					"DTSTAMP": "20250110T231348Z",
+					"DTSTART": "20250110T231348Z",
+					"SUMMARY": "Conjunction of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter share the same right ascension, at a separation of 5&deg;25&#39;. https://in-the-sky.org/news.php?id=20250110_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250110_20_100"
+				},
+				{
+					"UID": "20250112_11_100@in-the-sky.org",
+					"DTSTAMP": "20250112T020402Z",
+					"DTSTART": "20250112T020402Z",
+					"SUMMARY": "Venus at dichotomy",
+					"DESCRIPTION": "Venus reaches half phase in the evening sky. https://in-the-sky.org/news.php?id=20250112_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250112_11_100"
+				},
+				{
+					"UID": "20250112_12_100@in-the-sky.org",
+					"DTSTAMP": "20250112T133211Z",
+					"DTSTART": "20250112T133211Z",
+					"SUMMARY": "Mars at perigee",
+					"DESCRIPTION": "Mars reaches its closest point to the Earth &ndash; marking the best time to observe it in 1970. https://in-the-sky.org/news.php?id=20250112_12_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250112_12_100"
+				},
+				{
+					"UID": "2025_19_CK24G030_100@in-the-sky.org",
+					"DTSTAMP": "20250113T120000Z",
+					"DTSTART": "20250113T120000Z",
+					"SUMMARY": "Comet C/2024 G3 (ATLAS) passes perigee",
+					"DESCRIPTION": "Comet C/2024 G3 (ATLAS) makes its closest approach to the Earth. https://in-the-sky.org/news.php?id=2025_19_CK24G030_100",
+					"URL": "https://in-the-sky.org/news.php?id=2025_19_CK24G030_100"
+				},
+				{
+					"UID": "2025_19_CK24G030_101@in-the-sky.org",
+					"DTSTAMP": "20250113T120000Z",
+					"DTSTART": "20250113T120000Z",
+					"SUMMARY": "Comet C/2024 G3 (ATLAS) passes perihelion",
+					"DESCRIPTION": "Comet C/2024 G3 (ATLAS) makes its closest approach to the Sun. https://in-the-sky.org/news.php?id=2025_19_CK24G030_101",
+					"URL": "https://in-the-sky.org/news.php?id=2025_19_CK24G030_101"
+				},
+				{
+					"UID": "20250113_08_100@in-the-sky.org",
+					"DTSTAMP": "20250113T222649Z",
+					"DTSTART": "20250113T222649Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20250113_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250113_08_100"
+				},
+				{
+					"UID": "20250114_20_100@in-the-sky.org",
+					"DTSTAMP": "20250114T034234Z",
+					"DTSTART": "20250114T034234Z",
+					"SUMMARY": "Conjunction of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars share the same right ascension, at a separation of 13&#39;. https://in-the-sky.org/news.php?id=20250114_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250114_20_100"
+				},
+				{
+					"UID": "20250114_15_100@in-the-sky.org",
+					"DTSTAMP": "20250114T034811Z",
+					"DTSTART": "20250114T034811Z",
+					"SUMMARY": "Close approach of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars pass close to each other. https://in-the-sky.org/news.php?id=20250114_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250114_15_100"
+				},
+				{
+					"UID": "20250116_12_100@in-the-sky.org",
+					"DTSTAMP": "20250116T023228Z",
+					"DTSTART": "20250116T023228Z",
+					"SUMMARY": "Mars at opposition",
+					"DESCRIPTION": "Mars lies in the opposite direction to the Sun in the sky, making it closer, brighter and larger than at other times. It is also optimally positioned to be observable for much of the night. https://in-the-sky.org/news.php?id=20250116_12_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250116_12_100"
+				},
+				{
+					"UID": "20250116_17_100@in-the-sky.org",
+					"DTSTAMP": "20250116T235949Z",
+					"DTSTART": "20250116T235949Z",
+					"SUMMARY": "The cluster NGC 2451 is well placed",
+					"DESCRIPTION": "The open star cluster NGC 2451 (mag 2.8) in Puppis culminates at around midnight local time. https://in-the-sky.org/news.php?id=20250116_17_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250116_17_100"
+				},
+				{
+					"UID": "20250118_15_100@in-the-sky.org",
+					"DTSTAMP": "20250118T173001Z",
+					"DTSTART": "20250118T173001Z",
+					"SUMMARY": "Close approach of Venus and Saturn",
+					"DESCRIPTION": "Venus and Saturn pass within 2&deg;10&#39; of each other. https://in-the-sky.org/news.php?id=20250118_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250118_15_100"
+				},
+				{
+					"UID": "20250120_20_100@in-the-sky.org",
+					"DTSTAMP": "20250120T051647Z",
+					"DTSTART": "20250120T051647Z",
+					"SUMMARY": "Conjunction of Venus and Saturn",
+					"DESCRIPTION": "Venus and Saturn share the same right ascension, at a separation of 2&deg;31&#39;. https://in-the-sky.org/news.php?id=20250120_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250120_20_100"
+				},
+				{
+					"UID": "20250121_08_101@in-the-sky.org",
+					"DTSTAMP": "20250121T203125Z",
+					"DTSTART": "20250121T203125Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20250121_08_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250121_08_101"
+				},
+				{
+					"UID": "20250130_17_101@in-the-sky.org",
+					"DTSTAMP": "20250130T235954Z",
+					"DTSTART": "20250130T235954Z",
+					"SUMMARY": "The Omicron Velorum cluster is well placed",
+					"DESCRIPTION": "The Omicron Velorum open star cluster (IC 2391; mag 2.5) in Vela culminates at around midnight local time. https://in-the-sky.org/news.php?id=20250130_17_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250130_17_101"
+				},
+				{
+					"UID": "20250201_20_101@in-the-sky.org",
+					"DTSTAMP": "20250201T202725Z",
+					"DTSTART": "20250201T202725Z",
+					"SUMMARY": "Conjunction of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus share the same right ascension, at a separation of 2&deg;20&#39;. https://in-the-sky.org/news.php?id=20250201_20_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250201_20_101"
+				},
+				{
+					"UID": "20250201_15_101@in-the-sky.org",
+					"DTSTAMP": "20250201T222453Z",
+					"DTSTART": "20250201T222453Z",
+					"SUMMARY": "Close approach of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus pass close to each other. https://in-the-sky.org/news.php?id=20250201_15_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250201_15_101"
+				},
+				{
+					"UID": "20250204_12_100@in-the-sky.org",
+					"DTSTAMP": "20250204T093807Z",
+					"DTSTART": "20250204T093807Z",
+					"SUMMARY": "Jupiter ends retrograde motion",
+					"DESCRIPTION": "Jupiter returns to its usual eastward motion after opposition. https://in-the-sky.org/news.php?id=20250204_12_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250204_12_100"
+				},
+				{
+					"UID": "20250205_08_100@in-the-sky.org",
+					"DTSTAMP": "20250205T080238Z",
+					"DTSTART": "20250205T080238Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20250205_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250205_08_100"
+				},
+				{
+					"UID": "20250206_15_100@in-the-sky.org",
+					"DTSTAMP": "20250206T071704Z",
+					"DTSTART": "20250206T071704Z",
+					"SUMMARY": "Close approach of the Moon and M45",
+					"DESCRIPTION": "The Moon and M45 pass close to each other. https://in-the-sky.org/news.php?id=20250206_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250206_15_100"
+				},
+				{
+					"UID": "20250207_15_100@in-the-sky.org",
+					"DTSTAMP": "20250207T020111Z",
+					"DTSTART": "20250207T020111Z",
+					"SUMMARY": "Close approach of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter pass close to each other. https://in-the-sky.org/news.php?id=20250207_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250207_15_100"
+				},
+				{
+					"UID": "20250207_20_100@in-the-sky.org",
+					"DTSTAMP": "20250207T033617Z",
+					"DTSTART": "20250207T033617Z",
+					"SUMMARY": "Conjunction of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter share the same right ascension, at a separation of 5&deg;29&#39;. https://in-the-sky.org/news.php?id=20250207_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250207_20_100"
+				},
+				{
+					"UID": "20250208_10_100@in-the-sky.org",
+					"DTSTAMP": "20250208T015751Z",
+					"DTSTART": "20250208T015751Z",
+					"SUMMARY": "α-Centaurid meteor shower 2025",
+					"DESCRIPTION": "The α-Centaurid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250208_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250208_10_100"
+				},
+				{
+					"UID": "20250209_20_100@in-the-sky.org",
+					"DTSTAMP": "20250209T193539Z",
+					"DTSTART": "20250209T193539Z",
+					"SUMMARY": "Conjunction of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars share the same right ascension, at a separation of 46&#39;. https://in-the-sky.org/news.php?id=20250209_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250209_20_100"
+				},
+				{
+					"UID": "20250209_15_100@in-the-sky.org",
+					"DTSTAMP": "20250209T194927Z",
+					"DTSTART": "20250209T194927Z",
+					"SUMMARY": "Close approach of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars pass close to each other. https://in-the-sky.org/news.php?id=20250209_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250209_15_100"
+				},
+				{
+					"UID": "20250212_08_100@in-the-sky.org",
+					"DTSTAMP": "20250212T135319Z",
+					"DTSTART": "20250212T135319Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20250212_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250212_08_100"
+				},
+				{
+					"UID": "20250216_11_100@in-the-sky.org",
+					"DTSTAMP": "20250216T085853Z",
+					"DTSTART": "20250216T085853Z",
+					"SUMMARY": "Venus at greatest brightness",
+					"DESCRIPTION": "Venus reaches its greatest brightness in the evening sky. https://in-the-sky.org/news.php?id=20250216_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250216_11_100"
+				},
+				{
+					"UID": "20250220_08_100@in-the-sky.org",
+					"DTSTAMP": "20250220T173308Z",
+					"DTSTART": "20250220T173308Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20250220_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250220_08_100"
+				},
+				{
+					"UID": "20250224_12_100@in-the-sky.org",
+					"DTSTAMP": "20250224T020230Z",
+					"DTSTART": "20250224T020230Z",
+					"SUMMARY": "Mars ends retrograde motion",
+					"DESCRIPTION": "Mars returns to its usual eastward motion after opposition. https://in-the-sky.org/news.php?id=20250224_12_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250224_12_100"
+				},
+				{
+					"UID": "20250301_20_101@in-the-sky.org",
+					"DTSTAMP": "20250301T231859Z",
+					"DTSTART": "20250301T231859Z",
+					"SUMMARY": "Conjunction of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus share the same right ascension, at a separation of 6&deg;23&#39;. https://in-the-sky.org/news.php?id=20250301_20_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250301_20_101"
+				},
+				{
+					"UID": "20250303_17_100@in-the-sky.org",
+					"DTSTAMP": "20250303T235610Z",
+					"DTSTART": "20250303T235610Z",
+					"SUMMARY": "The Theta Carinae cluster is well placed",
+					"DESCRIPTION": "The Theta Carinae open star cluster (IC 2602, also known as the Southern Pleiades; mag 1.9) culminates at around midnight local time. https://in-the-sky.org/news.php?id=20250303_17_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250303_17_100"
+				},
+				{
+					"UID": "20250305_15_100@in-the-sky.org",
+					"DTSTAMP": "20250305T130154Z",
+					"DTSTART": "20250305T130154Z",
+					"SUMMARY": "Close approach of the Moon and M45",
+					"DESCRIPTION": "The Moon and M45 pass close to each other. https://in-the-sky.org/news.php?id=20250305_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250305_15_100"
+				},
+				{
+					"UID": "20250306_15_100@in-the-sky.org",
+					"DTSTAMP": "20250306T100326Z",
+					"DTSTART": "20250306T100326Z",
+					"SUMMARY": "Close approach of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter pass close to each other. https://in-the-sky.org/news.php?id=20250306_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250306_15_100"
+				},
+				{
+					"UID": "20250306_20_100@in-the-sky.org",
+					"DTSTAMP": "20250306T113210Z",
+					"DTSTART": "20250306T113210Z",
+					"SUMMARY": "Conjunction of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter share the same right ascension, at a separation of 5&deg;33&#39;. https://in-the-sky.org/news.php?id=20250306_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250306_20_100"
+				},
+				{
+					"UID": "20250306_08_100@in-the-sky.org",
+					"DTSTAMP": "20250306T163208Z",
+					"DTSTART": "20250306T163208Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20250306_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250306_08_100"
+				},
+				{
+					"UID": "20250307_11_100@in-the-sky.org",
+					"DTSTAMP": "20250307T090017Z",
+					"DTSTART": "20250307T090017Z",
+					"SUMMARY": "Mercury at dichotomy",
+					"DESCRIPTION": "Mercury reaches half phase in the evening sky. https://in-the-sky.org/news.php?id=20250307_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250307_11_100"
+				},
+				{
+					"UID": "20250308_11_100@in-the-sky.org",
+					"DTSTAMP": "20250305T014127Z",
+					"DTSTART": "20250305T014127Z",
+					"SUMMARY": "Mercury at highest altitude in evening sky",
+					"DESCRIPTION": "Mercury is bright and well placed in the evening sky. https://in-the-sky.org/news.php?id=20250308_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250308_11_100"
+				},
+				{
+					"UID": "20250308_11_101@in-the-sky.org",
+					"DTSTAMP": "20250308T014127Z",
+					"DTSTART": "20250308T014127Z",
+					"SUMMARY": "Mercury at greatest elongation east",
+					"DESCRIPTION": "Mercury is bright and well placed in the evening sky. https://in-the-sky.org/news.php?id=20250308_11_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250308_11_101"
+				},
+				{
+					"UID": "20250309_20_100@in-the-sky.org",
+					"DTSTAMP": "20250309T002714Z",
+					"DTSTART": "20250309T002714Z",
+					"SUMMARY": "Conjunction of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars share the same right ascension, at a separation of 1&deg;40&#39;. https://in-the-sky.org/news.php?id=20250309_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250309_20_100"
+				},
+				{
+					"UID": "20250309_15_100@in-the-sky.org",
+					"DTSTAMP": "20250309T005735Z",
+					"DTSTART": "20250309T005735Z",
+					"SUMMARY": "Close approach of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars pass close to each other. https://in-the-sky.org/news.php?id=20250309_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250309_15_100"
+				},
+				{
+					"UID": "20250314_08_100@in-the-sky.org",
+					"DTSTAMP": "20250314T065431Z",
+					"DTSTART": "20250314T065431Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20250314_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250314_08_100"
+				},
+				{
+					"UID": "20250314_09_100@in-the-sky.org",
+					"DTSTAMP": "20250314T065859Z",
+					"DTSTART": "20250314T065859Z",
+					"SUMMARY": "Total lunar eclipse",
+					"DESCRIPTION": "There will be an eclipse of the Moon, visible from the Americas, Antarctica, Alaska, north-eastern  Russia and Africa. https://in-the-sky.org/news.php?id=20250314_09_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250314_09_100"
+				},
+				{
+					"UID": "20250314_10_100@in-the-sky.org",
+					"DTSTAMP": "20250314T164819Z",
+					"DTSTART": "20250314T164819Z",
+					"SUMMARY": "γ-Normid meteor shower 2025",
+					"DESCRIPTION": "The γ-Normid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250314_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250314_10_100"
+				},
+				{
+					"UID": "20250320_07_100@in-the-sky.org",
+					"DTSTAMP": "20250320T090136Z",
+					"DTSTART": "20250320T090136Z",
+					"SUMMARY": "March equinox",
+					"DESCRIPTION": "Day and night have equal length, marking the beginning of spring in the northern hemisphere and autumn in the southern hemisphere. https://in-the-sky.org/news.php?id=20250320_07_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250320_07_100"
+				},
+				{
+					"UID": "20250322_08_100@in-the-sky.org",
+					"DTSTAMP": "20250322T113000Z",
+					"DTSTART": "20250322T113000Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20250322_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250322_08_100"
+				},
+				{
+					"UID": "20250323_12_100@in-the-sky.org",
+					"DTSTAMP": "20250323T160448Z",
+					"DTSTART": "20250323T160448Z",
+					"SUMMARY": "Saturn ring plane crossing",
+					"DESCRIPTION": "Saturn's seasons are changing, making its rings appear edge-on from the Earth. https://in-the-sky.org/news.php?id=20250323_12_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250323_12_100"
+				},
+				{
+					"UID": "20250329_09_100@in-the-sky.org",
+					"DTSTAMP": "20250329T104800Z",
+					"DTSTART": "20250329T104800Z",
+					"SUMMARY": "Partial solar eclipse",
+					"DESCRIPTION": "There will be an eclipse of the Sun,  visible from the Americas, western  Russia, Europe and Africa. https://in-the-sky.org/news.php?id=20250329_09_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250329_09_100"
+				},
+				{
+					"UID": "20250401_15_100@in-the-sky.org",
+					"DTSTAMP": "20250401T205723Z",
+					"DTSTART": "20250401T205723Z",
+					"SUMMARY": "Close approach of the Moon and M45",
+					"DESCRIPTION": "The Moon and M45 pass close to each other. https://in-the-sky.org/news.php?id=20250401_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250401_15_100"
+				},
+				{
+					"UID": "20250402_15_100@in-the-sky.org",
+					"DTSTAMP": "20250402T231544Z",
+					"DTSTART": "20250402T231544Z",
+					"SUMMARY": "Close approach of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter pass close to each other. https://in-the-sky.org/news.php?id=20250402_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250402_15_100"
+				},
+				{
+					"UID": "20250403_20_100@in-the-sky.org",
+					"DTSTAMP": "20250403T002441Z",
+					"DTSTART": "20250403T002441Z",
+					"SUMMARY": "Conjunction of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter share the same right ascension, at a separation of 5&deg;30&#39;. https://in-the-sky.org/news.php?id=20250403_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250403_20_100"
+				},
+				{
+					"UID": "20250405_08_100@in-the-sky.org",
+					"DTSTAMP": "20250405T021512Z",
+					"DTSTART": "20250405T021512Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20250405_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250405_08_100"
+				},
+				{
+					"UID": "20250405_20_100@in-the-sky.org",
+					"DTSTAMP": "20250405T190400Z",
+					"DTSTART": "20250405T190400Z",
+					"SUMMARY": "Conjunction of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars share the same right ascension, at a separation of 2&deg;09&#39;. https://in-the-sky.org/news.php?id=20250405_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250405_20_100"
+				},
+				{
+					"UID": "20250405_15_100@in-the-sky.org",
+					"DTSTAMP": "20250405T195902Z",
+					"DTSTART": "20250405T195902Z",
+					"SUMMARY": "Close approach of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars pass close to each other. https://in-the-sky.org/news.php?id=20250405_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250405_15_100"
+				},
+				{
+					"UID": "20250413_08_100@in-the-sky.org",
+					"DTSTAMP": "20250413T002208Z",
+					"DTSTART": "20250413T002208Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20250413_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250413_08_100"
+				},
+				{
+					"UID": "20250421_08_100@in-the-sky.org",
+					"DTSTAMP": "20250421T013608Z",
+					"DTSTART": "20250421T013608Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20250421_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250421_08_100"
+				},
+				{
+					"UID": "20250421_11_101@in-the-sky.org",
+					"DTSTAMP": "20250421T150603Z",
+					"DTSTART": "20250421T150603Z",
+					"SUMMARY": "Mercury at greatest elongation west",
+					"DESCRIPTION": "Mercury is bright and well placed in the dawn sky. https://in-the-sky.org/news.php?id=20250421_11_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250421_11_101"
+				},
+				{
+					"UID": "20250421_11_100@in-the-sky.org",
+					"DTSTAMP": "20250422T150603Z",
+					"DTSTART": "20250422T150603Z",
+					"SUMMARY": "Mercury at highest altitude in morning sky",
+					"DESCRIPTION": "Mercury is bright and well placed in the dawn sky. https://in-the-sky.org/news.php?id=20250421_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250421_11_100"
+				},
+				{
+					"UID": "20250422_10_100@in-the-sky.org",
+					"DTSTAMP": "20250422T131227Z",
+					"DTSTART": "20250422T131227Z",
+					"SUMMARY": "Lyrid meteor shower 2025",
+					"DESCRIPTION": "The Lyrid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250422_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250422_10_100"
+				},
+				{
+					"UID": "20250423_10_100@in-the-sky.org",
+					"DTSTAMP": "20250423T184441Z",
+					"DTSTART": "20250423T184441Z",
+					"SUMMARY": "π-Puppid meteor shower 2025",
+					"DESCRIPTION": "The π-Puppid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250423_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250423_10_100"
+				},
+				{
+					"UID": "20250424_11_100@in-the-sky.org",
+					"DTSTAMP": "20250424T060208Z",
+					"DTSTART": "20250424T060208Z",
+					"SUMMARY": "Venus at greatest brightness",
+					"DESCRIPTION": "Venus reaches its greatest brightness in the dawn sky. https://in-the-sky.org/news.php?id=20250424_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250424_11_100"
+				},
+				{
+					"UID": "20250424_11_101@in-the-sky.org",
+					"DTSTAMP": "20250424T154104Z",
+					"DTSTART": "20250424T154104Z",
+					"SUMMARY": "Mercury at dichotomy",
+					"DESCRIPTION": "Mercury reaches half phase in the dawn sky. https://in-the-sky.org/news.php?id=20250424_11_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250424_11_101"
+				},
+				{
+					"UID": "20250425_20_100@in-the-sky.org",
+					"DTSTAMP": "20250425T012132Z",
+					"DTSTART": "20250425T012132Z",
+					"SUMMARY": "Conjunction of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus share the same right ascension, at a separation of 2&deg;23&#39;. https://in-the-sky.org/news.php?id=20250425_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250425_20_100"
+				},
+				{
+					"UID": "20250425_15_100@in-the-sky.org",
+					"DTSTAMP": "20250425T023548Z",
+					"DTSTART": "20250425T023548Z",
+					"SUMMARY": "Close approach of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn pass close to each other. https://in-the-sky.org/news.php?id=20250425_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250425_15_100"
+				},
+				{
+					"UID": "20250425_15_101@in-the-sky.org",
+					"DTSTAMP": "20250425T031956Z",
+					"DTSTART": "20250425T031956Z",
+					"SUMMARY": "Close approach of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus pass close to each other. https://in-the-sky.org/news.php?id=20250425_15_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250425_15_101"
+				},
+				{
+					"UID": "20250425_20_101@in-the-sky.org",
+					"DTSTAMP": "20250425T042344Z",
+					"DTSTART": "20250425T042344Z",
+					"SUMMARY": "Conjunction of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn share the same right ascension, at a separation of 2&deg;17&#39;. https://in-the-sky.org/news.php?id=20250425_20_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250425_20_101"
+				},
+				{
+					"UID": "20250428_15_100@in-the-sky.org",
+					"DTSTAMP": "20250428T225554Z",
+					"DTSTART": "20250428T225554Z",
+					"SUMMARY": "Close approach of Venus, Saturn and Neptune",
+					"DESCRIPTION": "Venus, Saturn and Neptune pass within 3&deg;42&#39; of one another. https://in-the-sky.org/news.php?id=20250428_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250428_15_100"
+				},
+				{
+					"UID": "20250429_20_100@in-the-sky.org",
+					"DTSTAMP": "20250429T022359Z",
+					"DTSTART": "20250429T022359Z",
+					"SUMMARY": "Conjunction of Venus and Saturn",
+					"DESCRIPTION": "Venus and Saturn share the same right ascension, at a separation of 3&deg;43&#39;. https://in-the-sky.org/news.php?id=20250429_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250429_20_100"
+				},
+				{
+					"UID": "20250430_15_100@in-the-sky.org",
+					"DTSTAMP": "20250430T165404Z",
+					"DTSTART": "20250430T165404Z",
+					"SUMMARY": "Close approach of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter pass close to each other. https://in-the-sky.org/news.php?id=20250430_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250430_15_100"
+				},
+				{
+					"UID": "20250430_20_100@in-the-sky.org",
+					"DTSTAMP": "20250430T173501Z",
+					"DTSTART": "20250430T173501Z",
+					"SUMMARY": "Conjunction of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter share the same right ascension, at a separation of 5&deg;23&#39;. https://in-the-sky.org/news.php?id=20250430_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250430_20_100"
+				},
+				{
+					"UID": "20250503_20_100@in-the-sky.org",
+					"DTSTAMP": "20250503T231223Z",
+					"DTSTART": "20250503T231223Z",
+					"SUMMARY": "Conjunction of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars share the same right ascension, at a separation of 2&deg;04&#39;. https://in-the-sky.org/news.php?id=20250503_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250503_20_100"
+				},
+				{
+					"UID": "20250504_15_100@in-the-sky.org",
+					"DTSTAMP": "20250504T002600Z",
+					"DTSTART": "20250504T002600Z",
+					"SUMMARY": "Close approach of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars pass close to each other. https://in-the-sky.org/news.php?id=20250504_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250504_15_100"
+				},
+				{
+					"UID": "20250504_08_100@in-the-sky.org",
+					"DTSTAMP": "20250504T135218Z",
+					"DTSTART": "20250504T135218Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20250504_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250504_08_100"
+				},
+				{
+					"UID": "20250506_10_100@in-the-sky.org",
+					"DTSTAMP": "20250506T030815Z",
+					"DTSTART": "20250506T030815Z",
+					"SUMMARY": "η-Aquariid meteor shower 2025",
+					"DESCRIPTION": "The η-Aquariid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250506_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250506_10_100"
+				},
+				{
+					"UID": "20250506_12_100@in-the-sky.org",
+					"DTSTAMP": "20250506T060926Z",
+					"DTSTART": "20250506T060926Z",
+					"SUMMARY": "Equinox on Saturn",
+					"DESCRIPTION": "Saturn's seasons are changing, making its rings appear edge-on from the Earth. https://in-the-sky.org/news.php?id=20250506_12_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250506_12_100"
+				},
+				{
+					"UID": "20250508_10_100@in-the-sky.org",
+					"DTSTAMP": "20250508T170832Z",
+					"DTSTART": "20250508T170832Z",
+					"SUMMARY": "η-Lyrid meteor shower 2025",
+					"DESCRIPTION": "The η-Lyrid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250508_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250508_10_100"
+				},
+				{
+					"UID": "20250512_08_100@in-the-sky.org",
+					"DTSTAMP": "20250512T165546Z",
+					"DTSTART": "20250512T165546Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20250512_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250512_08_100"
+				},
+				{
+					"UID": "20250520_08_100@in-the-sky.org",
+					"DTSTAMP": "20250520T115916Z",
+					"DTSTART": "20250520T115916Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20250520_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250520_08_100"
+				},
+				{
+					"UID": "20250522_15_100@in-the-sky.org",
+					"DTSTAMP": "20250522T154411Z",
+					"DTSTART": "20250522T154411Z",
+					"SUMMARY": "Close approach of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn pass close to each other. https://in-the-sky.org/news.php?id=20250522_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250522_15_100"
+				},
+				{
+					"UID": "20250522_20_100@in-the-sky.org",
+					"DTSTAMP": "20250522T180036Z",
+					"DTSTART": "20250522T180036Z",
+					"SUMMARY": "Conjunction of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn share the same right ascension, at a separation of 2&deg;49&#39;. https://in-the-sky.org/news.php?id=20250522_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250522_20_100"
+				},
+				{
+					"UID": "20250523_15_100@in-the-sky.org",
+					"DTSTAMP": "20250523T203850Z",
+					"DTSTART": "20250523T203850Z",
+					"SUMMARY": "Close approach of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus pass close to each other. https://in-the-sky.org/news.php?id=20250523_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250523_15_100"
+				},
+				{
+					"UID": "20250523_20_100@in-the-sky.org",
+					"DTSTAMP": "20250523T235148Z",
+					"DTSTART": "20250523T235148Z",
+					"SUMMARY": "Conjunction of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus share the same right ascension, at a separation of 3&deg;59&#39;. https://in-the-sky.org/news.php?id=20250523_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250523_20_100"
+				},
+				{
+					"UID": "20250531_11_101@in-the-sky.org",
+					"DTSTAMP": "20250524T205731Z",
+					"DTSTART": "20250524T205731Z",
+					"SUMMARY": "Venus at highest altitude in morning sky",
+					"DESCRIPTION": "Venus is bright and well placed in the dawn sky. https://in-the-sky.org/news.php?id=20250531_11_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250531_11_101"
+				},
+				{
+					"UID": "20250531_11_102@in-the-sky.org",
+					"DTSTAMP": "20250531T205731Z",
+					"DTSTART": "20250531T205731Z",
+					"SUMMARY": "Venus at greatest elongation west",
+					"DESCRIPTION": "Venus is bright and well placed in the dawn sky. https://in-the-sky.org/news.php?id=20250531_11_102",
+					"URL": "https://in-the-sky.org/news.php?id=20250531_11_102"
+				},
+				{
+					"UID": "20250601_20_100@in-the-sky.org",
+					"DTSTAMP": "20250601T094856Z",
+					"DTSTART": "20250601T094856Z",
+					"SUMMARY": "Conjunction of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars share the same right ascension, at a separation of 1&deg;23&#39;. https://in-the-sky.org/news.php?id=20250601_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250601_20_100"
+				},
+				{
+					"UID": "20250601_15_100@in-the-sky.org",
+					"DTSTAMP": "20250601T105213Z",
+					"DTSTART": "20250601T105213Z",
+					"SUMMARY": "Close approach of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars pass close to each other. https://in-the-sky.org/news.php?id=20250601_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250601_15_100"
+				},
+				{
+					"UID": "20250601_11_100@in-the-sky.org",
+					"DTSTAMP": "20250601T213121Z",
+					"DTSTART": "20250601T213121Z",
+					"SUMMARY": "Venus at dichotomy",
+					"DESCRIPTION": "Venus reaches half phase in the dawn sky. https://in-the-sky.org/news.php?id=20250601_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250601_11_100"
+				},
+				{
+					"UID": "20250603_08_100@in-the-sky.org",
+					"DTSTAMP": "20250603T034133Z",
+					"DTSTART": "20250603T034133Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20250603_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250603_08_100"
+				},
+				{
+					"UID": "20250610_10_100@in-the-sky.org",
+					"DTSTAMP": "20250610T141844Z",
+					"DTSTART": "20250610T141844Z",
+					"SUMMARY": "Daytime Arietid meteor shower 2025",
+					"DESCRIPTION": "The Daytime Arietid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250610_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250610_10_100"
+				},
+				{
+					"UID": "20250611_08_100@in-the-sky.org",
+					"DTSTAMP": "20250611T074341Z",
+					"DTSTART": "20250611T074341Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20250611_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250611_08_100"
+				},
+				{
+					"UID": "20250618_08_100@in-the-sky.org",
+					"DTSTAMP": "20250618T191936Z",
+					"DTSTART": "20250618T191936Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20250618_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250618_08_100"
+				},
+				{
+					"UID": "20250619_15_100@in-the-sky.org",
+					"DTSTAMP": "20250619T011100Z",
+					"DTSTART": "20250619T011100Z",
+					"SUMMARY": "Close approach of the Moon, Saturn and Neptune",
+					"DESCRIPTION": "The Moon, Saturn and Neptune pass close to one another. https://in-the-sky.org/news.php?id=20250619_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250619_15_100"
+				},
+				{
+					"UID": "20250619_20_100@in-the-sky.org",
+					"DTSTAMP": "20250619T035735Z",
+					"DTSTART": "20250619T035735Z",
+					"SUMMARY": "Conjunction of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn share the same right ascension, at a separation of 3&deg;23&#39;. https://in-the-sky.org/news.php?id=20250619_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250619_20_100"
+				},
+				{
+					"UID": "20250621_07_100@in-the-sky.org",
+					"DTSTAMP": "20250621T024256Z",
+					"DTSTART": "20250621T024256Z",
+					"SUMMARY": "June solstice",
+					"DESCRIPTION": "21 June will be the shortest day of 2025 in the southern hemisphere. https://in-the-sky.org/news.php?id=20250621_07_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250621_07_100"
+				},
+				{
+					"UID": "20250622_20_100@in-the-sky.org",
+					"DTSTAMP": "20250622T083638Z",
+					"DTSTART": "20250622T083638Z",
+					"SUMMARY": "Conjunction of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus share the same right ascension, at a separation of 7&deg;10&#39;. https://in-the-sky.org/news.php?id=20250622_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250622_20_100"
+				},
+				{
+					"UID": "20250627_10_100@in-the-sky.org",
+					"DTSTAMP": "20250627T110143Z",
+					"DTSTART": "20250627T110143Z",
+					"SUMMARY": "June Bootid meteor shower 2025",
+					"DESCRIPTION": "The June Bootid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250627_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250627_10_100"
+				},
+				{
+					"UID": "20250628_11_100@in-the-sky.org",
+					"DTSTAMP": "20250628T212525Z",
+					"DTSTART": "20250628T212525Z",
+					"SUMMARY": "Mercury at dichotomy",
+					"DESCRIPTION": "Mercury reaches half phase in the evening sky. https://in-the-sky.org/news.php?id=20250628_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250628_11_100"
+				},
+				{
+					"UID": "20250630_20_100@in-the-sky.org",
+					"DTSTAMP": "20250630T010450Z",
+					"DTSTART": "20250630T010450Z",
+					"SUMMARY": "Conjunction of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars share the same right ascension, at a separation of 12&#39;. https://in-the-sky.org/news.php?id=20250630_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250630_20_100"
+				},
+				{
+					"UID": "20250630_15_100@in-the-sky.org",
+					"DTSTAMP": "20250630T011600Z",
+					"DTSTART": "20250630T011600Z",
+					"SUMMARY": "Close approach of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars pass close to each other. https://in-the-sky.org/news.php?id=20250630_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250630_15_100"
+				},
+				{
+					"UID": "20250702_08_100@in-the-sky.org",
+					"DTSTAMP": "20250702T193046Z",
+					"DTSTART": "20250702T193046Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20250702_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250702_08_100"
+				},
+				{
+					"UID": "20250703_07_100@in-the-sky.org",
+					"DTSTAMP": "20250703T195448Z",
+					"DTSTART": "20250703T195448Z",
+					"SUMMARY": "The Earth at aphelion",
+					"DESCRIPTION": "The Earth reaches its furthest point from the Sun. https://in-the-sky.org/news.php?id=20250703_07_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250703_07_100"
+				},
+				{
+					"UID": "20250704_11_101@in-the-sky.org",
+					"DTSTAMP": "20250704T043719Z",
+					"DTSTART": "20250704T043719Z",
+					"SUMMARY": "Mercury at greatest elongation east",
+					"DESCRIPTION": "Mercury is bright and well placed in the evening sky. https://in-the-sky.org/news.php?id=20250704_11_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250704_11_101"
+				},
+				{
+					"UID": "20250704_11_100@in-the-sky.org",
+					"DTSTAMP": "20250706T043719Z",
+					"DTSTART": "20250706T043719Z",
+					"SUMMARY": "Mercury at highest altitude in evening sky",
+					"DESCRIPTION": "Mercury is bright and well placed in the evening sky. https://in-the-sky.org/news.php?id=20250704_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250704_11_100"
+				},
+				{
+					"UID": "20250710_08_101@in-the-sky.org",
+					"DTSTAMP": "20250710T203641Z",
+					"DTSTART": "20250710T203641Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20250710_08_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250710_08_101"
+				},
+				{
+					"UID": "20250713_12_100@in-the-sky.org",
+					"DTSTAMP": "20250713T040037Z",
+					"DTSTART": "20250713T040037Z",
+					"SUMMARY": "Saturn enters retrograde motion",
+					"DESCRIPTION": "Saturn reverses its direction of motion across the sky. https://in-the-sky.org/news.php?id=20250713_12_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250713_12_100"
+				},
+				{
+					"UID": "20250716_15_100@in-the-sky.org",
+					"DTSTAMP": "20250716T072145Z",
+					"DTSTART": "20250716T072145Z",
+					"SUMMARY": "Close approach of the Moon, Saturn and Neptune",
+					"DESCRIPTION": "The Moon, Saturn and Neptune pass close to one another. https://in-the-sky.org/news.php?id=20250716_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250716_15_100"
+				},
+				{
+					"UID": "20250716_20_100@in-the-sky.org",
+					"DTSTAMP": "20250716T103049Z",
+					"DTSTART": "20250716T103049Z",
+					"SUMMARY": "Conjunction of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn share the same right ascension, at a separation of 3&deg;50&#39;. https://in-the-sky.org/news.php?id=20250716_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250716_20_100"
+				},
+				{
+					"UID": "20250718_08_100@in-the-sky.org",
+					"DTSTAMP": "20250718T003807Z",
+					"DTSTART": "20250718T003807Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20250718_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250718_08_100"
+				},
+				{
+					"UID": "20250720_15_100@in-the-sky.org",
+					"DTSTAMP": "20250720T105501Z",
+					"DTSTART": "20250720T105501Z",
+					"SUMMARY": "Close approach of the Moon and M45",
+					"DESCRIPTION": "The Moon and M45 pass close to each other. https://in-the-sky.org/news.php?id=20250720_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250720_15_100"
+				},
+				{
+					"UID": "20250721_20_100@in-the-sky.org",
+					"DTSTAMP": "20250721T192710Z",
+					"DTSTART": "20250721T192710Z",
+					"SUMMARY": "Conjunction of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus share the same right ascension, at a separation of 7&deg;07&#39;. https://in-the-sky.org/news.php?id=20250721_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250721_20_100"
+				},
+				{
+					"UID": "20250728_15_100@in-the-sky.org",
+					"DTSTAMP": "20250728T183007Z",
+					"DTSTART": "20250728T183007Z",
+					"SUMMARY": "Close approach of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars pass close to each other. https://in-the-sky.org/news.php?id=20250728_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250728_15_100"
+				},
+				{
+					"UID": "20250728_20_100@in-the-sky.org",
+					"DTSTAMP": "20250728T194503Z",
+					"DTSTART": "20250728T194503Z",
+					"SUMMARY": "Conjunction of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars share the same right ascension, at a separation of 1&deg;17&#39;. https://in-the-sky.org/news.php?id=20250728_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250728_20_100"
+				},
+				{
+					"UID": "20250728_10_100@in-the-sky.org",
+					"DTSTAMP": "20250728T213832Z",
+					"DTSTART": "20250728T213832Z",
+					"SUMMARY": "Piscis Austrinid meteor shower 2025",
+					"DESCRIPTION": "The Piscis Austrinid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250728_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250728_10_100"
+				},
+				{
+					"UID": "20250730_10_100@in-the-sky.org",
+					"DTSTAMP": "20250730T061605Z",
+					"DTSTART": "20250730T061605Z",
+					"SUMMARY": "Southern δ-Aquariid meteor shower 2025",
+					"DESCRIPTION": "The Southern δ-Aquariid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250730_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250730_10_100"
+				},
+				{
+					"UID": "20250730_10_101@in-the-sky.org",
+					"DTSTAMP": "20250730T063109Z",
+					"DTSTART": "20250730T063109Z",
+					"SUMMARY": "α-Capricornid meteor shower 2025",
+					"DESCRIPTION": "The α-Capricornid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250730_10_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250730_10_101"
+				},
+				{
+					"UID": "20250801_08_100@in-the-sky.org",
+					"DTSTAMP": "20250801T124154Z",
+					"DTSTART": "20250801T124154Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20250801_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250801_08_100"
+				},
+				{
+					"UID": "20250809_08_100@in-the-sky.org",
+					"DTSTAMP": "20250809T075459Z",
+					"DTSTART": "20250809T075459Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20250809_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250809_08_100"
+				},
+				{
+					"UID": "20250812_15_100@in-the-sky.org",
+					"DTSTAMP": "20250812T063905Z",
+					"DTSTART": "20250812T063905Z",
+					"SUMMARY": "Close approach of Venus and Jupiter",
+					"DESCRIPTION": "Venus and Jupiter pass within 51&#39; of each other. https://in-the-sky.org/news.php?id=20250812_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250812_15_100"
+				},
+				{
+					"UID": "20250812_20_100@in-the-sky.org",
+					"DTSTAMP": "20250812T074044Z",
+					"DTSTART": "20250812T074044Z",
+					"SUMMARY": "Conjunction of Venus and Jupiter",
+					"DESCRIPTION": "Venus and Jupiter share the same right ascension, at a separation of 51&#39;. https://in-the-sky.org/news.php?id=20250812_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250812_20_100"
+				},
+				{
+					"UID": "20250812_15_101@in-the-sky.org",
+					"DTSTAMP": "20250812T120104Z",
+					"DTSTART": "20250812T120104Z",
+					"SUMMARY": "Close approach of the Moon, Saturn and Neptune",
+					"DESCRIPTION": "The Moon, Saturn and Neptune pass close to one another. https://in-the-sky.org/news.php?id=20250812_15_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250812_15_101"
+				},
+				{
+					"UID": "20250812_20_101@in-the-sky.org",
+					"DTSTAMP": "20250812T151704Z",
+					"DTSTART": "20250812T151704Z",
+					"SUMMARY": "Conjunction of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn share the same right ascension, at a separation of 4&deg;02&#39;. https://in-the-sky.org/news.php?id=20250812_20_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250812_20_101"
+				},
+				{
+					"UID": "20250812_10_100@in-the-sky.org",
+					"DTSTAMP": "20250812T200130Z",
+					"DTSTART": "20250812T200130Z",
+					"SUMMARY": "Perseid meteor shower 2025",
+					"DESCRIPTION": "The Perseid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250812_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250812_10_100"
+				},
+				{
+					"UID": "20250816_08_100@in-the-sky.org",
+					"DTSTAMP": "20250816T051241Z",
+					"DTSTART": "20250816T051241Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20250816_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250816_08_100"
+				},
+				{
+					"UID": "20250816_15_100@in-the-sky.org",
+					"DTSTAMP": "20250816T163351Z",
+					"DTSTART": "20250816T163351Z",
+					"SUMMARY": "Close approach of the Moon and M45",
+					"DESCRIPTION": "The Moon and M45 pass close to each other. https://in-the-sky.org/news.php?id=20250816_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250816_15_100"
+				},
+				{
+					"UID": "20250818_10_100@in-the-sky.org",
+					"DTSTAMP": "20250818T005527Z",
+					"DTSTART": "20250818T005527Z",
+					"SUMMARY": "κ-Cygnid meteor shower 2025",
+					"DESCRIPTION": "The κ-Cygnid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250818_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250818_10_100"
+				},
+				{
+					"UID": "20250819_11_100@in-the-sky.org",
+					"DTSTAMP": "20250816T122557Z",
+					"DTSTART": "20250816T122557Z",
+					"SUMMARY": "Mercury at highest altitude in morning sky",
+					"DESCRIPTION": "Mercury is bright and well placed in the dawn sky. https://in-the-sky.org/news.php?id=20250819_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250819_11_100"
+				},
+				{
+					"UID": "20250819_11_101@in-the-sky.org",
+					"DTSTAMP": "20250819T122557Z",
+					"DTSTART": "20250819T122557Z",
+					"SUMMARY": "Mercury at greatest elongation west",
+					"DESCRIPTION": "Mercury is bright and well placed in the dawn sky. https://in-the-sky.org/news.php?id=20250819_11_101",
+					"URL": "https://in-the-sky.org/news.php?id=20250819_11_101"
+				},
+				{
+					"UID": "20250819_20_100@in-the-sky.org",
+					"DTSTAMP": "20250819T210520Z",
+					"DTSTART": "20250819T210520Z",
+					"SUMMARY": "Conjunction of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter share the same right ascension, at a separation of 4&deg;46&#39;. https://in-the-sky.org/news.php?id=20250819_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250819_20_100"
+				},
+				{
+					"UID": "20250819_15_100@in-the-sky.org",
+					"DTSTAMP": "20250819T222352Z",
+					"DTSTART": "20250819T222352Z",
+					"SUMMARY": "Close approach of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter pass close to each other. https://in-the-sky.org/news.php?id=20250819_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250819_15_100"
+				},
+				{
+					"UID": "20250820_20_100@in-the-sky.org",
+					"DTSTAMP": "20250820T105221Z",
+					"DTSTART": "20250820T105221Z",
+					"SUMMARY": "Conjunction of the Moon and Venus",
+					"DESCRIPTION": "The Moon and Venus share the same right ascension, at a separation of 4&deg;52&#39;. https://in-the-sky.org/news.php?id=20250820_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250820_20_100"
+				},
+				{
+					"UID": "20250821_11_100@in-the-sky.org",
+					"DTSTAMP": "20250821T101934Z",
+					"DTSTART": "20250821T101934Z",
+					"SUMMARY": "Mercury at dichotomy",
+					"DESCRIPTION": "Mercury reaches half phase in the dawn sky. https://in-the-sky.org/news.php?id=20250821_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250821_11_100"
+				},
+				{
+					"UID": "20250826_15_100@in-the-sky.org",
+					"DTSTAMP": "20250826T135912Z",
+					"DTSTART": "20250826T135912Z",
+					"SUMMARY": "Close approach of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars pass close to each other. https://in-the-sky.org/news.php?id=20250826_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250826_15_100"
+				},
+				{
+					"UID": "20250826_20_100@in-the-sky.org",
+					"DTSTAMP": "20250826T164158Z",
+					"DTSTART": "20250826T164158Z",
+					"SUMMARY": "Conjunction of the Moon and Mars",
+					"DESCRIPTION": "The Moon and Mars share the same right ascension, at a separation of 2&deg;47&#39;. https://in-the-sky.org/news.php?id=20250826_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250826_20_100"
+				},
+				{
+					"UID": "20250831_08_100@in-the-sky.org",
+					"DTSTAMP": "20250831T062546Z",
+					"DTSTART": "20250831T062546Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20250831_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250831_08_100"
+				},
+				{
+					"UID": "20250901_10_100@in-the-sky.org",
+					"DTSTAMP": "20250901T031424Z",
+					"DTSTART": "20250901T031424Z",
+					"SUMMARY": "Aurigid meteor shower 2025",
+					"DESCRIPTION": "The Aurigid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250901_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250901_10_100"
+				},
+				{
+					"UID": "20250907_08_100@in-the-sky.org",
+					"DTSTAMP": "20250907T180846Z",
+					"DTSTART": "20250907T180846Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20250907_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250907_08_100"
+				},
+				{
+					"UID": "20250907_09_100@in-the-sky.org",
+					"DTSTAMP": "20250907T181159Z",
+					"DTSTART": "20250907T181159Z",
+					"SUMMARY": "Total lunar eclipse",
+					"DESCRIPTION": "There will be an eclipse of the Moon, visible from Antarctica, Asia, Russia, Africa, Oceania and Europe. https://in-the-sky.org/news.php?id=20250907_09_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250907_09_100"
+				},
+				{
+					"UID": "20250908_15_100@in-the-sky.org",
+					"DTSTAMP": "20250908T171159Z",
+					"DTSTART": "20250908T171159Z",
+					"SUMMARY": "Close approach of the Moon, Saturn and Neptune",
+					"DESCRIPTION": "The Moon, Saturn and Neptune pass close to one another. https://in-the-sky.org/news.php?id=20250908_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250908_15_100"
+				},
+				{
+					"UID": "20250908_20_100@in-the-sky.org",
+					"DTSTAMP": "20250908T202039Z",
+					"DTSTART": "20250908T202039Z",
+					"SUMMARY": "Conjunction of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn share the same right ascension, at a separation of 3&deg;59&#39;. https://in-the-sky.org/news.php?id=20250908_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250908_20_100"
+				},
+				{
+					"UID": "20250909_10_100@in-the-sky.org",
+					"DTSTAMP": "20250909T114914Z",
+					"DTSTART": "20250909T114914Z",
+					"SUMMARY": "September ε-Perseid meteor shower 2025",
+					"DESCRIPTION": "The September ε-Perseid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250909_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250909_10_100"
+				},
+				{
+					"UID": "20250912_15_100@in-the-sky.org",
+					"DTSTAMP": "20250912T221051Z",
+					"DTSTART": "20250912T221051Z",
+					"SUMMARY": "Close approach of the Moon and M45",
+					"DESCRIPTION": "The Moon and M45 pass close to each other. https://in-the-sky.org/news.php?id=20250912_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250912_15_100"
+				},
+				{
+					"UID": "20250914_08_100@in-the-sky.org",
+					"DTSTAMP": "20250914T103324Z",
+					"DTSTART": "20250914T103324Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20250914_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250914_08_100"
+				},
+				{
+					"UID": "20250916_20_100@in-the-sky.org",
+					"DTSTAMP": "20250916T110539Z",
+					"DTSTART": "20250916T110539Z",
+					"SUMMARY": "Conjunction of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter share the same right ascension, at a separation of 4&deg;33&#39;. https://in-the-sky.org/news.php?id=20250916_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250916_20_100"
+				},
+				{
+					"UID": "20250916_15_100@in-the-sky.org",
+					"DTSTAMP": "20250916T124215Z",
+					"DTSTART": "20250916T124215Z",
+					"SUMMARY": "Close approach of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter pass close to each other. https://in-the-sky.org/news.php?id=20250916_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250916_15_100"
+				},
+				{
+					"UID": "20250921_12_100@in-the-sky.org",
+					"DTSTAMP": "20250921T053736Z",
+					"DTSTART": "20250921T053736Z",
+					"SUMMARY": "Saturn at opposition",
+					"DESCRIPTION": "Saturn lies in the opposite direction to the Sun in the sky, making it slightly closer, brighter and larger than at other times. It is also optimally positioned to be observable for much of the night. https://in-the-sky.org/news.php?id=20250921_12_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250921_12_100"
+				},
+				{
+					"UID": "20250921_09_100@in-the-sky.org",
+					"DTSTAMP": "20250921T194259Z",
+					"DTSTART": "20250921T194259Z",
+					"SUMMARY": "Partial solar eclipse",
+					"DESCRIPTION": "There will be an eclipse of the Sun,  visible from Antarctica and Oceania. https://in-the-sky.org/news.php?id=20250921_09_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250921_09_100"
+				},
+				{
+					"UID": "20250922_07_100@in-the-sky.org",
+					"DTSTAMP": "20250922T182035Z",
+					"DTSTART": "20250922T182035Z",
+					"SUMMARY": "September equinox",
+					"DESCRIPTION": "Day and night have equal length, marking the beginning of autumn in the northern hemisphere and spring in the southern hemisphere. https://in-the-sky.org/news.php?id=20250922_07_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250922_07_100"
+				},
+				{
+					"UID": "20250927_10_100@in-the-sky.org",
+					"DTSTAMP": "20250927T122818Z",
+					"DTSTART": "20250927T122818Z",
+					"SUMMARY": "Daytime Sextantid meteor shower 2025",
+					"DESCRIPTION": "The Daytime Sextantid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20250927_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250927_10_100"
+				},
+				{
+					"UID": "20250929_08_100@in-the-sky.org",
+					"DTSTAMP": "20250929T235426Z",
+					"DTSTART": "20250929T235426Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20250929_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250929_08_100"
+				},
+				{
+					"UID": "20251004_17_100@in-the-sky.org",
+					"DTSTAMP": "20251004T235809Z",
+					"DTSTART": "20251004T235809Z",
+					"SUMMARY": "The Small Magellanic Cloud is well placed",
+					"DESCRIPTION": "The Milky Way's dwarf companion, the Small Magellanic Cloud (SMC; mag 2.7), in Tucana culminates at around midnight local time. https://in-the-sky.org/news.php?id=20251004_17_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251004_17_100"
+				},
+				{
+					"UID": "20251005_15_100@in-the-sky.org",
+					"DTSTAMP": "20251005T235940Z",
+					"DTSTART": "20251005T235940Z",
+					"SUMMARY": "Close approach of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn pass close to each other. https://in-the-sky.org/news.php?id=20251005_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251005_15_100"
+				},
+				{
+					"UID": "20251006_20_100@in-the-sky.org",
+					"DTSTAMP": "20251006T025712Z",
+					"DTSTART": "20251006T025712Z",
+					"SUMMARY": "Conjunction of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn share the same right ascension, at a separation of 3&deg;47&#39;. https://in-the-sky.org/news.php?id=20251006_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251006_20_100"
+				},
+				{
+					"UID": "20251007_08_100@in-the-sky.org",
+					"DTSTAMP": "20251007T034729Z",
+					"DTSTART": "20251007T034729Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20251007_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251007_08_100"
+				},
+				{
+					"UID": "20251008_10_100@in-the-sky.org",
+					"DTSTAMP": "20251008T191230Z",
+					"DTSTART": "20251008T191230Z",
+					"SUMMARY": "Draconid meteor shower 2025",
+					"DESCRIPTION": "The Draconid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251008_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251008_10_100"
+				},
+				{
+					"UID": "20251010_15_100@in-the-sky.org",
+					"DTSTAMP": "20251010T054332Z",
+					"DTSTART": "20251010T054332Z",
+					"SUMMARY": "Close approach of the Moon and M45",
+					"DESCRIPTION": "The Moon and M45 pass close to each other. https://in-the-sky.org/news.php?id=20251010_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251010_15_100"
+				},
+				{
+					"UID": "20251010_10_100@in-the-sky.org",
+					"DTSTAMP": "20251010T100541Z",
+					"DTSTART": "20251010T100541Z",
+					"SUMMARY": "Southern Taurid meteor shower 2025",
+					"DESCRIPTION": "The Southern Taurid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251010_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251010_10_100"
+				},
+				{
+					"UID": "20251011_10_100@in-the-sky.org",
+					"DTSTAMP": "20251011T102242Z",
+					"DTSTART": "20251011T102242Z",
+					"SUMMARY": "δ-Aurigid meteor shower 2025",
+					"DESCRIPTION": "The δ-Aurigid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251011_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251011_10_100"
+				},
+				{
+					"UID": "20251013_08_100@in-the-sky.org",
+					"DTSTAMP": "20251013T181312Z",
+					"DTSTART": "20251013T181312Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20251013_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251013_08_100"
+				},
+				{
+					"UID": "20251013_20_100@in-the-sky.org",
+					"DTSTAMP": "20251013T223046Z",
+					"DTSTART": "20251013T223046Z",
+					"SUMMARY": "Conjunction of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter share the same right ascension, at a separation of 4&deg;16&#39;. https://in-the-sky.org/news.php?id=20251013_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251013_20_100"
+				},
+				{
+					"UID": "20251014_15_100@in-the-sky.org",
+					"DTSTAMP": "20251014T001248Z",
+					"DTSTART": "20251014T001248Z",
+					"SUMMARY": "Close approach of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter pass close to each other. https://in-the-sky.org/news.php?id=20251014_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251014_15_100"
+				},
+				{
+					"UID": "20251018_10_100@in-the-sky.org",
+					"DTSTAMP": "20251018T115509Z",
+					"DTSTART": "20251018T115509Z",
+					"SUMMARY": "ε-Geminid meteor shower 2025",
+					"DESCRIPTION": "The ε-Geminid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251018_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251018_10_100"
+				},
+				{
+					"UID": "20251021_10_100@in-the-sky.org",
+					"DTSTAMP": "20251021T122110Z",
+					"DTSTART": "20251021T122110Z",
+					"SUMMARY": "Orionid meteor shower 2025",
+					"DESCRIPTION": "The Orionid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251021_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251021_10_100"
+				},
+				{
+					"UID": "20251024_10_100@in-the-sky.org",
+					"DTSTAMP": "20251024T123954Z",
+					"DTSTART": "20251024T123954Z",
+					"SUMMARY": "Leonis Minorid meteor shower 2025",
+					"DESCRIPTION": "The Leonis Minorid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251024_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251024_10_100"
+				},
+				{
+					"UID": "20251029_08_100@in-the-sky.org",
+					"DTSTAMP": "20251029T162124Z",
+					"DTSTART": "20251029T162124Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20251029_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251029_08_100"
+				},
+				{
+					"UID": "20251029_11_100@in-the-sky.org",
+					"DTSTAMP": "20251029T202812Z",
+					"DTSTART": "20251029T202812Z",
+					"SUMMARY": "Mercury at highest altitude in evening sky",
+					"DESCRIPTION": "Mercury is bright and well placed in the evening sky. https://in-the-sky.org/news.php?id=20251029_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251029_11_100"
+				},
+				{
+					"UID": "20251029_11_101@in-the-sky.org",
+					"DTSTAMP": "20251029T202812Z",
+					"DTSTART": "20251029T202812Z",
+					"SUMMARY": "Mercury at greatest elongation east",
+					"DESCRIPTION": "Mercury is bright and well placed in the evening sky. https://in-the-sky.org/news.php?id=20251029_11_101",
+					"URL": "https://in-the-sky.org/news.php?id=20251029_11_101"
+				},
+				{
+					"UID": "20251102_15_100@in-the-sky.org",
+					"DTSTAMP": "20251102T080145Z",
+					"DTSTART": "20251102T080145Z",
+					"SUMMARY": "Close approach of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn pass close to each other. https://in-the-sky.org/news.php?id=20251102_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251102_15_100"
+				},
+				{
+					"UID": "20251102_20_100@in-the-sky.org",
+					"DTSTAMP": "20251102T105636Z",
+					"DTSTART": "20251102T105636Z",
+					"SUMMARY": "Conjunction of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn share the same right ascension, at a separation of 3&deg;39&#39;. https://in-the-sky.org/news.php?id=20251102_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251102_20_100"
+				},
+				{
+					"UID": "20251104_11_100@in-the-sky.org",
+					"DTSTAMP": "20251104T031646Z",
+					"DTSTART": "20251104T031646Z",
+					"SUMMARY": "Mercury at dichotomy",
+					"DESCRIPTION": "Mercury reaches half phase in the evening sky. https://in-the-sky.org/news.php?id=20251104_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251104_11_100"
+				},
+				{
+					"UID": "20251105_08_100@in-the-sky.org",
+					"DTSTAMP": "20251105T131910Z",
+					"DTSTART": "20251105T131910Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20251105_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251105_08_100"
+				},
+				{
+					"UID": "20251106_15_100@in-the-sky.org",
+					"DTSTAMP": "20251106T155134Z",
+					"DTSTART": "20251106T155134Z",
+					"SUMMARY": "Close approach of the Moon and M45",
+					"DESCRIPTION": "The Moon and M45 pass close to each other. https://in-the-sky.org/news.php?id=20251106_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251106_15_100"
+				},
+				{
+					"UID": "20251110_20_100@in-the-sky.org",
+					"DTSTAMP": "20251110T075549Z",
+					"DTSTART": "20251110T075549Z",
+					"SUMMARY": "Conjunction of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter share the same right ascension, at a separation of 3&deg;56&#39;. https://in-the-sky.org/news.php?id=20251110_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251110_20_100"
+				},
+				{
+					"UID": "20251110_15_100@in-the-sky.org",
+					"DTSTAMP": "20251110T093113Z",
+					"DTSTART": "20251110T093113Z",
+					"SUMMARY": "Close approach of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter pass close to each other. https://in-the-sky.org/news.php?id=20251110_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251110_15_100"
+				},
+				{
+					"UID": "20251111_12_100@in-the-sky.org",
+					"DTSTAMP": "20251111T163711Z",
+					"DTSTART": "20251111T163711Z",
+					"SUMMARY": "Jupiter enters retrograde motion",
+					"DESCRIPTION": "Jupiter reverses its direction of motion across the sky. https://in-the-sky.org/news.php?id=20251111_12_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251111_12_100"
+				},
+				{
+					"UID": "20251112_08_100@in-the-sky.org",
+					"DTSTAMP": "20251112T052841Z",
+					"DTSTART": "20251112T052841Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20251112_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251112_08_100"
+				},
+				{
+					"UID": "20251112_10_100@in-the-sky.org",
+					"DTSTAMP": "20251112T121231Z",
+					"DTSTART": "20251112T121231Z",
+					"SUMMARY": "Northern Taurid meteor shower 2025",
+					"DESCRIPTION": "The Northern Taurid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251112_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251112_10_100"
+				},
+				{
+					"UID": "20251117_10_100@in-the-sky.org",
+					"DTSTAMP": "20251117T182937Z",
+					"DTSTART": "20251117T182937Z",
+					"SUMMARY": "Leonid meteor shower 2025",
+					"DESCRIPTION": "The Leonid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251117_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251117_10_100"
+				},
+				{
+					"UID": "20251117_17_100@in-the-sky.org",
+					"DTSTAMP": "20251117T235936Z",
+					"DTSTART": "20251117T235936Z",
+					"SUMMARY": "The Pleiades cluster is well placed",
+					"DESCRIPTION": "The Pleiades open star cluster (M45; mag 1.3) in Taurus culminates at around midnight local time. https://in-the-sky.org/news.php?id=20251117_17_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251117_17_100"
+				},
+				{
+					"UID": "20251121_10_100@in-the-sky.org",
+					"DTSTAMP": "20251121T173547Z",
+					"DTSTART": "20251121T173547Z",
+					"SUMMARY": "α-Monocerotid meteor shower 2025",
+					"DESCRIPTION": "The α-Monocerotid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251121_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251121_10_100"
+				},
+				{
+					"UID": "20251127_17_100@in-the-sky.org",
+					"DTSTAMP": "20251127T235938Z",
+					"DTSTART": "20251127T235938Z",
+					"SUMMARY": "The Hyades cluster is well placed",
+					"DESCRIPTION": "The Hyades open star cluster (Collinder 50; mag 1.0) in Taurus culminates at around midnight local time. https://in-the-sky.org/news.php?id=20251127_17_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251127_17_100"
+				},
+				{
+					"UID": "20251128_12_100@in-the-sky.org",
+					"DTSTAMP": "20251128T034509Z",
+					"DTSTART": "20251128T034509Z",
+					"SUMMARY": "Saturn ends retrograde motion",
+					"DESCRIPTION": "Saturn returns to its usual eastward motion after opposition. https://in-the-sky.org/news.php?id=20251128_12_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251128_12_100"
+				},
+				{
+					"UID": "20251128_08_100@in-the-sky.org",
+					"DTSTAMP": "20251128T065921Z",
+					"DTSTART": "20251128T065921Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20251128_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251128_08_100"
+				},
+				{
+					"UID": "20251128_10_100@in-the-sky.org",
+					"DTSTAMP": "20251128T083507Z",
+					"DTSTART": "20251128T083507Z",
+					"SUMMARY": "November Orionid meteor shower 2025",
+					"DESCRIPTION": "The November Orionid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251128_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251128_10_100"
+				},
+				{
+					"UID": "20251129_15_100@in-the-sky.org",
+					"DTSTAMP": "20251129T161210Z",
+					"DTSTART": "20251129T161210Z",
+					"SUMMARY": "Close approach of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn pass close to each other. https://in-the-sky.org/news.php?id=20251129_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251129_15_100"
+				},
+				{
+					"UID": "20251129_20_100@in-the-sky.org",
+					"DTSTAMP": "20251129T191812Z",
+					"DTSTART": "20251129T191812Z",
+					"SUMMARY": "Conjunction of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn share the same right ascension, at a separation of 3&deg;45&#39;. https://in-the-sky.org/news.php?id=20251129_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251129_20_100"
+				},
+				{
+					"UID": "20251202_10_100@in-the-sky.org",
+					"DTSTAMP": "20251202T072141Z",
+					"DTSTART": "20251202T072141Z",
+					"SUMMARY": "Pheonicid meteor shower 2025",
+					"DESCRIPTION": "The Pheonicid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251202_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251202_10_100"
+				},
+				{
+					"UID": "20251204_15_100@in-the-sky.org",
+					"DTSTAMP": "20251204T031937Z",
+					"DTSTART": "20251204T031937Z",
+					"SUMMARY": "Close approach of the Moon and M45",
+					"DESCRIPTION": "The Moon and M45 pass close to each other. https://in-the-sky.org/news.php?id=20251204_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251204_15_100"
+				},
+				{
+					"UID": "20251204_11_100@in-the-sky.org",
+					"DTSTAMP": "20251204T080526Z",
+					"DTSTART": "20251204T080526Z",
+					"SUMMARY": "Mercury at dichotomy",
+					"DESCRIPTION": "Mercury reaches half phase in the dawn sky. https://in-the-sky.org/news.php?id=20251204_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251204_11_100"
+				},
+				{
+					"UID": "20251204_08_101@in-the-sky.org",
+					"DTSTAMP": "20251204T231358Z",
+					"DTSTART": "20251204T231358Z",
+					"SUMMARY": "Full Moon",
+					"DESCRIPTION": "The Moon reaches full phase and is visible for much of the night. https://in-the-sky.org/news.php?id=20251204_08_101",
+					"URL": "https://in-the-sky.org/news.php?id=20251204_08_101"
+				},
+				{
+					"UID": "20251206_10_100@in-the-sky.org",
+					"DTSTAMP": "20251206T060217Z",
+					"DTSTART": "20251206T060217Z",
+					"SUMMARY": "December φ-Cassiopeid meteor shower 2025",
+					"DESCRIPTION": "The December φ-Cassiopeid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251206_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251206_10_100"
+				},
+				{
+					"UID": "20251207_10_100@in-the-sky.org",
+					"DTSTAMP": "20251207T054124Z",
+					"DTSTART": "20251207T054124Z",
+					"SUMMARY": "Puppid-Velid meteor shower 2025",
+					"DESCRIPTION": "The Puppid-Velid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251207_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251207_10_100"
+				},
+				{
+					"UID": "20251207_20_100@in-the-sky.org",
+					"DTSTAMP": "20251207T154721Z",
+					"DTSTART": "20251207T154721Z",
+					"SUMMARY": "Conjunction of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter share the same right ascension, at a separation of 3&deg;42&#39;. https://in-the-sky.org/news.php?id=20251207_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251207_20_100"
+				},
+				{
+					"UID": "20251207_15_100@in-the-sky.org",
+					"DTSTAMP": "20251207T171058Z",
+					"DTSTART": "20251207T171058Z",
+					"SUMMARY": "Close approach of the Moon and Jupiter",
+					"DESCRIPTION": "The Moon and Jupiter pass close to each other. https://in-the-sky.org/news.php?id=20251207_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251207_15_100"
+				},
+				{
+					"UID": "20251208_11_101@in-the-sky.org",
+					"DTSTAMP": "20251208T001439Z",
+					"DTSTART": "20251208T001439Z",
+					"SUMMARY": "Mercury at greatest elongation west",
+					"DESCRIPTION": "Mercury is bright and well placed in the dawn sky. https://in-the-sky.org/news.php?id=20251208_11_101",
+					"URL": "https://in-the-sky.org/news.php?id=20251208_11_101"
+				},
+				{
+					"UID": "20251208_11_100@in-the-sky.org",
+					"DTSTAMP": "20251211T001439Z",
+					"DTSTART": "20251211T001439Z",
+					"SUMMARY": "Mercury at highest altitude in morning sky",
+					"DESCRIPTION": "Mercury is bright and well placed in the dawn sky. https://in-the-sky.org/news.php?id=20251208_11_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251208_11_100"
+				},
+				{
+					"UID": "20251209_10_100@in-the-sky.org",
+					"DTSTAMP": "20251209T045815Z",
+					"DTSTART": "20251209T045815Z",
+					"SUMMARY": "Monocerotid meteor shower 2025",
+					"DESCRIPTION": "The Monocerotid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251209_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251209_10_100"
+				},
+				{
+					"UID": "20251211_08_100@in-the-sky.org",
+					"DTSTAMP": "20251211T205214Z",
+					"DTSTART": "20251211T205214Z",
+					"SUMMARY": "Moon at Last Quarter",
+					"DESCRIPTION": "The Moon reaches last quarter phase &ndash; rising in the east at around midnight and appearing high in the sky by sunrise. https://in-the-sky.org/news.php?id=20251211_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251211_08_100"
+				},
+				{
+					"UID": "20251212_10_100@in-the-sky.org",
+					"DTSTAMP": "20251212T035008Z",
+					"DTSTART": "20251212T035008Z",
+					"SUMMARY": "σ-Hydrid meteor shower 2025",
+					"DESCRIPTION": "The σ-Hydrid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251212_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251212_10_100"
+				},
+				{
+					"UID": "20251212_17_100@in-the-sky.org",
+					"DTSTAMP": "20251212T235708Z",
+					"DTSTART": "20251212T235708Z",
+					"SUMMARY": "The Large Magellanic Cloud is well placed",
+					"DESCRIPTION": "The Milky Way's dwarf companion, the Large Magellanic Cloud (LMC; mag 0.9), in Dorado culminates at around midnight local time. https://in-the-sky.org/news.php?id=20251212_17_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251212_17_100"
+				},
+				{
+					"UID": "20251214_10_100@in-the-sky.org",
+					"DTSTAMP": "20251214T074543Z",
+					"DTSTART": "20251214T074543Z",
+					"SUMMARY": "Geminid meteor shower 2025",
+					"DESCRIPTION": "The Geminid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251214_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251214_10_100"
+				},
+				{
+					"UID": "20251216_10_100@in-the-sky.org",
+					"DTSTAMP": "20251216T021327Z",
+					"DTSTART": "20251216T021327Z",
+					"SUMMARY": "Comae Berenicid meteor shower 2025",
+					"DESCRIPTION": "The Comae Berenicid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251216_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251216_10_100"
+				},
+				{
+					"UID": "20251220_10_100@in-the-sky.org",
+					"DTSTAMP": "20251220T003130Z",
+					"DTSTART": "20251220T003130Z",
+					"SUMMARY": "December Leonis Minorid meteor shower 2025",
+					"DESCRIPTION": "The December Leonis Minorid meteor shower reaches its peak. https://in-the-sky.org/news.php?id=20251220_10_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251220_10_100"
+				},
+				{
+					"UID": "20251221_07_100@in-the-sky.org",
+					"DTSTAMP": "20251221T150454Z",
+					"DTSTART": "20251221T150454Z",
+					"SUMMARY": "December solstice",
+					"DESCRIPTION": "21 December will be the longest day of 2025 in the southern hemisphere. https://in-the-sky.org/news.php?id=20251221_07_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251221_07_100"
+				},
+				{
+					"UID": "20251227_15_100@in-the-sky.org",
+					"DTSTAMP": "20251227T000835Z",
+					"DTSTART": "20251227T000835Z",
+					"SUMMARY": "Close approach of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn pass close to each other. https://in-the-sky.org/news.php?id=20251227_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251227_15_100"
+				},
+				{
+					"UID": "20251227_20_100@in-the-sky.org",
+					"DTSTAMP": "20251227T033418Z",
+					"DTSTART": "20251227T033418Z",
+					"SUMMARY": "Conjunction of the Moon and Saturn",
+					"DESCRIPTION": "The Moon and Saturn share the same right ascension, at a separation of 4&deg;01&#39;. https://in-the-sky.org/news.php?id=20251227_20_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251227_20_100"
+				},
+				{
+					"UID": "20251227_08_100@in-the-sky.org",
+					"DTSTAMP": "20251227T191022Z",
+					"DTSTART": "20251227T191022Z",
+					"SUMMARY": "Moon at First Quarter",
+					"DESCRIPTION": "The Moon reaches first quarter phase &ndash; appearing high in the sky at sunset and setting in the west at around midnight. https://in-the-sky.org/news.php?id=20251227_08_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251227_08_100"
+				},
+				{
+					"UID": "20251231_15_100@in-the-sky.org",
+					"DTSTAMP": "20251231T134553Z",
+					"DTSTART": "20251231T134553Z",
+					"SUMMARY": "Close approach of the Moon and M45",
+					"DESCRIPTION": "The Moon and M45 pass close to each other. https://in-the-sky.org/news.php?id=20251231_15_100",
+					"URL": "https://in-the-sky.org/news.php?id=20251231_15_100"
+				}
+			]
+		}
+	]
+}

@@ -6,7 +6,7 @@ import { Body, Observer, Equator, Horizon, AstroTime, Illumination } from 'astro
 import * as Location from 'expo-location';
 import * as Sensors from 'expo-sensors';
 import PageHeader from '@/components/PageHeader';
-import { astroIcons } from './[name]';
+import { astroIcons } from './name/[name]';
 import { useLocalSearchParams } from 'expo-router';
 import LoadingAnimation from '@/components/LoadingAnimation';
 

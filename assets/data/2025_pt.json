@@ -1,0 +1,1730 @@
+{
+	"VCALENDAR": [
+		{
+			"VERSION": "2.0",
+			"PRODID": "-// in-the-sky.org//nonsgml v1.0 // en",
+			"VEVENT": [
+				{
+					"UID": "20250103_20_100@in-the-sky.org",
+					"DTSTAMP": "20250103T152345Z",
+					"DTSTART": "20250103T152345Z",
+					"SUMMARY": "Conjunção da lua e Vênus",
+					"DESCRIPTION": "A Lua e Vênus compartilham a mesma ascensão reta, a uma separação de 1°26'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250103_20_100"
+				},
+				{
+					"UID": "20250103_10_100@in-the-sky.org",
+					"DTSTAMP": "20250103T162459Z",
+					"DTSTART": "20250103T162459Z",
+					"SUMMARY": "Chuveiro de meteoros Quadrantida 2025",
+					"DESCRIPTION": "O chuveiro de meteoros quadrantídeos atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250103_10_100"
+				},
+				{
+					"UID": "20250103_15_100@in-the-sky.org",
+					"DTSTAMP": "20250103T163216Z",
+					"DTSTART": "20250103T163216Z",
+					"SUMMARY": "Abordagem próxima da lua e Vênus",
+					"DESCRIPTION": "A lua e Vênus passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250103_15_100"
+				},
+				{
+					"UID": "20250104_07_100@in-the-sky.org",
+					"DTSTAMP": "20250104T132811Z",
+					"DTSTART": "20250104T132811Z",
+					"SUMMARY": "A terra em periélio",
+					"DESCRIPTION": "A Terra atinge seu ponto mais próximo do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250104_07_100"
+				},
+				{
+					"UID": "20250104_15_100@in-the-sky.org",
+					"DTSTAMP": "20250104T165107Z",
+					"DTSTART": "20250104T165107Z",
+					"SUMMARY": "Abordagem próxima da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250104_15_100"
+				},
+				{
+					"UID": "20250104_20_100@in-the-sky.org",
+					"DTSTAMP": "20250104T172351Z",
+					"DTSTART": "20250104T172351Z",
+					"SUMMARY": "Conjunção da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno compartilham a mesma ascensão reta, a uma separação de 40'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250104_20_100"
+				},
+				{
+					"UID": "20250106_08_100@in-the-sky.org",
+					"DTSTAMP": "20250106T235646Z",
+					"DTSTART": "20250106T235646Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250106_08_100"
+				},
+				{
+					"UID": "20250110_15_100@in-the-sky.org",
+					"DTSTAMP": "20250110T013955Z",
+					"DTSTART": "20250110T013955Z",
+					"SUMMARY": "Abordagem próxima da lua e M45",
+					"DESCRIPTION": "A lua e o M45 passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250110_15_100"
+				},
+				{
+					"UID": "20250110_11_101@in-the-sky.org",
+					"DTSTAMP": "20250110T083146Z",
+					"DTSTART": "20250110T083146Z",
+					"SUMMARY": "Vênus no maior alongamento leste",
+					"DESCRIPTION": "Vênus é brilhante e bem colocado no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250110_11_101"
+				},
+				{
+					"UID": "20250110_15_101@in-the-sky.org",
+					"DTSTAMP": "20250110T214544Z",
+					"DTSTART": "20250110T214544Z",
+					"SUMMARY": "Abordagem próxima da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250110_15_101"
+				},
+				{
+					"UID": "20250110_20_100@in-the-sky.org",
+					"DTSTAMP": "20250110T231348Z",
+					"DTSTART": "20250110T231348Z",
+					"SUMMARY": "Conjunção da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter compartilham a mesma ascensão reta, a uma separação de 5°25'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250110_20_100"
+				},
+				{
+					"UID": "20250112_11_100@in-the-sky.org",
+					"DTSTAMP": "20250112T020402Z",
+					"DTSTART": "20250112T020402Z",
+					"SUMMARY": "Vênus em dicotomia",
+					"DESCRIPTION": "Vênus chega à meia fase no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250112_11_100"
+				},
+				{
+					"UID": "20250112_12_100@in-the-sky.org",
+					"DTSTAMP": "20250112T133211Z",
+					"DTSTART": "20250112T133211Z",
+					"SUMMARY": "Marte em perigeu",
+					"DESCRIPTION": "Marte atinge seu ponto mais próximo da Terra-marcando o melhor momento para observá-lo em 1970. https://in-the-sky.org/news.php?id=20250112_12_100",
+					"URL": "https://in-the-sky.org/news.php?id=20250112_12_100"
+				},
+				{
+					"UID": "2025_19_CK24G030_100@in-the-sky.org",
+					"DTSTAMP": "20250113T120000Z",
+					"DTSTART": "20250113T120000Z",
+					"SUMMARY": "Cometa C/2024 G3 (Atlas) Passa Perigeu",
+					"DESCRIPTION": "O cometa C/2024 G3 (Atlas) faz a sua abordagem mais próxima da Terra. ",
+					"URL": "https://in-the-sky.org/news.php?id=2025_19_ck24g030_100"
+				},
+				{
+					"UID": "2025_19_CK24G030_101@in-the-sky.org",
+					"DTSTAMP": "20250113T120000Z",
+					"DTSTART": "20250113T120000Z",
+					"SUMMARY": "Cometa C/2024 G3 (Atlas) Passa Periélio",
+					"DESCRIPTION": "O cometa C/2024 G3 (Atlas) faz a sua abordagem mais próxima do Sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=2025_19_ck24g030_101"
+				},
+				{
+					"UID": "20250113_08_100@in-the-sky.org",
+					"DTSTAMP": "20250113T222649Z",
+					"DTSTART": "20250113T222649Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250113_08_100"
+				},
+				{
+					"UID": "20250114_20_100@in-the-sky.org",
+					"DTSTAMP": "20250114T034234Z",
+					"DTSTART": "20250114T034234Z",
+					"SUMMARY": "Conjunção da lua e Marte",
+					"DESCRIPTION": "A lua e Marte compartilham a mesma ascensão reta, a uma separação de 13'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250114_20_100"
+				},
+				{
+					"UID": "20250114_15_100@in-the-sky.org",
+					"DTSTAMP": "20250114T034811Z",
+					"DTSTART": "20250114T034811Z",
+					"SUMMARY": "Abordagem próxima da lua e Marte",
+					"DESCRIPTION": "A lua e Marte passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250114_15_100"
+				},
+				{
+					"UID": "20250116_12_100@in-the-sky.org",
+					"DTSTAMP": "20250116T023228Z",
+					"DTSTART": "20250116T023228Z",
+					"SUMMARY": "Marte em oposição",
+					"DESCRIPTION": "Marte está na direção oposta ao sol no céu, tornando -o mais próximo, mais brilhante e maior do que em outros momentos. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250116_12_100"
+				},
+				{
+					"UID": "20250116_17_100@in-the-sky.org",
+					"DTSTAMP": "20250116T235949Z",
+					"DTSTART": "20250116T235949Z",
+					"SUMMARY": "O cluster NGC 2451 está bem colocado",
+					"DESCRIPTION": "O Open Star Cluster NGC 2451 (MAG 2.8) em Puptes culmina por volta da meia -noite, horário local. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250116_17_100"
+				},
+				{
+					"UID": "20250118_15_100@in-the-sky.org",
+					"DTSTAMP": "20250118T173001Z",
+					"DTSTART": "20250118T173001Z",
+					"SUMMARY": "Abordagem próxima de Vênus e Saturno",
+					"DESCRIPTION": "Vênus e Saturno passam dentro de 2°10'um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250118_15_100"
+				},
+				{
+					"UID": "20250120_20_100@in-the-sky.org",
+					"DTSTAMP": "20250120T051647Z",
+					"DTSTART": "20250120T051647Z",
+					"SUMMARY": "Conjunto de Vênus e Saturno",
+					"DESCRIPTION": "Vênus e Saturno compartilham a mesma ascensão reta, a uma separação de 2°31'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250120_20_100"
+				},
+				{
+					"UID": "20250121_08_101@in-the-sky.org",
+					"DTSTAMP": "20250121T203125Z",
+					"DTSTART": "20250121T203125Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250121_08_101"
+				},
+				{
+					"UID": "20250130_17_101@in-the-sky.org",
+					"DTSTAMP": "20250130T235954Z",
+					"DTSTART": "20250130T235954Z",
+					"SUMMARY": "O cluster de veludo omicron está bem colocado",
+					"DESCRIPTION": "O cluster de estrela aberta do Omicron Velorum (IC 2391; MAG 2.5) em Vela culmina por volta da meia -noite, horário local. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250130_17_101"
+				},
+				{
+					"UID": "20250201_20_101@in-the-sky.org",
+					"DTSTAMP": "20250201T202725Z",
+					"DTSTART": "20250201T202725Z",
+					"SUMMARY": "Conjunção da lua e Vênus",
+					"DESCRIPTION": "A Lua e Vênus compartilham a mesma ascensão reta, a uma separação de 2°20'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250201_20_101"
+				},
+				{
+					"UID": "20250201_15_101@in-the-sky.org",
+					"DTSTAMP": "20250201T222453Z",
+					"DTSTART": "20250201T222453Z",
+					"SUMMARY": "Abordagem próxima da lua e Vênus",
+					"DESCRIPTION": "A lua e Vênus passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250201_15_101"
+				},
+				{
+					"UID": "20250204_12_100@in-the-sky.org",
+					"DTSTAMP": "20250204T093807Z",
+					"DTSTART": "20250204T093807Z",
+					"SUMMARY": "Júpiter termina o movimento retrógrado",
+					"DESCRIPTION": "Júpiter retorna ao seu movimento habitual para o leste após a oposição. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250204_12_100"
+				},
+				{
+					"UID": "20250205_08_100@in-the-sky.org",
+					"DTSTAMP": "20250205T080238Z",
+					"DTSTART": "20250205T080238Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250205_08_100"
+				},
+				{
+					"UID": "20250206_15_100@in-the-sky.org",
+					"DTSTAMP": "20250206T071704Z",
+					"DTSTART": "20250206T071704Z",
+					"SUMMARY": "Abordagem próxima da lua e M45",
+					"DESCRIPTION": "A lua e o M45 passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250206_15_100"
+				},
+				{
+					"UID": "20250207_15_100@in-the-sky.org",
+					"DTSTAMP": "20250207T020111Z",
+					"DTSTART": "20250207T020111Z",
+					"SUMMARY": "Abordagem próxima da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250207_15_100"
+				},
+				{
+					"UID": "20250207_20_100@in-the-sky.org",
+					"DTSTAMP": "20250207T033617Z",
+					"DTSTART": "20250207T033617Z",
+					"SUMMARY": "Conjunção da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter compartilham a mesma ascensão reta, a uma separação de 5°29'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250207_20_100"
+				},
+				{
+					"UID": "20250208_10_100@in-the-sky.org",
+					"DTSTAMP": "20250208T015751Z",
+					"DTSTART": "20250208T015751Z",
+					"SUMMARY": "Chuveiro de meteoros α-centaurídeos 2025",
+					"DESCRIPTION": "O chuveiro de meteoros α-centaurídeos atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250208_10_100"
+				},
+				{
+					"UID": "20250209_20_100@in-the-sky.org",
+					"DTSTAMP": "20250209T193539Z",
+					"DTSTART": "20250209T193539Z",
+					"SUMMARY": "Conjunção da lua e Marte",
+					"DESCRIPTION": "A lua e Marte compartilham a mesma ascensão reta, em uma separação de 46'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250209_20_100"
+				},
+				{
+					"UID": "20250209_15_100@in-the-sky.org",
+					"DTSTAMP": "20250209T194927Z",
+					"DTSTART": "20250209T194927Z",
+					"SUMMARY": "Abordagem próxima da lua e Marte",
+					"DESCRIPTION": "A lua e Marte passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250209_15_100"
+				},
+				{
+					"UID": "20250212_08_100@in-the-sky.org",
+					"DTSTAMP": "20250212T135319Z",
+					"DTSTART": "20250212T135319Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250212_08_100"
+				},
+				{
+					"UID": "20250216_11_100@in-the-sky.org",
+					"DTSTAMP": "20250216T085853Z",
+					"DTSTART": "20250216T085853Z",
+					"SUMMARY": "Vênus com maior brilho",
+					"DESCRIPTION": "Venus atinge seu maior brilho no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250216_11_100"
+				},
+				{
+					"UID": "20250220_08_100@in-the-sky.org",
+					"DTSTAMP": "20250220T173308Z",
+					"DTSTART": "20250220T173308Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250220_08_100"
+				},
+				{
+					"UID": "20250224_12_100@in-the-sky.org",
+					"DTSTAMP": "20250224T020230Z",
+					"DTSTART": "20250224T020230Z",
+					"SUMMARY": "Marte termina o movimento retrógrado",
+					"DESCRIPTION": "Marte retorna ao seu movimento habitual para o leste após a oposição. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250224_12_100"
+				},
+				{
+					"UID": "20250301_20_101@in-the-sky.org",
+					"DTSTAMP": "20250301T231859Z",
+					"DTSTART": "20250301T231859Z",
+					"SUMMARY": "Conjunção da lua e Vênus",
+					"DESCRIPTION": "A Lua e Vênus compartilham a mesma ascensão reta, a uma separação de 6°23'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250301_20_101"
+				},
+				{
+					"UID": "20250303_17_100@in-the-sky.org",
+					"DTSTAMP": "20250303T235610Z",
+					"DTSTART": "20250303T235610Z",
+					"SUMMARY": "O cluster Theta Carinae está bem colocado",
+					"DESCRIPTION": "O cluster de estrela aberta Theta Carinae (IC 2602, também conhecida como Plêiades do Sul; Mag 1.9) culmina por volta da meia -noite, horário local. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250303_17_100"
+				},
+				{
+					"UID": "20250305_15_100@in-the-sky.org",
+					"DTSTAMP": "20250305T130154Z",
+					"DTSTART": "20250305T130154Z",
+					"SUMMARY": "Abordagem próxima da lua e M45",
+					"DESCRIPTION": "A lua e o M45 passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250305_15_100"
+				},
+				{
+					"UID": "20250306_15_100@in-the-sky.org",
+					"DTSTAMP": "20250306T100326Z",
+					"DTSTART": "20250306T100326Z",
+					"SUMMARY": "Abordagem próxima da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250306_15_100"
+				},
+				{
+					"UID": "20250306_20_100@in-the-sky.org",
+					"DTSTAMP": "20250306T113210Z",
+					"DTSTART": "20250306T113210Z",
+					"SUMMARY": "Conjunção da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter compartilham a mesma ascensão reta, a uma separação de 5°33'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250306_20_100"
+				},
+				{
+					"UID": "20250306_08_100@in-the-sky.org",
+					"DTSTAMP": "20250306T163208Z",
+					"DTSTART": "20250306T163208Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250306_08_100"
+				},
+				{
+					"UID": "20250307_11_100@in-the-sky.org",
+					"DTSTAMP": "20250307T090017Z",
+					"DTSTART": "20250307T090017Z",
+					"SUMMARY": "Mercúrio em Dicotomia",
+					"DESCRIPTION": "Mercúrio atinge meia fase no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250307_11_100"
+				},
+				{
+					"UID": "20250308_11_100@in-the-sky.org",
+					"DTSTAMP": "20250305T014127Z",
+					"DTSTART": "20250305T014127Z",
+					"SUMMARY": "Mercúrio em mais alta altitude no céu noturno",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250308_11_100"
+				},
+				{
+					"UID": "20250308_11_101@in-the-sky.org",
+					"DTSTAMP": "20250308T014127Z",
+					"DTSTART": "20250308T014127Z",
+					"SUMMARY": "Mercúrio no maior alongamento leste",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250308_11_101"
+				},
+				{
+					"UID": "20250309_20_100@in-the-sky.org",
+					"DTSTAMP": "20250309T002714Z",
+					"DTSTART": "20250309T002714Z",
+					"SUMMARY": "Conjunção da lua e Marte",
+					"DESCRIPTION": "A lua e Marte compartilham a mesma ascensão reta, a uma separação de 1°40'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250309_20_100"
+				},
+				{
+					"UID": "20250309_15_100@in-the-sky.org",
+					"DTSTAMP": "20250309T005735Z",
+					"DTSTART": "20250309T005735Z",
+					"SUMMARY": "Abordagem próxima da lua e Marte",
+					"DESCRIPTION": "A lua e Marte passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250309_15_100"
+				},
+				{
+					"UID": "20250314_08_100@in-the-sky.org",
+					"DTSTAMP": "20250314T065431Z",
+					"DTSTART": "20250314T065431Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250314_08_100"
+				},
+				{
+					"UID": "20250314_09_100@in-the-sky.org",
+					"DTSTAMP": "20250314T065859Z",
+					"DTSTART": "20250314T065859Z",
+					"SUMMARY": "Eclipse lunar total",
+					"DESCRIPTION": "Haverá um eclipse da lua, visível das Américas, Antártica, Alasca, Nordeste da Rússia e África. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250314_09_100"
+				},
+				{
+					"UID": "20250314_10_100@in-the-sky.org",
+					"DTSTAMP": "20250314T164819Z",
+					"DTSTART": "20250314T164819Z",
+					"SUMMARY": "γ-normid meteor chuveiro 2025",
+					"DESCRIPTION": "O chuveiro de meteoros γ-Normid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250314_10_100"
+				},
+				{
+					"UID": "20250320_07_100@in-the-sky.org",
+					"DTSTAMP": "20250320T090136Z",
+					"DTSTART": "20250320T090136Z",
+					"SUMMARY": "Equinox de março",
+					"DESCRIPTION": "Dia e noite têm o mesmo comprimento, marcando o início da primavera no hemisfério e outono norte no hemisfério sul. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250320_07_100"
+				},
+				{
+					"UID": "20250322_08_100@in-the-sky.org",
+					"DTSTAMP": "20250322T113000Z",
+					"DTSTART": "20250322T113000Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250322_08_100"
+				},
+				{
+					"UID": "20250323_12_100@in-the-sky.org",
+					"DTSTAMP": "20250323T160448Z",
+					"DTSTART": "20250323T160448Z",
+					"SUMMARY": "Crossing do avião de Saturno",
+					"DESCRIPTION": "As estações de Saturno estão mudando, fazendo com que seus anéis pareçam a partir da terra. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250323_12_100"
+				},
+				{
+					"UID": "20250329_09_100@in-the-sky.org",
+					"DTSTAMP": "20250329T104800Z",
+					"DTSTART": "20250329T104800Z",
+					"SUMMARY": "Eclipse solar parcial",
+					"DESCRIPTION": "Haverá um eclipse do Sol, visível das Américas, Rússia Ocidental, Europa e África. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250329_09_100"
+				},
+				{
+					"UID": "20250401_15_100@in-the-sky.org",
+					"DTSTAMP": "20250401T205723Z",
+					"DTSTART": "20250401T205723Z",
+					"SUMMARY": "Abordagem próxima da lua e M45",
+					"DESCRIPTION": "A lua e o M45 passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250401_15_100"
+				},
+				{
+					"UID": "20250402_15_100@in-the-sky.org",
+					"DTSTAMP": "20250402T231544Z",
+					"DTSTART": "20250402T231544Z",
+					"SUMMARY": "Abordagem próxima da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250402_15_100"
+				},
+				{
+					"UID": "20250403_20_100@in-the-sky.org",
+					"DTSTAMP": "20250403T002441Z",
+					"DTSTART": "20250403T002441Z",
+					"SUMMARY": "Conjunção da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter compartilham a mesma ascensão reta, a uma separação de 5°30'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250403_20_100"
+				},
+				{
+					"UID": "20250405_08_100@in-the-sky.org",
+					"DTSTAMP": "20250405T021512Z",
+					"DTSTART": "20250405T021512Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250405_08_100"
+				},
+				{
+					"UID": "20250405_20_100@in-the-sky.org",
+					"DTSTAMP": "20250405T190400Z",
+					"DTSTART": "20250405T190400Z",
+					"SUMMARY": "Conjunção da lua e Marte",
+					"DESCRIPTION": "A lua e Marte compartilham a mesma ascensão reta, a uma separação de 2°09'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250405_20_100"
+				},
+				{
+					"UID": "20250405_15_100@in-the-sky.org",
+					"DTSTAMP": "20250405T195902Z",
+					"DTSTART": "20250405T195902Z",
+					"SUMMARY": "Abordagem próxima da lua e Marte",
+					"DESCRIPTION": "A lua e Marte passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250405_15_100"
+				},
+				{
+					"UID": "20250413_08_100@in-the-sky.org",
+					"DTSTAMP": "20250413T002208Z",
+					"DTSTART": "20250413T002208Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250413_08_100"
+				},
+				{
+					"UID": "20250421_08_100@in-the-sky.org",
+					"DTSTAMP": "20250421T013608Z",
+					"DTSTART": "20250421T013608Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250421_08_100"
+				},
+				{
+					"UID": "20250421_11_101@in-the-sky.org",
+					"DTSTAMP": "20250421T150603Z",
+					"DTSTART": "20250421T150603Z",
+					"SUMMARY": "Mercúrio no maior alongamento oeste",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250421_11_101"
+				},
+				{
+					"UID": "20250421_11_100@in-the-sky.org",
+					"DTSTAMP": "20250422T150603Z",
+					"DTSTART": "20250422T150603Z",
+					"SUMMARY": "Mercúrio em mais alta altitude no céu da manhã",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250421_11_100"
+				},
+				{
+					"UID": "20250422_10_100@in-the-sky.org",
+					"DTSTAMP": "20250422T131227Z",
+					"DTSTART": "20250422T131227Z",
+					"SUMMARY": "Lyrid Meteor Shower 2025",
+					"DESCRIPTION": "O chuveiro de meteoros lyrid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250422_10_100"
+				},
+				{
+					"UID": "20250423_10_100@in-the-sky.org",
+					"DTSTAMP": "20250423T184441Z",
+					"DTSTART": "20250423T184441Z",
+					"SUMMARY": "π-pupid meteoro chuveiro 2025",
+					"DESCRIPTION": "O chuveiro de meteoros π-Puppid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250423_10_100"
+				},
+				{
+					"UID": "20250424_11_100@in-the-sky.org",
+					"DTSTAMP": "20250424T060208Z",
+					"DTSTART": "20250424T060208Z",
+					"SUMMARY": "Vênus com maior brilho",
+					"DESCRIPTION": "Vênus atinge seu maior brilho no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250424_11_100"
+				},
+				{
+					"UID": "20250424_11_101@in-the-sky.org",
+					"DTSTAMP": "20250424T154104Z",
+					"DTSTART": "20250424T154104Z",
+					"SUMMARY": "Mercúrio em Dicotomia",
+					"DESCRIPTION": "Mercúrio atinge meia fase no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250424_11_101"
+				},
+				{
+					"UID": "20250425_20_100@in-the-sky.org",
+					"DTSTAMP": "20250425T012132Z",
+					"DTSTART": "20250425T012132Z",
+					"SUMMARY": "Conjunção da lua e Vênus",
+					"DESCRIPTION": "A lua e a Vênus compartilham a mesma ascensão reta, a uma separação de 2°23'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250425_20_100"
+				},
+				{
+					"UID": "20250425_15_100@in-the-sky.org",
+					"DTSTAMP": "20250425T023548Z",
+					"DTSTART": "20250425T023548Z",
+					"SUMMARY": "Abordagem próxima da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250425_15_100"
+				},
+				{
+					"UID": "20250425_15_101@in-the-sky.org",
+					"DTSTAMP": "20250425T031956Z",
+					"DTSTART": "20250425T031956Z",
+					"SUMMARY": "Abordagem próxima da lua e Vênus",
+					"DESCRIPTION": "A lua e Vênus passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250425_15_101"
+				},
+				{
+					"UID": "20250425_20_101@in-the-sky.org",
+					"DTSTAMP": "20250425T042344Z",
+					"DTSTART": "20250425T042344Z",
+					"SUMMARY": "Conjunção da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno compartilham a mesma ascensão reta, a uma separação de 2°17'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250425_20_101"
+				},
+				{
+					"UID": "20250428_15_100@in-the-sky.org",
+					"DTSTAMP": "20250428T225554Z",
+					"DTSTART": "20250428T225554Z",
+					"SUMMARY": "Abordagem próxima de Vênus, Saturno e Netuno",
+					"DESCRIPTION": "Vênus, Saturno e Netuno passam dentro de 3°42'de si. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250428_15_100"
+				},
+				{
+					"UID": "20250429_20_100@in-the-sky.org",
+					"DTSTAMP": "20250429T022359Z",
+					"DTSTART": "20250429T022359Z",
+					"SUMMARY": "Conjunto de Vênus e Saturno",
+					"DESCRIPTION": "Vênus e Saturno compartilham a mesma ascensão reta, a uma separação de 3°43'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250429_20_100"
+				},
+				{
+					"UID": "20250430_15_100@in-the-sky.org",
+					"DTSTAMP": "20250430T165404Z",
+					"DTSTART": "20250430T165404Z",
+					"SUMMARY": "Abordagem próxima da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250430_15_100"
+				},
+				{
+					"UID": "20250430_20_100@in-the-sky.org",
+					"DTSTAMP": "20250430T173501Z",
+					"DTSTART": "20250430T173501Z",
+					"SUMMARY": "Conjunção da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter compartilham a mesma ascensão reta, a uma separação de 5°23'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250430_20_100"
+				},
+				{
+					"UID": "20250503_20_100@in-the-sky.org",
+					"DTSTAMP": "20250503T231223Z",
+					"DTSTART": "20250503T231223Z",
+					"SUMMARY": "Conjunção da lua e Marte",
+					"DESCRIPTION": "A lua e Marte compartilham a mesma ascensão reta, a uma separação de 2°04'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250503_20_100"
+				},
+				{
+					"UID": "20250504_15_100@in-the-sky.org",
+					"DTSTAMP": "20250504T002600Z",
+					"DTSTART": "20250504T002600Z",
+					"SUMMARY": "Abordagem próxima da lua e Marte",
+					"DESCRIPTION": "A lua e Marte passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250504_15_100"
+				},
+				{
+					"UID": "20250504_08_100@in-the-sky.org",
+					"DTSTAMP": "20250504T135218Z",
+					"DTSTART": "20250504T135218Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250504_08_100"
+				},
+				{
+					"UID": "20250506_10_100@in-the-sky.org",
+					"DTSTAMP": "20250506T030815Z",
+					"DTSTART": "20250506T030815Z",
+					"SUMMARY": "η-aquariid Meteor Chusel 2025",
+					"DESCRIPTION": "O chuveiro de meteoros η-aquariid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250506_10_100"
+				},
+				{
+					"UID": "20250506_12_100@in-the-sky.org",
+					"DTSTAMP": "20250506T060926Z",
+					"DTSTART": "20250506T060926Z",
+					"SUMMARY": "Equinox em Saturno",
+					"DESCRIPTION": "As estações de Saturno estão mudando, fazendo com que seus anéis pareçam a partir da terra. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250506_12_100"
+				},
+				{
+					"UID": "20250508_10_100@in-the-sky.org",
+					"DTSTAMP": "20250508T170832Z",
+					"DTSTART": "20250508T170832Z",
+					"SUMMARY": "η-lyrid meteor chuveiro 2025",
+					"DESCRIPTION": "O chuveiro de meteoros η-lyrid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250508_10_100"
+				},
+				{
+					"UID": "20250512_08_100@in-the-sky.org",
+					"DTSTAMP": "20250512T165546Z",
+					"DTSTART": "20250512T165546Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250512_08_100"
+				},
+				{
+					"UID": "20250520_08_100@in-the-sky.org",
+					"DTSTAMP": "20250520T115916Z",
+					"DTSTART": "20250520T115916Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250520_08_100"
+				},
+				{
+					"UID": "20250522_15_100@in-the-sky.org",
+					"DTSTAMP": "20250522T154411Z",
+					"DTSTART": "20250522T154411Z",
+					"SUMMARY": "Abordagem próxima da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250522_15_100"
+				},
+				{
+					"UID": "20250522_20_100@in-the-sky.org",
+					"DTSTAMP": "20250522T180036Z",
+					"DTSTART": "20250522T180036Z",
+					"SUMMARY": "Conjunção da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno compartilham a mesma ascensão reta, a uma separação de 2°49'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250522_20_100"
+				},
+				{
+					"UID": "20250523_15_100@in-the-sky.org",
+					"DTSTAMP": "20250523T203850Z",
+					"DTSTART": "20250523T203850Z",
+					"SUMMARY": "Abordagem próxima da lua e Vênus",
+					"DESCRIPTION": "A lua e Vênus passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250523_15_100"
+				},
+				{
+					"UID": "20250523_20_100@in-the-sky.org",
+					"DTSTAMP": "20250523T235148Z",
+					"DTSTART": "20250523T235148Z",
+					"SUMMARY": "Conjunção da lua e Vênus",
+					"DESCRIPTION": "A Lua e Vênus compartilham a mesma ascensão reta, a uma separação de 3°59'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250523_20_100"
+				},
+				{
+					"UID": "20250531_11_101@in-the-sky.org",
+					"DTSTAMP": "20250524T205731Z",
+					"DTSTART": "20250524T205731Z",
+					"SUMMARY": "Vênus em maior altitude no céu da manhã",
+					"DESCRIPTION": "Vênus é brilhante e bem colocado no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250531_11_101"
+				},
+				{
+					"UID": "20250531_11_102@in-the-sky.org",
+					"DTSTAMP": "20250531T205731Z",
+					"DTSTART": "20250531T205731Z",
+					"SUMMARY": "Vênus no maior alongamento oeste",
+					"DESCRIPTION": "Vênus é brilhante e bem colocado no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250531_11_102"
+				},
+				{
+					"UID": "20250601_20_100@in-the-sky.org",
+					"DTSTAMP": "20250601T094856Z",
+					"DTSTART": "20250601T094856Z",
+					"SUMMARY": "Conjunção da lua e Marte",
+					"DESCRIPTION": "A lua e Marte compartilham a mesma ascensão reta, a uma separação de 1°23'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250601_20_100"
+				},
+				{
+					"UID": "20250601_15_100@in-the-sky.org",
+					"DTSTAMP": "20250601T105213Z",
+					"DTSTART": "20250601T105213Z",
+					"SUMMARY": "Abordagem próxima da lua e Marte",
+					"DESCRIPTION": "A lua e Marte passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250601_15_100"
+				},
+				{
+					"UID": "20250601_11_100@in-the-sky.org",
+					"DTSTAMP": "20250601T213121Z",
+					"DTSTART": "20250601T213121Z",
+					"SUMMARY": "Vênus em dicotomia",
+					"DESCRIPTION": "Vênus atinge meia fase no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250601_11_100"
+				},
+				{
+					"UID": "20250603_08_100@in-the-sky.org",
+					"DTSTAMP": "20250603T034133Z",
+					"DTSTART": "20250603T034133Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250603_08_100"
+				},
+				{
+					"UID": "20250610_10_100@in-the-sky.org",
+					"DTSTAMP": "20250610T141844Z",
+					"DTSTART": "20250610T141844Z",
+					"SUMMARY": "Chuveiro de meteoros de arietida diurno 2025",
+					"DESCRIPTION": "O chuveiro de meteoros arietida diurno atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250610_10_100"
+				},
+				{
+					"UID": "20250611_08_100@in-the-sky.org",
+					"DTSTAMP": "20250611T074341Z",
+					"DTSTART": "20250611T074341Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250611_08_100"
+				},
+				{
+					"UID": "20250618_08_100@in-the-sky.org",
+					"DTSTAMP": "20250618T191936Z",
+					"DTSTART": "20250618T191936Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250618_08_100"
+				},
+				{
+					"UID": "20250619_15_100@in-the-sky.org",
+					"DTSTAMP": "20250619T011100Z",
+					"DTSTART": "20250619T011100Z",
+					"SUMMARY": "Abordagem próxima da lua, Saturno e Netuno",
+					"DESCRIPTION": "A lua, Saturno e Netuno passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250619_15_100"
+				},
+				{
+					"UID": "20250619_20_100@in-the-sky.org",
+					"DTSTAMP": "20250619T035735Z",
+					"DTSTART": "20250619T035735Z",
+					"SUMMARY": "Conjunção da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno compartilham a mesma ascensão reta, a uma separação de 3°23'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250619_20_100"
+				},
+				{
+					"UID": "20250621_07_100@in-the-sky.org",
+					"DTSTAMP": "20250621T024256Z",
+					"DTSTART": "20250621T024256Z",
+					"SUMMARY": "Solstício de junho",
+					"DESCRIPTION": "21 de junho será o dia mais curto de 2025 no Hemisfério Sul. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250621_07_100"
+				},
+				{
+					"UID": "20250622_20_100@in-the-sky.org",
+					"DTSTAMP": "20250622T083638Z",
+					"DTSTART": "20250622T083638Z",
+					"SUMMARY": "Conjunção da lua e Vênus",
+					"DESCRIPTION": "A Lua e Vênus compartilham a mesma ascensão reta, a uma separação de 7°10'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250622_20_100"
+				},
+				{
+					"UID": "20250627_10_100@in-the-sky.org",
+					"DTSTAMP": "20250627T110143Z",
+					"DTSTART": "20250627T110143Z",
+					"SUMMARY": "Junho Bootid Meteor Shower 2025",
+					"DESCRIPTION": "O chuveiro de meteoros do BootId de junho atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250627_10_100"
+				},
+				{
+					"UID": "20250628_11_100@in-the-sky.org",
+					"DTSTAMP": "20250628T212525Z",
+					"DTSTART": "20250628T212525Z",
+					"SUMMARY": "Mercúrio em Dicotomia",
+					"DESCRIPTION": "Mercúrio atinge meia fase no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250628_11_100"
+				},
+				{
+					"UID": "20250630_20_100@in-the-sky.org",
+					"DTSTAMP": "20250630T010450Z",
+					"DTSTART": "20250630T010450Z",
+					"SUMMARY": "Conjunção da lua e Marte",
+					"DESCRIPTION": "A lua e Marte compartilham a mesma ascensão reta, a uma separação de 12'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250630_20_100"
+				},
+				{
+					"UID": "20250630_15_100@in-the-sky.org",
+					"DTSTAMP": "20250630T011600Z",
+					"DTSTART": "20250630T011600Z",
+					"SUMMARY": "Abordagem próxima da lua e Marte",
+					"DESCRIPTION": "A lua e Marte passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250630_15_100"
+				},
+				{
+					"UID": "20250702_08_100@in-the-sky.org",
+					"DTSTAMP": "20250702T193046Z",
+					"DTSTART": "20250702T193046Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250702_08_100"
+				},
+				{
+					"UID": "20250703_07_100@in-the-sky.org",
+					"DTSTAMP": "20250703T195448Z",
+					"DTSTART": "20250703T195448Z",
+					"SUMMARY": "A terra em Aphelion",
+					"DESCRIPTION": "A Terra atinge seu ponto mais distante do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250703_07_100"
+				},
+				{
+					"UID": "20250704_11_101@in-the-sky.org",
+					"DTSTAMP": "20250704T043719Z",
+					"DTSTART": "20250704T043719Z",
+					"SUMMARY": "Mercúrio no maior alongamento leste",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250704_11_101"
+				},
+				{
+					"UID": "20250704_11_100@in-the-sky.org",
+					"DTSTAMP": "20250706T043719Z",
+					"DTSTART": "20250706T043719Z",
+					"SUMMARY": "Mercúrio em mais alta altitude no céu noturno",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250704_11_100"
+				},
+				{
+					"UID": "20250710_08_101@in-the-sky.org",
+					"DTSTAMP": "20250710T203641Z",
+					"DTSTART": "20250710T203641Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250710_08_101"
+				},
+				{
+					"UID": "20250713_12_100@in-the-sky.org",
+					"DTSTAMP": "20250713T040037Z",
+					"DTSTART": "20250713T040037Z",
+					"SUMMARY": "Saturno entra em movimento retrógrado",
+					"DESCRIPTION": "Saturno reverte sua direção de movimento no céu. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250713_12_100"
+				},
+				{
+					"UID": "20250716_15_100@in-the-sky.org",
+					"DTSTAMP": "20250716T072145Z",
+					"DTSTART": "20250716T072145Z",
+					"SUMMARY": "Abordagem próxima da lua, Saturno e Netuno",
+					"DESCRIPTION": "A lua, Saturno e Netuno passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250716_15_100"
+				},
+				{
+					"UID": "20250716_20_100@in-the-sky.org",
+					"DTSTAMP": "20250716T103049Z",
+					"DTSTART": "20250716T103049Z",
+					"SUMMARY": "Conjunção da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno compartilham a mesma ascensão reta, a uma separação de 3°50'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250716_20_100"
+				},
+				{
+					"UID": "20250718_08_100@in-the-sky.org",
+					"DTSTAMP": "20250718T003807Z",
+					"DTSTART": "20250718T003807Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250718_08_100"
+				},
+				{
+					"UID": "20250720_15_100@in-the-sky.org",
+					"DTSTAMP": "20250720T105501Z",
+					"DTSTART": "20250720T105501Z",
+					"SUMMARY": "Abordagem próxima da lua e M45",
+					"DESCRIPTION": "A lua e o M45 passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250720_15_100"
+				},
+				{
+					"UID": "20250721_20_100@in-the-sky.org",
+					"DTSTAMP": "20250721T192710Z",
+					"DTSTART": "20250721T192710Z",
+					"SUMMARY": "Conjunção da lua e Vênus",
+					"DESCRIPTION": "A Lua e Vênus compartilham a mesma ascensão reta, a uma separação de 7°07'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250721_20_100"
+				},
+				{
+					"UID": "20250728_15_100@in-the-sky.org",
+					"DTSTAMP": "20250728T183007Z",
+					"DTSTART": "20250728T183007Z",
+					"SUMMARY": "Abordagem próxima da lua e Marte",
+					"DESCRIPTION": "A lua e Marte passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250728_15_100"
+				},
+				{
+					"UID": "20250728_20_100@in-the-sky.org",
+					"DTSTAMP": "20250728T194503Z",
+					"DTSTART": "20250728T194503Z",
+					"SUMMARY": "Conjunção da lua e Marte",
+					"DESCRIPTION": "A lua e Marte compartilham a mesma ascensão reta, a uma separação de 1°17'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250728_20_100"
+				},
+				{
+					"UID": "20250728_10_100@in-the-sky.org",
+					"DTSTAMP": "20250728T213832Z",
+					"DTSTART": "20250728T213832Z",
+					"SUMMARY": "PISCIS AUSTRINID METEOR SHOW 2025",
+					"DESCRIPTION": "O chuveiro de meteoros austrinídeos Piscis atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250728_10_100"
+				},
+				{
+					"UID": "20250730_10_100@in-the-sky.org",
+					"DTSTAMP": "20250730T061605Z",
+					"DTSTART": "20250730T061605Z",
+					"SUMMARY": "Chuveiro de meteoros Δ-aquariid do sul 2025",
+					"DESCRIPTION": "O chuveiro de meteoros Δ-aquariid do sul atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250730_10_100"
+				},
+				{
+					"UID": "20250730_10_101@in-the-sky.org",
+					"DTSTAMP": "20250730T063109Z",
+					"DTSTART": "20250730T063109Z",
+					"SUMMARY": "Chuva de meteoros α-capricornid 2025",
+					"DESCRIPTION": "O chuveiro de meteoros α-capricornid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250730_10_101"
+				},
+				{
+					"UID": "20250801_08_100@in-the-sky.org",
+					"DTSTAMP": "20250801T124154Z",
+					"DTSTART": "20250801T124154Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250801_08_100"
+				},
+				{
+					"UID": "20250809_08_100@in-the-sky.org",
+					"DTSTAMP": "20250809T075459Z",
+					"DTSTART": "20250809T075459Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250809_08_100"
+				},
+				{
+					"UID": "20250812_15_100@in-the-sky.org",
+					"DTSTAMP": "20250812T063905Z",
+					"DTSTART": "20250812T063905Z",
+					"SUMMARY": "Abordagem próxima de Vênus e Júpiter",
+					"DESCRIPTION": "Vênus e Júpiter passam dentro de 51'um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250812_15_100"
+				},
+				{
+					"UID": "20250812_20_100@in-the-sky.org",
+					"DTSTAMP": "20250812T074044Z",
+					"DTSTART": "20250812T074044Z",
+					"SUMMARY": "Conjunção de Vênus e Júpiter",
+					"DESCRIPTION": "Vênus e Júpiter compartilham a mesma ascensão reta, a uma separação de 51'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250812_20_100"
+				},
+				{
+					"UID": "20250812_15_101@in-the-sky.org",
+					"DTSTAMP": "20250812T120104Z",
+					"DTSTART": "20250812T120104Z",
+					"SUMMARY": "Abordagem próxima da lua, Saturno e Netuno",
+					"DESCRIPTION": "A lua, Saturno e Netuno passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250812_15_101"
+				},
+				{
+					"UID": "20250812_20_101@in-the-sky.org",
+					"DTSTAMP": "20250812T151704Z",
+					"DTSTART": "20250812T151704Z",
+					"SUMMARY": "Conjunção da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno compartilham a mesma ascensão reta, a uma separação de 4°02'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250812_20_101"
+				},
+				{
+					"UID": "20250812_10_100@in-the-sky.org",
+					"DTSTAMP": "20250812T200130Z",
+					"DTSTART": "20250812T200130Z",
+					"SUMMARY": "Chuva de meteoros Perseid 2025",
+					"DESCRIPTION": "O chuveiro de meteoros Perseid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250812_10_100"
+				},
+				{
+					"UID": "20250816_08_100@in-the-sky.org",
+					"DTSTAMP": "20250816T051241Z",
+					"DTSTART": "20250816T051241Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250816_08_100"
+				},
+				{
+					"UID": "20250816_15_100@in-the-sky.org",
+					"DTSTAMP": "20250816T163351Z",
+					"DTSTART": "20250816T163351Z",
+					"SUMMARY": "Abordagem próxima da lua e M45",
+					"DESCRIPTION": "A lua e o M45 passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250816_15_100"
+				},
+				{
+					"UID": "20250818_10_100@in-the-sky.org",
+					"DTSTAMP": "20250818T005527Z",
+					"DTSTART": "20250818T005527Z",
+					"SUMMARY": "Chuveiro de meteoros κ-cígnídeos 2025",
+					"DESCRIPTION": "O chuveiro de meteoros κ-cígnídeos atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250818_10_100"
+				},
+				{
+					"UID": "20250819_11_100@in-the-sky.org",
+					"DTSTAMP": "20250816T122557Z",
+					"DTSTART": "20250816T122557Z",
+					"SUMMARY": "Mercúrio em mais alta altitude no céu da manhã",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250819_11_100"
+				},
+				{
+					"UID": "20250819_11_101@in-the-sky.org",
+					"DTSTAMP": "20250819T122557Z",
+					"DTSTART": "20250819T122557Z",
+					"SUMMARY": "Mercúrio no maior alongamento oeste",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250819_11_101"
+				},
+				{
+					"UID": "20250819_20_100@in-the-sky.org",
+					"DTSTAMP": "20250819T210520Z",
+					"DTSTART": "20250819T210520Z",
+					"SUMMARY": "Conjunção da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter compartilham a mesma ascensão reta, a uma separação de 4°46'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250819_20_100"
+				},
+				{
+					"UID": "20250819_15_100@in-the-sky.org",
+					"DTSTAMP": "20250819T222352Z",
+					"DTSTART": "20250819T222352Z",
+					"SUMMARY": "Abordagem próxima da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250819_15_100"
+				},
+				{
+					"UID": "20250820_20_100@in-the-sky.org",
+					"DTSTAMP": "20250820T105221Z",
+					"DTSTART": "20250820T105221Z",
+					"SUMMARY": "Conjunção da lua e Vênus",
+					"DESCRIPTION": "A Lua e Vênus compartilham a mesma ascensão reta, a uma separação de 4°52'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250820_20_100"
+				},
+				{
+					"UID": "20250821_11_100@in-the-sky.org",
+					"DTSTAMP": "20250821T101934Z",
+					"DTSTART": "20250821T101934Z",
+					"SUMMARY": "Mercúrio em Dicotomia",
+					"DESCRIPTION": "Mercúrio atinge meia fase no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250821_11_100"
+				},
+				{
+					"UID": "20250826_15_100@in-the-sky.org",
+					"DTSTAMP": "20250826T135912Z",
+					"DTSTART": "20250826T135912Z",
+					"SUMMARY": "Abordagem próxima da lua e Marte",
+					"DESCRIPTION": "A lua e Marte passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250826_15_100"
+				},
+				{
+					"UID": "20250826_20_100@in-the-sky.org",
+					"DTSTAMP": "20250826T164158Z",
+					"DTSTART": "20250826T164158Z",
+					"SUMMARY": "Conjunção da lua e Marte",
+					"DESCRIPTION": "A lua e Marte compartilham a mesma ascensão reta, a uma separação de 2°47'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250826_20_100"
+				},
+				{
+					"UID": "20250831_08_100@in-the-sky.org",
+					"DTSTAMP": "20250831T062546Z",
+					"DTSTART": "20250831T062546Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250831_08_100"
+				},
+				{
+					"UID": "20250901_10_100@in-the-sky.org",
+					"DTSTAMP": "20250901T031424Z",
+					"DTSTART": "20250901T031424Z",
+					"SUMMARY": "Chuveiro de meteoros aurígides 2025",
+					"DESCRIPTION": "O chuveiro de meteoros aurígido atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250901_10_100"
+				},
+				{
+					"UID": "20250907_08_100@in-the-sky.org",
+					"DTSTAMP": "20250907T180846Z",
+					"DTSTART": "20250907T180846Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250907_08_100"
+				},
+				{
+					"UID": "20250907_09_100@in-the-sky.org",
+					"DTSTAMP": "20250907T181159Z",
+					"DTSTART": "20250907T181159Z",
+					"SUMMARY": "Eclipse lunar total",
+					"DESCRIPTION": "Haverá um eclipse da lua, visível da Antártica, Ásia, Rússia, África, Oceania e Europa. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250907_09_100"
+				},
+				{
+					"UID": "20250908_15_100@in-the-sky.org",
+					"DTSTAMP": "20250908T171159Z",
+					"DTSTART": "20250908T171159Z",
+					"SUMMARY": "Abordagem próxima da lua, Saturno e Netuno",
+					"DESCRIPTION": "A lua, Saturno e Netuno passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250908_15_100"
+				},
+				{
+					"UID": "20250908_20_100@in-the-sky.org",
+					"DTSTAMP": "20250908T202039Z",
+					"DTSTART": "20250908T202039Z",
+					"SUMMARY": "Conjunção da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno compartilham a mesma ascensão reta, a uma separação de 3°59'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250908_20_100"
+				},
+				{
+					"UID": "20250909_10_100@in-the-sky.org",
+					"DTSTAMP": "20250909T114914Z",
+					"DTSTART": "20250909T114914Z",
+					"SUMMARY": "Setembro ε-vereeid meteor chuveiro 2025",
+					"DESCRIPTION": "O chuveiro de meteoros de setembro de ε-persia atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250909_10_100"
+				},
+				{
+					"UID": "20250912_15_100@in-the-sky.org",
+					"DTSTAMP": "20250912T221051Z",
+					"DTSTART": "20250912T221051Z",
+					"SUMMARY": "Abordagem próxima da lua e M45",
+					"DESCRIPTION": "A lua e o M45 passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250912_15_100"
+				},
+				{
+					"UID": "20250914_08_100@in-the-sky.org",
+					"DTSTAMP": "20250914T103324Z",
+					"DTSTART": "20250914T103324Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250914_08_100"
+				},
+				{
+					"UID": "20250916_20_100@in-the-sky.org",
+					"DTSTAMP": "20250916T110539Z",
+					"DTSTART": "20250916T110539Z",
+					"SUMMARY": "Conjunção da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter compartilham a mesma ascensão reta, a uma separação de 4°33'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250916_20_100"
+				},
+				{
+					"UID": "20250916_15_100@in-the-sky.org",
+					"DTSTAMP": "20250916T124215Z",
+					"DTSTART": "20250916T124215Z",
+					"SUMMARY": "Abordagem próxima da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250916_15_100"
+				},
+				{
+					"UID": "20250921_12_100@in-the-sky.org",
+					"DTSTAMP": "20250921T053736Z",
+					"DTSTART": "20250921T053736Z",
+					"SUMMARY": "Saturno em oposição",
+					"DESCRIPTION": "Saturno está na direção oposta ao sol no céu, tornando -o um pouco mais próximo, mais brilhante e maior do que em outros momentos. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250921_12_100"
+				},
+				{
+					"UID": "20250921_09_100@in-the-sky.org",
+					"DTSTAMP": "20250921T194259Z",
+					"DTSTART": "20250921T194259Z",
+					"SUMMARY": "Eclipse solar parcial",
+					"DESCRIPTION": "Haverá um eclipse do sol, visível da Antártica e da Oceania. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250921_09_100"
+				},
+				{
+					"UID": "20250922_07_100@in-the-sky.org",
+					"DTSTAMP": "20250922T182035Z",
+					"DTSTART": "20250922T182035Z",
+					"SUMMARY": "Equinox de setembro",
+					"DESCRIPTION": "Dia e noite têm o mesmo comprimento, marcando o início do outono no hemisfério norte e a primavera no hemisfério sul. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250922_07_100"
+				},
+				{
+					"UID": "20250927_10_100@in-the-sky.org",
+					"DTSTAMP": "20250927T122818Z",
+					"DTSTART": "20250927T122818Z",
+					"SUMMARY": "Sextantid Meteor Chuveiro 2025",
+					"DESCRIPTION": "O chuveiro de meteoros sextantid do dia atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250927_10_100"
+				},
+				{
+					"UID": "20250929_08_100@in-the-sky.org",
+					"DTSTAMP": "20250929T235426Z",
+					"DTSTART": "20250929T235426Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20250929_08_100"
+				},
+				{
+					"UID": "20251004_17_100@in-the-sky.org",
+					"DTSTAMP": "20251004T235809Z",
+					"DTSTART": "20251004T235809Z",
+					"SUMMARY": "A pequena nuvem de magelanic está bem colocada",
+					"DESCRIPTION": "O companheiro anão da Via Láctea, a pequena nuvem de magellanic (SMC; Mag 2.7), em Tucana culmina por volta da meia -noite, horário local. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251004_17_100"
+				},
+				{
+					"UID": "20251005_15_100@in-the-sky.org",
+					"DTSTAMP": "20251005T235940Z",
+					"DTSTART": "20251005T235940Z",
+					"SUMMARY": "Abordagem próxima da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251005_15_100"
+				},
+				{
+					"UID": "20251006_20_100@in-the-sky.org",
+					"DTSTAMP": "20251006T025712Z",
+					"DTSTART": "20251006T025712Z",
+					"SUMMARY": "Conjunção da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno compartilham a mesma ascensão reta, a uma separação de 3°47'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251006_20_100"
+				},
+				{
+					"UID": "20251007_08_100@in-the-sky.org",
+					"DTSTAMP": "20251007T034729Z",
+					"DTSTART": "20251007T034729Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251007_08_100"
+				},
+				{
+					"UID": "20251008_10_100@in-the-sky.org",
+					"DTSTAMP": "20251008T191230Z",
+					"DTSTART": "20251008T191230Z",
+					"SUMMARY": "Chuveiro de meteoros draconid 2025",
+					"DESCRIPTION": "O chuveiro de meteoros draconídeos atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251008_10_100"
+				},
+				{
+					"UID": "20251010_15_100@in-the-sky.org",
+					"DTSTAMP": "20251010T054332Z",
+					"DTSTART": "20251010T054332Z",
+					"SUMMARY": "Abordagem próxima da lua e M45",
+					"DESCRIPTION": "A lua e o M45 passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251010_15_100"
+				},
+				{
+					"UID": "20251010_10_100@in-the-sky.org",
+					"DTSTAMP": "20251010T100541Z",
+					"DTSTART": "20251010T100541Z",
+					"SUMMARY": "Chuveiro de meteoros do sul de Taurid 2025",
+					"DESCRIPTION": "O chuveiro de meteoros do sul da Taurida atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251010_10_100"
+				},
+				{
+					"UID": "20251011_10_100@in-the-sky.org",
+					"DTSTAMP": "20251011T102242Z",
+					"DTSTART": "20251011T102242Z",
+					"SUMMARY": "Δ-aurigid meteor chuveiro 2025",
+					"DESCRIPTION": "O chuveiro de meteoros Δ-Aurigid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251011_10_100"
+				},
+				{
+					"UID": "20251013_08_100@in-the-sky.org",
+					"DTSTAMP": "20251013T181312Z",
+					"DTSTART": "20251013T181312Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251013_08_100"
+				},
+				{
+					"UID": "20251013_20_100@in-the-sky.org",
+					"DTSTAMP": "20251013T223046Z",
+					"DTSTART": "20251013T223046Z",
+					"SUMMARY": "Conjunção da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter compartilham a mesma ascensão reta, a uma separação de 4°16'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251013_20_100"
+				},
+				{
+					"UID": "20251014_15_100@in-the-sky.org",
+					"DTSTAMP": "20251014T001248Z",
+					"DTSTART": "20251014T001248Z",
+					"SUMMARY": "Abordagem próxima da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251014_15_100"
+				},
+				{
+					"UID": "20251018_10_100@in-the-sky.org",
+					"DTSTAMP": "20251018T115509Z",
+					"DTSTART": "20251018T115509Z",
+					"SUMMARY": "ε-geminida chuveiro de meteoros 2025",
+					"DESCRIPTION": "O chuveiro de meteoros ε-geminídeos atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251018_10_100"
+				},
+				{
+					"UID": "20251021_10_100@in-the-sky.org",
+					"DTSTAMP": "20251021T122110Z",
+					"DTSTART": "20251021T122110Z",
+					"SUMMARY": "Chuveiro de meteoros Orionid 2025",
+					"DESCRIPTION": "O chuveiro de meteoros Orionídeo atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251021_10_100"
+				},
+				{
+					"UID": "20251024_10_100@in-the-sky.org",
+					"DTSTAMP": "20251024T123954Z",
+					"DTSTART": "20251024T123954Z",
+					"SUMMARY": "LEONIS MINORID METEOR SHOW 2025",
+					"DESCRIPTION": "O chuveiro de meteoros de Leonis Minorid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251024_10_100"
+				},
+				{
+					"UID": "20251029_08_100@in-the-sky.org",
+					"DTSTAMP": "20251029T162124Z",
+					"DTSTART": "20251029T162124Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251029_08_100"
+				},
+				{
+					"UID": "20251029_11_100@in-the-sky.org",
+					"DTSTAMP": "20251029T202812Z",
+					"DTSTART": "20251029T202812Z",
+					"SUMMARY": "Mercúrio em mais alta altitude no céu noturno",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251029_11_100"
+				},
+				{
+					"UID": "20251029_11_101@in-the-sky.org",
+					"DTSTAMP": "20251029T202812Z",
+					"DTSTART": "20251029T202812Z",
+					"SUMMARY": "Mercúrio no maior alongamento leste",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251029_11_101"
+				},
+				{
+					"UID": "20251102_15_100@in-the-sky.org",
+					"DTSTAMP": "20251102T080145Z",
+					"DTSTART": "20251102T080145Z",
+					"SUMMARY": "Abordagem próxima da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251102_15_100"
+				},
+				{
+					"UID": "20251102_20_100@in-the-sky.org",
+					"DTSTAMP": "20251102T105636Z",
+					"DTSTART": "20251102T105636Z",
+					"SUMMARY": "Conjunção da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno compartilham a mesma ascensão reta, a uma separação de 3°39'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251102_20_100"
+				},
+				{
+					"UID": "20251104_11_100@in-the-sky.org",
+					"DTSTAMP": "20251104T031646Z",
+					"DTSTART": "20251104T031646Z",
+					"SUMMARY": "Mercúrio em Dicotomia",
+					"DESCRIPTION": "Mercúrio atinge meia fase no céu noturno. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251104_11_100"
+				},
+				{
+					"UID": "20251105_08_100@in-the-sky.org",
+					"DTSTAMP": "20251105T131910Z",
+					"DTSTART": "20251105T131910Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251105_08_100"
+				},
+				{
+					"UID": "20251106_15_100@in-the-sky.org",
+					"DTSTAMP": "20251106T155134Z",
+					"DTSTART": "20251106T155134Z",
+					"SUMMARY": "Abordagem próxima da lua e M45",
+					"DESCRIPTION": "A lua e o M45 passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251106_15_100"
+				},
+				{
+					"UID": "20251110_20_100@in-the-sky.org",
+					"DTSTAMP": "20251110T075549Z",
+					"DTSTART": "20251110T075549Z",
+					"SUMMARY": "Conjunção da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter compartilham a mesma ascensão reta, a uma separação de 3°56'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251110_20_100"
+				},
+				{
+					"UID": "20251110_15_100@in-the-sky.org",
+					"DTSTAMP": "20251110T093113Z",
+					"DTSTART": "20251110T093113Z",
+					"SUMMARY": "Abordagem próxima da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251110_15_100"
+				},
+				{
+					"UID": "20251111_12_100@in-the-sky.org",
+					"DTSTAMP": "20251111T163711z",
+					"DTSTART": "20251111T163711z",
+					"SUMMARY": "Júpiter entra em movimento retrógrado",
+					"DESCRIPTION": "Júpiter reverte sua direção de movimento no céu. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251111_12_100"
+				},
+				{
+					"UID": "20251112_08_100@in-the-sky.org",
+					"DTSTAMP": "20251112T052841Z",
+					"DTSTART": "20251112T052841Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251112_08_100"
+				},
+				{
+					"UID": "20251112_10_100@in-the-sky.org",
+					"DTSTAMP": "20251112T121231Z",
+					"DTSTART": "20251112T121231Z",
+					"SUMMARY": "Chuveiro de meteoros do norte de Taurid 2025",
+					"DESCRIPTION": "O chuveiro de meteoros do norte da Taurida atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251112_10_100"
+				},
+				{
+					"UID": "20251117_10_100@in-the-sky.org",
+					"DTSTAMP": "20251117T182937Z",
+					"DTSTART": "20251117T182937Z",
+					"SUMMARY": "LEONID METEOR SHOW 2025",
+					"DESCRIPTION": "O chuveiro de meteoros Leonid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251117_10_100"
+				},
+				{
+					"UID": "20251117_17_100@in-the-sky.org",
+					"DTSTAMP": "20251117T235936Z",
+					"DTSTART": "20251117T235936Z",
+					"SUMMARY": "O cluster das Pleiades está bem colocado",
+					"DESCRIPTION": "O cluster de estrelas abertas das Plêiades (M45; MAG 1.3) em Touro culmina por volta da meia -noite, horário local. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251117_17_100"
+				},
+				{
+					"UID": "20251121_10_100@in-the-sky.org",
+					"DTSTAMP": "20251121T173547Z",
+					"DTSTART": "20251121T173547Z",
+					"SUMMARY": "Chuva de meteoros α-monocerotida 2025",
+					"DESCRIPTION": "O chuveiro de meteoros α-monocerotida atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251121_10_100"
+				},
+				{
+					"UID": "20251127_17_100@in-the-sky.org",
+					"DTSTAMP": "20251127T235938Z",
+					"DTSTART": "20251127T235938Z",
+					"SUMMARY": "O cluster Hyades está bem colocado",
+					"DESCRIPTION": "O cluster de estrelas abertas do Hyades (Collinder 50; MAG 1.0) em Touro culmina por volta da meia -noite, horário local. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251127_17_100"
+				},
+				{
+					"UID": "20251128_12_100@in-the-sky.org",
+					"DTSTAMP": "20251128T034509Z",
+					"DTSTART": "20251128T034509Z",
+					"SUMMARY": "Saturno termina o movimento retrógrado",
+					"DESCRIPTION": "Saturno retorna ao seu movimento habitual para o leste após a oposição. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251128_12_100"
+				},
+				{
+					"UID": "20251128_08_100@in-the-sky.org",
+					"DTSTAMP": "20251128T065921Z",
+					"DTSTART": "20251128T065921Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251128_08_100"
+				},
+				{
+					"UID": "20251128_10_100@in-the-sky.org",
+					"DTSTAMP": "20251128T083507Z",
+					"DTSTART": "20251128T083507Z",
+					"SUMMARY": "Novembro Orionid Meteor Shower 2025",
+					"DESCRIPTION": "O chuveiro de meteoros de novembro atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251128_10_100"
+				},
+				{
+					"UID": "20251129_15_100@in-the-sky.org",
+					"DTSTAMP": "20251129T161210Z",
+					"DTSTART": "20251129T161210Z",
+					"SUMMARY": "Abordagem próxima da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251129_15_100"
+				},
+				{
+					"UID": "20251129_20_100@in-the-sky.org",
+					"DTSTAMP": "20251129T191812Z",
+					"DTSTART": "20251129T191812Z",
+					"SUMMARY": "Conjunção da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno compartilham a mesma ascensão reta, a uma separação de 3°45'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251129_20_100"
+				},
+				{
+					"UID": "20251202_10_100@in-the-sky.org",
+					"DTSTAMP": "20251202T072141Z",
+					"DTSTART": "20251202T072141Z",
+					"SUMMARY": "Chuveiro de meteoros da feonicida 2025",
+					"DESCRIPTION": "O chuveiro de meteoros da feonicida atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251202_10_100"
+				},
+				{
+					"UID": "20251204_15_100@in-the-sky.org",
+					"DTSTAMP": "20251204T031937Z",
+					"DTSTART": "20251204T031937Z",
+					"SUMMARY": "Abordagem próxima da lua e M45",
+					"DESCRIPTION": "A lua e o M45 passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251204_15_100"
+				},
+				{
+					"UID": "20251204_11_100@in-the-sky.org",
+					"DTSTAMP": "20251204T080526Z",
+					"DTSTART": "20251204T080526Z",
+					"SUMMARY": "Mercúrio em Dicotomia",
+					"DESCRIPTION": "Mercúrio atinge meia fase no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251204_11_100"
+				},
+				{
+					"UID": "20251204_08_101@in-the-sky.org",
+					"DTSTAMP": "20251204T231358Z",
+					"DTSTART": "20251204T231358Z",
+					"SUMMARY": "Lua cheia",
+					"DESCRIPTION": "A lua atinge a fase completa e é visível por grande parte da noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251204_08_101"
+				},
+				{
+					"UID": "20251206_10_100@in-the-sky.org",
+					"DTSTAMP": "20251206T060217Z",
+					"DTSTART": "20251206T060217Z",
+					"SUMMARY": "Dezembro φ-Cassiopeid Meteor Church 2025",
+					"DESCRIPTION": "O chuveiro de meteoros-casiopeides de dezembro atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251206_10_100"
+				},
+				{
+					"UID": "20251207_10_100@in-the-sky.org",
+					"DTSTAMP": "20251207T054124Z",
+					"DTSTART": "20251207T054124Z",
+					"SUMMARY": "Chuveiro de meteoros com desenho de filhotes 2025",
+					"DESCRIPTION": "O chuveiro de meteoros de desenho de filhotes atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251207_10_100"
+				},
+				{
+					"UID": "20251207_20_100@in-the-sky.org",
+					"DTSTAMP": "20251207T154721Z",
+					"DTSTART": "20251207T154721Z",
+					"SUMMARY": "Conjunção da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter compartilham a mesma ascensão reta, a uma separação de 3°42'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251207_20_100"
+				},
+				{
+					"UID": "20251207_15_100@in-the-sky.org",
+					"DTSTAMP": "20251207T171058Z",
+					"DTSTART": "20251207T171058Z",
+					"SUMMARY": "Abordagem próxima da lua e Júpiter",
+					"DESCRIPTION": "A lua e Júpiter passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251207_15_100"
+				},
+				{
+					"UID": "20251208_11_101@in-the-sky.org",
+					"DTSTAMP": "20251208T001439Z",
+					"DTSTART": "20251208T001439Z",
+					"SUMMARY": "Mercúrio no maior alongamento oeste",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251208_11_101"
+				},
+				{
+					"UID": "20251208_11_100@in-the-sky.org",
+					"DTSTAMP": "20251211T001439Z",
+					"DTSTART": "20251211T001439Z",
+					"SUMMARY": "Mercúrio em mais alta altitude no céu da manhã",
+					"DESCRIPTION": "Mercúrio é brilhante e bem colocado no céu do amanhecer. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251208_11_100"
+				},
+				{
+					"UID": "20251209_10_100@in-the-sky.org",
+					"DTSTAMP": "20251209T045815Z",
+					"DTSTART": "20251209T045815Z",
+					"SUMMARY": "Chuveiro de meteoro monocerotida 2025",
+					"DESCRIPTION": "O chuveiro de meteoros monocerotida atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251209_10_100"
+				},
+				{
+					"UID": "20251211_08_100@in-the-sky.org",
+					"DTSTAMP": "20251211T205214Z",
+					"DTSTART": "20251211T205214Z",
+					"SUMMARY": "Lua no último trimestre",
+					"DESCRIPTION": "A lua atinge a fase do último trimestre - subindo no leste por volta da meia -noite e aparecendo alto no céu ao nascer do sol. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251211_08_100"
+				},
+				{
+					"UID": "20251212_10_100@in-the-sky.org",
+					"DTSTAMP": "20251212T035008Z",
+					"DTSTART": "20251212T035008Z",
+					"SUMMARY": "σ-hidrid chuveiro de meteoros 2025",
+					"DESCRIPTION": "O chuveiro de meteoros σ-hidrid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251212_10_100"
+				},
+				{
+					"UID": "20251212_17_100@in-the-sky.org",
+					"DTSTAMP": "20251212T235708Z",
+					"DTSTART": "20251212T235708Z",
+					"SUMMARY": "A grande nuvem de magelanic está bem colocada",
+					"DESCRIPTION": "O companheiro anão da Via Láctea, a grande nuvem de magellanic (LMC; MAG 0,9), em Dorado culmina por volta da meia -noite, horário local. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251212_17_100"
+				},
+				{
+					"UID": "20251214_10_100@in-the-sky.org",
+					"DTSTAMP": "20251214T074543Z",
+					"DTSTART": "20251214T074543Z",
+					"SUMMARY": "Chuveiro de meteoros Geminid 2025",
+					"DESCRIPTION": "O chuveiro de meteoros Geminid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251214_10_100"
+				},
+				{
+					"UID": "20251216_10_100@in-the-sky.org",
+					"DTSTAMP": "20251216T021327Z",
+					"DTSTART": "20251216T021327Z",
+					"SUMMARY": "Comee Berenicid Meteor Shower 2025",
+					"DESCRIPTION": "O chuveiro de meteoros de Berenicid Comae atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251216_10_100"
+				},
+				{
+					"UID": "20251220_10_100@in-the-sky.org",
+					"DTSTAMP": "20251220T003130Z",
+					"DTSTART": "20251220T003130Z",
+					"SUMMARY": "Dezembro Leonis Minorid Meteor Shower 2025",
+					"DESCRIPTION": "O chuveiro de meteoros em dezembro de Leonis Minorid atinge seu pico. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251220_10_100"
+				},
+				{
+					"UID": "20251221_07_100@in-the-sky.org",
+					"DTSTAMP": "20251221T150454Z",
+					"DTSTART": "20251221T150454Z",
+					"SUMMARY": "Solstício de dezembro",
+					"DESCRIPTION": "21 de dezembro será o dia mais longo de 2025 no Hemisfério Sul. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251221_07_100"
+				},
+				{
+					"UID": "20251227_15_100@in-the-sky.org",
+					"DTSTAMP": "20251227T000835Z",
+					"DTSTART": "20251227T000835Z",
+					"SUMMARY": "Abordagem próxima da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251227_15_100"
+				},
+				{
+					"UID": "20251227_20_100@in-the-sky.org",
+					"DTSTAMP": "20251227T033418Z",
+					"DTSTART": "20251227T033418Z",
+					"SUMMARY": "Conjunção da lua e Saturno",
+					"DESCRIPTION": "A lua e Saturno compartilham a mesma ascensão reta, a uma separação de 4°01'. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251227_20_100"
+				},
+				{
+					"UID": "20251227_08_100@in-the-sky.org",
+					"DTSTAMP": "20251227T191022Z",
+					"DTSTART": "20251227T191022Z",
+					"SUMMARY": "Lua no primeiro trimestre",
+					"DESCRIPTION": "A lua chega à fase do primeiro trimestre - aparecendo no céu ao pôr do sol e se pondo no oeste por volta da meia -noite. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251227_08_100"
+				},
+				{
+					"UID": "20251231_15_100@in-the-sky.org",
+					"DTSTAMP": "20251231T134553Z",
+					"DTSTART": "20251231T134553Z",
+					"SUMMARY": "Abordagem próxima da lua e M45",
+					"DESCRIPTION": "A lua e o M45 passam perto um do outro. ",
+					"URL": "https://in-the-sky.org/news.php?id=20251231_15_100"
+				}
+			]
+		}
+	]
+}
