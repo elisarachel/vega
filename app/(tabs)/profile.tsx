@@ -313,7 +313,7 @@ export default function ProfileScreen() {
 							</Canvas>
 						</View>
 					</TouchableOpacity>
-					<TouchableOpacity style={styles.linkRow} onPress={() => router.push('/(mobile)/notes')}>
+					<TouchableOpacity style={styles.linkRow} onPress={() => router.push('/(modals)/notes')}>
 						<View style={styles.inlineRow}>
 							<Text style={styles.linkText}>Meu Diário</Text>
 							<Canvas style={styles.rightIcon}>

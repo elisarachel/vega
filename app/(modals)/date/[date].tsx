@@ -270,7 +270,6 @@ const styles = StyleSheet.create({
 		fontFamily: 'Tiny5',
 		fontSize: Math.round(7 * scaleFactor),
 		color: '#18122B',
-		//marginBottom: Math.round(4 * scaleFactor),
 		textTransform: 'uppercase'
 	},
 	moonPhaseCanvas: {
@@ -281,7 +280,6 @@ const styles = StyleSheet.create({
 		fontFamily: 'TinyUnicode',
 		fontSize: Math.round(12 * scaleFactor),
 		color: '#7A7D8D',
-		//marginTop: Math.round(4 * scaleFactor),
 		textTransform: 'capitalize',
 	},
 	sectionTitle: {
@@ -307,7 +305,6 @@ const styles = StyleSheet.create({
 	weatherIcon: {
 		width: Math.round(16 * scaleFactor),
 		height: Math.round(16 * scaleFactor),
-		//marginBottom: Math.round(4 * scaleFactor),
 	},
 	weatherDescription: {
 		fontFamily: 'TinyUnicode',
