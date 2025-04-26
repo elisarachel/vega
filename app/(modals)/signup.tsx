@@ -40,7 +40,8 @@ export default function SignupScreen() {
 		}
 
 		// Verifica se a senha atende aos critérios
-		const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+		const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z\d])[A-Za-z\d\S]{8,}$/
+;
 		if (!passwordRegex.test(password)) {
 			Alert.alert(
 				'Erro',
@@ -50,7 +51,9 @@ export default function SignupScreen() {
 		}
 
 		try {
-			const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+			const cleanedPassword = password.trim();
+
+			const userCredential = await createUserWithEmailAndPassword(auth, email, cleanedPassword);
 			await updateProfile(userCredential.user, {
 				displayName: name
 			});

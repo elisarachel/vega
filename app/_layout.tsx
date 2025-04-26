@@ -5,6 +5,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import LoadingAnimation from '../components/LoadingAnimation';
 import { Stack } from 'expo-router';
 import { initDatabase } from '@/services/database';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -14,6 +15,7 @@ export default function RootLayout() {
 		'TinyUnicode': require('../assets/fonts/TinyUnicode.ttf'),
 		'Tiny5': require('../assets/fonts/Tiny5-Regular.ttf'),
 		'CD-Icons': require('../assets/fonts/CD-IconsPC.ttf'),
+		'Emoji': require('../assets/fonts/EmojiFont.ttf')
 	});
 	const [dbInitialized, setDbInitialized] = useState(false);
 
@@ -54,8 +56,10 @@ export default function RootLayout() {
 	}, [fontsLoaded, dbInitialized]);
 
 	return (
-		<View style={{ flex: 1 }} onLayout={onLayoutRootView}>
-			<Stack screenOptions={{ headerShown: false }} />
-		</View>
+		<GestureHandlerRootView style={{ flex: 1 }}>
+			<View style={{ flex: 1 }} onLayout={onLayoutRootView}>
+				<Stack screenOptions={{ headerShown: false }} />
+			</View>
+		</GestureHandlerRootView>
 	);
 }

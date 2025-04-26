@@ -83,17 +83,15 @@ export default function ProfileScreen() {
 		await signOut(auth);
 	};
 
-	const handleUpdateProfile = async () => {
-		if (user) {
-			await updateProfile(user, { displayName: 'Novo Nome' });
-		}
-	};
-
 	const handleSaveName = async () => {
 		if (user) {
 			try {
 				// Atualiza o nome no Firebase Authentication
 				await updateProfile(user, { displayName: newName });
+
+				// Atualiza o nome na coleção 'users' no Firestore
+				const userDocRef = doc(db, 'users', user.uid);
+				await updateDoc(userDocRef, { name: newName });
 
 				// Atualiza o estado local
 				setIsEditingName(false);
@@ -108,6 +106,10 @@ export default function ProfileScreen() {
 			try {
 				// Atualiza o email no Firebase Authentication
 				await updateEmail(user, newEmail);
+
+				// Atualiza o email na coleção 'users' no Firestore
+				const userDocRef = doc(db, 'users', user.uid);
+				await updateDoc(userDocRef, { email: newEmail });
 
 				// Atualiza o estado local
 				setNewEmail(newEmail);

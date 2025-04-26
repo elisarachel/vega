@@ -20,22 +20,45 @@ export default function useVisibleAstros() {
 				const now = new Date();
 
 				const astros = ['Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Moon', 'Sun'];
+
+				// Calcula a posição do Sol
+				const sunEquator = Equator(Body.Sun, now, observer, true, true);
+				const sunHorizon = Horizon(now, observer, sunEquator.ra, sunEquator.dec, 'normal');
+				const isDaytime = sunHorizon.altitude > 0;
+
+				const sunSet = SearchRiseSet(Body.Sun, observer, -1, new AstroTime(now), 1);
+				const isNight = sunSet ? now > sunSet.date : false;
+
 				const results = await Promise.all(astros.map(async (astro) => {
 					const equator = Equator(astro as Body, now, observer, true, true);
 					const horizon = Horizon(now, observer, equator.ra, equator.dec, 'normal');
 					const riseTime = SearchRiseSet(astro as Body, observer, +1, new AstroTime(now), 1);
 					const setTime = SearchRiseSet(astro as Body, observer, -1, new AstroTime(now), 1);
 
-					return {
-						name: astro,
-						altitude: horizon.altitude,
-						rise: riseTime?.date,
-						set: setTime?.date
-					};
+					// Filtra astros visíveis com base no horário do dia
+					if (horizon.altitude > 0 && (!isDaytime || astro === 'Sun' || astro === 'Moon')) {
+						return {
+							name: astro,
+							altitude: horizon.altitude,
+							rise: riseTime?.date,
+							set: setTime?.date
+						};
+					} else if (riseTime && setTime && (
+						riseTime.date.getTime() - now.getTime() < 12 * 3600 * 1000 &&
+						(sunSet === null || riseTime.date > sunSet.date || isNight || astro === 'Sun' || astro === 'Moon')
+					)) {
+						return {
+							name: astro,
+							altitude: horizon.altitude,
+							rise: riseTime?.date,
+							set: setTime?.date
+						};
+					}
+					return null;
 				}));
 
-				const nowList = results.filter(r => r.altitude > 0);
-				const soonList = results.filter(r => r.altitude <= 0);
+				const nowList = results.filter(r => r && r.altitude > 0);
+				const soonList = results.filter(r => r && r.altitude <= 0);
 
 				setVisibleAstros({ now: nowList, soon: soonList });
 				setLocation({

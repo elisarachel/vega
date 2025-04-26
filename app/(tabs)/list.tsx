@@ -26,6 +26,16 @@ const astroNamesPT: { [key: string]: string } = {
     'Sun': 'Sol'
 };
 
+const astroNamesEN: { [key: string]: string } = {
+    'mercurio': 'mercury',
+    'venus': 'venus',
+    'marte': 'mars',
+    'jupiter': 'jupiter',
+    'saturno': 'saturn',
+    'lua': 'moon',
+    'sol': 'sun'
+};
+
 const astroImages: { [key: string]: any } = {
 	mercury: require('@/assets/images/mercury.png'),
 	venus: require('@/assets/images/venus.png'),
@@ -267,7 +277,11 @@ export default function HomeScreen() {
 				visible={isFilterPopupVisible}
 				onClose={() => setIsFilterPopupVisible(false)}
 				onSelect={(type) => {
-					setSelectedType(type);
+					if (type === 'Favoritos') {
+						setSelectedType('Favoritos');
+					} else {
+						setSelectedType(type);
+					}
 					setIsFilterPopupVisible(false);
 				}}
 			/>
@@ -279,40 +293,50 @@ export default function HomeScreen() {
 			) : (
 				<ScrollView>
 					{/* Visíveis Agora */}
-					{visibleAstros.now.filter((astro) => !selectedType || astro.type === selectedType).length > 0 && (
+					{visibleAstros.now.length > 0 && (
 						<>
 							<SectionHeader icon={require('@/assets/images/eye_icon.png')} text="Visíveis agora" />
-							{visibleAstros.now
-							.filter((astro) => !selectedType || astro.type === selectedType)
-							.map((astro, index) => (
-								<AstroCard
-									key={`now-${index}`}
-									background={require('@/assets/images/blue_card.png')}
-									icon={astroImages[astro.name.toLowerCase()]}
-									name={astroNamesPT[astro.name]}
-									time={astro.time}
-									isVisible={true}
-								/>
-							))}
+							{visibleAstros.now.map((astro, index) => {
+								// Ensure consistent rendering logic
+								const isFavorite = favorites.includes((astroNamesPT[astro.name] || astro.name).toLowerCase());
+								if (selectedType === 'Favoritos' && !isFavorite) return null;
+								if (selectedType && selectedType !== astro.type && selectedType !== 'Favoritos') return null;
+
+								return (
+									<AstroCard
+										key={`now-${index}`}
+										background={require('@/assets/images/blue_card.png')}
+										icon={astroImages[astroNamesEN[astro.name.toLowerCase()]] || astroImages[astro.name.toLowerCase()]}
+										name={astroNamesPT[astro.name]}
+										time={astro.time}
+										isVisible={true}
+									/>
+								);
+							})}
 						</>
 					)}
 
 					{/* Visíveis em Breve */}
-					{visibleAstros.soon.filter((astro) => !selectedType || astro.type === selectedType).length > 0 && (
+					{visibleAstros.soon.length > 0 && (
 						<>
 							<SectionHeader icon={require('@/assets/images/rise_icon.png')} text="Visíveis em breve" />
-							{visibleAstros.soon
-							.filter((astro) => !selectedType || astro.type === selectedType)
-							.map((astro, index) => (
-								<AstroCard
-									key={`soon-${index}`}
-									background={require('@/assets/images/purple_card.png')}
-									icon={astroImages[astro.name.toLowerCase()]}
-									name={astroNamesPT[astro.name]}
-									time={astro.time}
-									isVisible={false}
-								/>
-							))}
+							{visibleAstros.soon.map((astro, index) => {
+								// Ensure consistent rendering logic
+								const isFavorite = favorites.includes((astroNamesPT[astro.name] || astro.name).toLowerCase());
+								if (selectedType === 'Favoritos' && !isFavorite) return null;
+								if (selectedType && selectedType !== astro.type && selectedType !== 'Favoritos') return null;
+
+								return (
+									<AstroCard
+										key={`soon-${index}`}
+										background={require('@/assets/images/purple_card.png')}
+										icon={astroImages[astroNamesEN[astro.name.toLowerCase()]] || astroImages[astro.name.toLowerCase()]}
+										name={astroNamesPT[astro.name]}
+										time={astro.time}
+										isVisible={false}
+									/>
+								);
+							})}
 						</>
 					)}
 
