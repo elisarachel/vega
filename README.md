@@ -48,3 +48,4 @@ O projeto está sendo desenvolvido em três sprints, conforme o backlog definido
 
 ### Créditos
 Eventos: Dominic Ford (https://in-the-sky.org/)
+Astronomy Engine (https://github.com/cosinekitty/astronomy)
