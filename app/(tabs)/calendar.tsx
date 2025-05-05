@@ -204,8 +204,8 @@ export default function Calendar() {
 
 	useEffect(() => {
 		const user = getAuth().currentUser;
-		setIsUserLoggedIn(!!user); // Atualiza o estado de login do usuário
-	}, []); // Remova `isUserLoggedIn` das dependências para evitar loops desnecessários
+		setIsUserLoggedIn(!!user);
+	}, []);
 
 	const handleYearChange = (direction: 'prev' | 'next') => {
 		setCurrentYear((prevYear: number) => {

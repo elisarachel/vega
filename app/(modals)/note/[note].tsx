@@ -25,6 +25,15 @@ const astroNamesPT: { [key: string]: string } = {
     'Sun': 'Sol'
 };
 
+const weatherIcons = {
+	'Céu limpo': require('@/assets/images/ceulimpo.png'),
+	'Parcialmente nublado': require('@/assets/images/parcialmentenublado.png'),
+	'Nublado': require('@/assets/images/nublado.png'),
+	'Chuva': require('@/assets/images/chuvoso.png'),
+	'Neve': require('@/assets/images/neve.png'),
+	'Tempestade': require('@/assets/images/tempestade.png'),
+	'Desconhecido': require('@/assets/images/parcialmentenublado.png')
+};
 
 const ORIGINAL_WIDTH = 144;
 const scaleFactor = Dimensions.get('window').width / ORIGINAL_WIDTH;
@@ -43,14 +52,23 @@ const generateUUID = () => {
 
 export default function NovaNota() {
 	const now = DateTime.now();
-	const { visibleAstros, location } = useVisibleAstros();
-	const { isLoading, moonPhase, weatherDescription, weatherIcon } = useDayInfo();
+	
 
 	const router = useRouter();
 	const routerParams = useLocalSearchParams();
 
 	// Determine if editing or creating a new note
 	const isEditing = typeof routerParams.note === 'string' && routerParams.note !== 'nova';
+
+	const { visibleAstros, location } = isEditing ? { visibleAstros: null, location: null } : useVisibleAstros();
+	const { isLoading, moonPhase, weatherDescription, weatherIcon: calculatedWeatherIcon } = isEditing
+		? { weatherDescription: routerParams.condicaoObservacao as keyof typeof weatherIcons, weatherIcon: null }
+		: useDayInfo();
+
+	// Determine weather icon based on condicaoObservacao when editing
+	const weatherIcon = isEditing
+		? weatherIcons[routerParams.condicaoObservacao as keyof typeof weatherIcons] || weatherIcons['Desconhecido']
+		: calculatedWeatherIcon;
 
 	// State variables
 	const [texto, setTexto] = useState('');
@@ -65,12 +83,27 @@ export default function NovaNota() {
 			setIsLoadingData(true);
 			if (isEditing) {
 				setTexto((routerParams.texto as string) || '');
-				setSelecionados((routerParams.astrosSelecionados as string[]) || []);
+				
+				 // Ensure astrosSelecionados is an array
+				const savedSelecionados = Array.isArray(routerParams.astrosSelecionados)
+					? routerParams.astrosSelecionados
+					: routerParams.astrosSelecionados
+					? [routerParams.astrosSelecionados]
+					: [];
+				setSelecionados(savedSelecionados.map((astro) => astroNamesPT[astro] || astro));
+
 				setFaseDaLua((routerParams.faseDaLua as string) || '');
 				setCondicaoObservacao((routerParams.condicaoObservacao as string) || '');
-				setAstrosVisiveis((routerParams.astrosVisiveis as string[]) || []);
+
+				 // Ensure astrosVisiveis is an array
+				const savedAstros = Array.isArray(routerParams.astrosVisiveis)
+					? routerParams.astrosVisiveis
+					: routerParams.astrosVisiveis
+					? [routerParams.astrosVisiveis]
+					: [];
+				setAstrosVisiveis(savedAstros.map((astro) => astroNamesPT[astro] || astro));
 			} else {
-				setAstrosVisiveis(visibleAstros.now.map((astro) => astro.name));
+				setAstrosVisiveis(Array.isArray(visibleAstros?.now) ? visibleAstros.now.map((astro) => astro.name) : []);
 				const phase = MoonPhase(new Date());
 				if (phase >= 0 && phase < 45 || phase >= 315 && phase < 360) {
 					setFaseDaLua('Lua Nova');
@@ -90,7 +123,7 @@ export default function NovaNota() {
 		};
 
 		loadData();
-	}, [isEditing, weatherDescription]);	
+	}, [isEditing, weatherDescription, visibleAstros]);	
 
 	const moonPhaseImages = {
 		'Lua Nova': require('@/assets/images/nova.png'),
@@ -125,14 +158,19 @@ export default function NovaNota() {
 				}
 			}
 
+			// Save astrosVisiveis in English for consistency in the database
+			const astrosVisiveisInEnglish = selecionados.map((astro) =>
+				Object.keys(astroNamesPT).find((key) => astroNamesPT[key] === astro) || astro
+			);
+
 			const nota = {
 				userId: user.uid,
-				data: now.toISO(), // Salva a data no formato ISO 8601
+				data: now.toISODate(), // Salva a data no formato ISO 8601
 				texto,
 				faseDaLua,
 				condicaoObservacao,
-				astrosSelecionados: selecionados,
-				astrosVisiveis,
+				astrosSelecionados: astrosVisiveisInEnglish,
+				astrosVisiveis: astrosVisiveisInEnglish,
 				location: cityName,
 				criadoEm: now.toISO(),
 			};
@@ -232,7 +270,7 @@ export default function NovaNota() {
 						{isLoading ? (
 							<PixelLoader />
 						) : (
-							astrosVisiveis.map((astro, idx) => {
+							(Array.isArray(astrosVisiveis) ? astrosVisiveis : []).map((astro, idx) => {
 								const isSelected = selecionados.includes(astro);
 
 								return (
@@ -257,7 +295,7 @@ export default function NovaNota() {
 											{/* Nome do astro dentro do canvas */}
 											{font && (
 												<SkiaText
-													text={astroNamesPT[astro]}
+													text={astroNamesPT[astro] || astro} // Fallback to original astro name
 													x={Math.round(16 * scaleFactor)}
 													y={BOX_HEIGHT / 2 + 2 * scaleFactor}
 													color="#18122B"

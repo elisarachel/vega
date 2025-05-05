@@ -74,6 +74,9 @@ export default function VerNota() {
 
 			<Text style={styles.label}>Texto:</Text>
 			<Text style={styles.content}>{nota.texto}</Text>
+
+			<Text style={styles.label}>Cidade:</Text>
+			<Text style={styles.content}>{nota.location}</Text>
 		</ScrollView>
 	);
 }

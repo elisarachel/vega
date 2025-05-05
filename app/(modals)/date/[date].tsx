@@ -322,6 +322,9 @@ export default function DateModal() {
 								<Text style={styles.label}>Texto:</Text>
 								<Text style={styles.content}>{note.texto}</Text>
 
+								<Text style={styles.label}>Cidade:</Text>
+								<Text style={styles.content}>{note.location}</Text>
+
 								{userNote.length > 1 && idx < userNote.length - 1 && (
 									<Text style={styles.separator}>D</Text>
 								)}
