@@ -25,8 +25,6 @@ O projeto está sendo desenvolvido em três sprints, conforme o backlog definido
 | Calendário astronômico        | Eventos futuros como eclipses, chuvas de meteoros e lançamentos espaciais | 10, 13, 14 |
 | Diário do observador           | Área para salvar observações e notas pessoais                             | 15         |
 | Condições de observação       | Exibe informações sobre as condições ideais para observar o céu           | 19         |
-| Modo noturno                  | Interface adaptada para não prejudicar a visão durante observações        | 16         |
-| Busca por astro                                 | Localiza constelações ou planetas pelo nome              | 17         |
 | Lembretes de eventos astronômicos               | Envia alertas configuráveis para o usuário               | 18         |
 
 ### 🚀 Sprint 3 — Funcionalidades Finais
@@ -37,6 +35,8 @@ O projeto está sendo desenvolvido em três sprints, conforme o backlog definido
 | Scanner de objetos com a câmera do dispositivo  | Identifica planetas e estrelas apontando a câmera                        | 11         |
 | Compartilhamento em redes sociais               | Permite compartilhar observações                                          | 12         |
 | Mapa interativo do céu                          | Permite explorar o céu e encontrar astros específicos                     | 8, 9       |
+| Modo noturno                  | Interface adaptada para não prejudicar a visão durante observações        | 16         |
+| Busca por astro                                 | Localiza constelações ou planetas pelo nome              | 17         |
 
 ## 🚧 Tecnologias Utilizadas
 
@@ -48,3 +48,5 @@ O projeto está sendo desenvolvido em três sprints, conforme o backlog definido
 
 ### Créditos
 Eventos: Dominic Ford (https://in-the-sky.org/)
+
+Astronomy Engine (https://github.com/cosinekitty/astronomy)
