@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Dimensions, TouchableOpacity } from 'react-native';
-import { Canvas, Image as SkiaImage, useImage } from '@shopify/react-native-skia';
+import { Canvas, Image as SkiaImage, useImage, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import LoadingAnimation from './LoadingAnimation';
 
 const ORIGINAL_DESIGN_WIDTH = 144;
@@ -40,6 +40,7 @@ export default function FilterHeader({ title, filterIcon, onPress }: FilterHeade
 						width={pixelPerfectIconSize}
 						height={pixelPerfectIconSize}
 						fit="contain"
+						sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 					/>
 				</Canvas>
 			</TouchableOpacity>

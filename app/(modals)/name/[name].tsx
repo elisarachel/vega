@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { getAstros, Astro, getAstroBySlug } from '@/services/database';
 import { toggleFavorite, isFavorite } from '@/services/favorites';
 import { useEffect, useState } from 'react';
-import { Canvas, scale, Image as SkiaImage, useImage } from '@shopify/react-native-skia';
+import { Canvas, scale, Image as SkiaImage, useImage, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import PageHeader from '@/components/PageHeader';
 import Button from '@/components/Button';
 import { auth } from '@/services/firebaseConfig';
@@ -124,6 +124,7 @@ export default function AstroDetails() {
 							y={0}
 							width={iconSize}
 							height={iconSize}
+							sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 						/>
 					</Canvas>
 				)}

@@ -1,4 +1,4 @@
-import { useImage, Canvas, Image as SkiaImage } from '@shopify/react-native-skia';
+import { useImage, Canvas, Image as SkiaImage, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import { Tabs } from 'expo-router';
 import React from 'react';
 import { Dimensions, StyleSheet } from 'react-native';
@@ -28,6 +28,7 @@ function CustomTabBarBackground() {
 				width={SCREEN_WIDTH}
 				height={pixelPerfectHeight}
 				fit="contain"
+				sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 			/>
 		</Canvas>
 	);
@@ -72,6 +73,7 @@ function SkiaTabIcon({ name, focused }: { name: keyof typeof icons; focused: boo
 				width={pixelPerfectIconSize}
 				height={pixelPerfectIconSize}
 				fit="contain"
+				sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 			/>
 		</Canvas>
 	);

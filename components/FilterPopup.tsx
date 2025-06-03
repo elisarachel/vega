@@ -79,6 +79,7 @@ export default function FilterPopup({ visible, onClose, onSelect }: FilterPopupP
 								width={POPUP_WIDTH}
 								height={POPUP_HEIGHT}
 								fit="contain"
+								sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 							/>
 						)}
 					</Canvas>
@@ -133,6 +134,7 @@ export default function FilterPopup({ visible, onClose, onSelect }: FilterPopupP
 										width={iconSize}
 										height={iconSize}
 										fit="contain"
+										sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 									/>
 								</Canvas>
 								<Text style={[styles.optionText, { fontSize: Math.round(12 * scaleFactor) }]}>

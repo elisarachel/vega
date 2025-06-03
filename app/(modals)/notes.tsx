@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList, Dimensions, Alert, TouchableOpacity }
 import { useRouter } from 'expo-router';
 import { getFirestore, collection, query, where, getDocs, deleteDoc, doc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
-import { Canvas, Image as SkiaImage, useImage } from '@shopify/react-native-skia';
+import { Canvas, Image as SkiaImage, useImage, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import PageHeader from '@/components/PageHeader';
 import IconButton from '@/components/Button';
 import { Swipeable } from 'react-native-gesture-handler';
@@ -147,6 +147,7 @@ export default function DiarioHome() {
 							y={0}
 							width={styles.actionIcon.width}
 							height={styles.actionIcon.height}
+							sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 						/>
 					)}
 				</Canvas>
@@ -160,6 +161,7 @@ export default function DiarioHome() {
 							y={0}
 							width={styles.actionIcon.width}
 							height={styles.actionIcon.height}
+							sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 						/>
 					)}
 				</Canvas>
@@ -195,6 +197,7 @@ export default function DiarioHome() {
 												y={0}
 												width={styles.noteCardCanvas.width}
 												height={styles.noteCardCanvas.height}
+												sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 											/>
 										</Canvas>
 									)}
@@ -216,6 +219,7 @@ export default function DiarioHome() {
 														y={0}
 														width={styles.icon.width}
 														height={styles.icon.height}
+														sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 													/>
 												</Canvas>
 											)}
@@ -227,6 +231,7 @@ export default function DiarioHome() {
 														y={0}
 														width={styles.icon.width}
 														height={styles.icon.height}
+														sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 													/>
 												</Canvas>
 											)}

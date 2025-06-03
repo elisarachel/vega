@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Dimensions } from 'react-native';
-import { Canvas, Image as SkiaImage, useImage, Fill } from '@shopify/react-native-skia';
+import { Canvas, Image as SkiaImage, useImage, Fill, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import LoadingAnimation from './LoadingAnimation';
 
 const ORIGINAL_DESIGN_WIDTH = 144; // Largura do design original
@@ -42,7 +42,8 @@ export default function Header({ background, city, pinIcon }: HeaderProps) {
 					x={0} 
 					y={0} 
 					width={screenWidth} 
-					height={headerHeight} fit="contain" 
+					height={headerHeight} fit="contain"
+					sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 				/>
 			</Canvas>
 
@@ -55,7 +56,8 @@ export default function Header({ background, city, pinIcon }: HeaderProps) {
 						x={0} 
 						y={0} 
 						width={iconSize} 
-						height={iconSize} fit="contain" 
+						height={iconSize} fit="contain"
+						sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 					/>
 				</Canvas>
 			</View>

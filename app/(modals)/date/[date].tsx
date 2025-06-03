@@ -6,7 +6,7 @@ import { View, Text, StyleSheet, Dimensions, ScrollView } from 'react-native';
 import { useState, useEffect } from 'react';
 import { useFonts } from 'expo-font';
 import { MoonPhase } from 'astronomy-engine';
-import { Canvas, Image as SkiaImage, useImage } from '@shopify/react-native-skia';
+import { Canvas, Image as SkiaImage, useImage, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import data2025 from '@/assets/data/2025_pt.json';
 import data2026 from '@/assets/data/2026_pt.json';
 import data2027 from '@/assets/data/2027_pt.json';
@@ -255,6 +255,7 @@ export default function DateModal() {
 								width={styles.moonPhaseCanvas.width}
 								height={styles.moonPhaseCanvas.height}
 								fit="contain"
+								sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 							/>
 						</Canvas>
 						<Text style={styles.moonPhaseName}>{moonPhase}</Text>
@@ -295,6 +296,7 @@ export default function DateModal() {
 									width={styles.weatherIcon.width}
 									height={styles.weatherIcon.height}
 									fit="contain"
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 								/>
 							</Canvas>
 							<Text style={styles.weatherDescription}>{weatherDescription}</Text>

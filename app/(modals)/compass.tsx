@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, StyleSheet, Dimensions, Text } from 'react-native';
-import { Canvas, Image, useImage, Group, Skia, Rect } from '@shopify/react-native-skia';
+import { Canvas, Image, useImage, Group, Skia, Rect, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import { useDerivedValue, useSharedValue, withTiming, Easing } from 'react-native-reanimated';
 import { Body, Observer, Equator, Horizon, AstroTime, Illumination } from 'astronomy-engine';
 import * as Location from 'expo-location';
@@ -204,12 +204,14 @@ const CompassVisualization = ({ deviceHeading, astroAzimuth }: { deviceHeading: 
 		<View style={styles.compassContainer}>
 			<Canvas style={{ width: COMPASS_SIZE, height: COMPASS_SIZE }}>
 				{compassBase && (
-					<Image image={compassBase} x={0} y={0} width={COMPASS_SIZE} height={COMPASS_SIZE} fit="contain" />
+					<Image image={compassBase} x={0} y={0} width={COMPASS_SIZE} height={COMPASS_SIZE} fit="contain" 
+					sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}/>
 				)}
 
 				{/* Renderiza a agulha como um frame específico */}
 				{needleImage && (
-					<Image image={needleImage} x={COMPASS_SIZE / 2 - NEEDLE_WIDTH / 2} y={COMPASS_SIZE / 2 - NEEDLE_HEIGHT / 2} width={NEEDLE_WIDTH} height={NEEDLE_HEIGHT} fit="contain" />
+					<Image image={needleImage} x={COMPASS_SIZE / 2 - NEEDLE_WIDTH / 2} y={COMPASS_SIZE / 2 - NEEDLE_HEIGHT / 2} width={NEEDLE_WIDTH} height={NEEDLE_HEIGHT} fit="contain" 
+					sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}/>
 				)}
 			</Canvas>
 		</View>
@@ -246,6 +248,7 @@ const AltitudeIndicator = ({ altitude, devicePitch }: { altitude: number, device
 					width={THERMO_WIDTH}
 					height={THERMO_HEIGHT}
 					fit="contain"
+					sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 				/>
 
 				{starImage && (
@@ -256,6 +259,7 @@ const AltitudeIndicator = ({ altitude, devicePitch }: { altitude: number, device
 						width={STAR_SIZE*SCALE_FACTOR}
 						height={STAR_SIZE*SCALE_FACTOR}
 						fit="contain"
+						sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 					/>
 				)}
 
@@ -267,6 +271,7 @@ const AltitudeIndicator = ({ altitude, devicePitch }: { altitude: number, device
 					width={THERMO_WIDTH}
 					height={THERMO_HEIGHT}
 					fit="contain"
+					sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 				/>
 			</Canvas>
 		</View>

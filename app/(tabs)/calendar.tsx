@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Header from '@/components/Header';
-import { Canvas, scale, Text as SkiaText, useFont, useImage, Image as SkiaImage } from '@shopify/react-native-skia';
+import { Canvas, scale, Text as SkiaText, useFont, useImage, Image as SkiaImage, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import { DateTime } from 'luxon';
 import { Dimensions, View, StyleSheet, Text, ScrollView, Modal, Pressable, TouchableOpacity } from 'react-native';
 import eventData2025 from '@/assets/data/2025_pt.json';
@@ -166,6 +166,7 @@ const CalendarOverlay = ({ year, month }: { year: number; month: number }) => {
 							y={y + (14 * scaleFactor)}
 							width={10 * scaleFactor}
 							height={10 * scaleFactor}
+							sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 						/>
 					]
 					: []),
@@ -178,6 +179,7 @@ const CalendarOverlay = ({ year, month }: { year: number; month: number }) => {
 							y={y + (20 * scaleFactor)}
 							width={5 * scaleFactor}
 							height={5 * scaleFactor}
+							sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 						/>
 					]
 					: [])
@@ -195,6 +197,7 @@ const CalendarOverlay = ({ year, month }: { year: number; month: number }) => {
 					width={141 * scaleFactor}
 					height={108 * scaleFactor}
 					fit="contain"
+					sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 				/>
 				{headers}
 				{cells.map(({ text }) => text)}
@@ -268,6 +271,7 @@ export default function Calendar() {
 							y={0}
 							width={5 * scaleFactor}
 							height={10 * scaleFactor}
+							sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 						/>
 					</Canvas>
 					<Text style={styles.legendText}>Evento Astronômico</Text>
@@ -281,6 +285,7 @@ export default function Calendar() {
 								y={0}
 								width={5 * scaleFactor}
 								height={5 * scaleFactor}
+								sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 							/>
 						</Canvas>
 						<Text style={styles.legendText}>Dia com Nota</Text>

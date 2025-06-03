@@ -9,7 +9,7 @@ import {
     Platform,
     PermissionsAndroid,
 } from 'react-native';
-import { Canvas, Image, useImage, Skia } from '@shopify/react-native-skia';
+import { Canvas, Image, useImage, Skia, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import * as Location from 'expo-location';
 import { Body, Observer, Equator, Horizon, AstroTime } from 'astronomy-engine';
 import LoadingAnimation from '@/components/LoadingAnimation'; // Adjust path if needed
@@ -166,34 +166,40 @@ export default function Sky() {
 
     // --- Move Viro Materials Definition Inside useEffect --- 
     useEffect(() => {
-        ViroMaterials.createMaterials({
-            // Create a material for each body to ensure nearest filtering
-            ...bodiesToTrack.reduce((acc, body) => {
-                const nameLower = getBodyNameLower(body);
-                if (astroImageSources[nameLower]) {
-                    acc[nameLower + '_mat'] = {
-                        diffuseTexture: astroImageSources[nameLower],
-                        lightingModel: 'Constant', // Ignore scene lighting for sprites
-                        writesToDepthBuffer: false, // Render on top potentially
-                        readsFromDepthBuffer: false,
-                        // --- Crucial for Pixel Art --- 
-                        minificationFilter: 'Nearest',
-                        magnificationFilter: 'Nearest',
-                        mipmapMode: 'None', // Disable mipmapping if possible/needed
-                    };
-                }
-                return acc;
-            }, {} as any),
-            // Material for AR labels
-            label_bg_mat: {
-                diffuseTexture: require(PLACEHOLDER_AR_LABEL_BG_PATH), // User needs to create this
-                lightingModel: 'Constant',
-                minificationFilter: 'Nearest',
-                magnificationFilter: 'Nearest',
-                mipmapMode: 'None',
-            }
-        });
-    }, []); // Empty dependency array ensures this runs only once on mount
+		if (!isARMode || !hasARPermissions) return;
+        
+		try {
+			ViroMaterials.createMaterials({
+				// Create a material for each body to ensure nearest filtering
+				...bodiesToTrack.reduce((acc, body) => {
+					const nameLower = getBodyNameLower(body);
+					if (astroImageSources[nameLower]) {
+						acc[nameLower + '_mat'] = {
+							diffuseTexture: astroImageSources[nameLower],
+							lightingModel: 'Constant', // Ignore scene lighting for sprites
+							writesToDepthBuffer: false, // Render on top potentially
+							readsFromDepthBuffer: false,
+							// --- Crucial for Pixel Art --- 
+							minificationFilter: 'Nearest',
+							magnificationFilter: 'Nearest',
+							mipmapMode: 'None', // Disable mipmapping if possible/needed
+						};
+					}
+					return acc;
+				}, {} as any),
+				// Material for AR labels
+				label_bg_mat: {
+					diffuseTexture: require(PLACEHOLDER_AR_LABEL_BG_PATH), // User needs to create this
+					lightingModel: 'Constant',
+					minificationFilter: 'Nearest',
+					magnificationFilter: 'Nearest',
+					mipmapMode: 'None',
+				}
+     	   });
+	 	} catch (e) {
+			console.warn("erro criando materiais viro:", e);
+		}
+    }, [[isARMode, hasARPermissions]]); // Empty dependency array ensures this runs only once on mount
 
     // --- Skia Image Loading (for Static View) --- 
     const skyBgImage = useImage(require(PLACEHOLDER_SKY_BACKGROUND_PATH)); // User needs to create this
@@ -355,6 +361,7 @@ export default function Sky() {
                             width={canvasWidth}
                             height={staticCanvasHeight}
                             fit="cover"
+							sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
                         />
                     )}
                     {Object.entries(celestialPositions)
@@ -372,6 +379,7 @@ export default function Sky() {
                                     width={STATIC_BODY_ICON_SIZE}
                                     height={STATIC_BODY_ICON_SIZE}
                                     fit="contain"
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
                                 />
                             );
                         })}

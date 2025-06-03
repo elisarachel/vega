@@ -7,7 +7,7 @@ import { doc, setDoc } from 'firebase/firestore';
 import { db } from '@/services/firebaseConfig';
 import useVisibleAstros from '@/hooks/useVisibleAstros';
 import PageHeader from '@/components/PageHeader';
-import { Canvas, Image as SkiaImage, useImage, Rect, Text as SkiaText, useFont } from '@shopify/react-native-skia';
+import { Canvas, Image as SkiaImage, useImage, Rect, Text as SkiaText, useFont, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import { useDayInfo } from '@/hooks/useDayInfo';
 import IconButton from '@/components/Button'; 
 import { router } from 'expo-router';
@@ -238,6 +238,7 @@ export default function NovaNota() {
 												width: Math.round(16 * scaleFactor),
 												height: Math.round(16 * scaleFactor),
 											}}
+											sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 										/>
 									)}
 								</Canvas>
@@ -262,6 +263,7 @@ export default function NovaNota() {
 												width: Math.round(16 * scaleFactor),
 												height: Math.round(16 * scaleFactor),
 											}}
+											sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 										/>
 									)}
 								</Canvas>
@@ -293,6 +295,7 @@ export default function NovaNota() {
 													y={0}
 													width={BOX_WIDTH}
 													height={BOX_HEIGHT}
+													sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 												/>
 											)}
 
@@ -335,6 +338,7 @@ export default function NovaNota() {
 									y={0}
 									width={Math.round(128 * scaleFactor)}
 									height={Math.round(149 * scaleFactor)}
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 								/>
 							)}
 						</Canvas>

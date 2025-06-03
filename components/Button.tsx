@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, ImageSourcePropType, Dimensions, TouchableOpacity } from 'react-native';
-import { Canvas, Image as SkiaImage, useImage } from '@shopify/react-native-skia';
+import { Canvas, Image as SkiaImage, useImage, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 
 type IconButtonProps = {
   image: ImageSourcePropType;
@@ -44,6 +44,7 @@ export default function IconButton({ image, text, onPress, icon }: IconButtonPro
             width={buttonWidth}
             height={buttonHeight}
             fit="contain"
+			sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
           />
         </Canvas>
       )}
@@ -67,6 +68,7 @@ export default function IconButton({ image, text, onPress, icon }: IconButtonPro
               width={iconSize}
               height={iconSize}
               fit="contain"
+			  sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
             />
           </Canvas>
         )}

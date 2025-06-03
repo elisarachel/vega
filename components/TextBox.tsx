@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, TextInput, TextInputProps, StyleSheet, Dimensions } from 'react-native';
-import { Canvas, useImage, Image as SkiaImage } from '@shopify/react-native-skia';
+import { Canvas, useImage, Image as SkiaImage, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 
 const ORIGINAL_WIDTH = 144;
 const scaleFactor = Dimensions.get('window').width / ORIGINAL_WIDTH;
@@ -44,6 +44,7 @@ export default function TextBox({ placeholder, type, ...props }: TextBoxProps) {
 						y={0}
 						width={type === 'edit' ? EDIT_BOX_WIDTH : BOX_WIDTH}
 						height={BOX_HEIGHT}
+						sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 					/>
 				</Canvas>
 				<TextInput

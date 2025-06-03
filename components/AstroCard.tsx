@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, ImageSourcePropType, Dimensions, TouchableOpacity } from 'react-native';
-import { Canvas, Image as SkiaImage, useImage, Fill, scale } from '@shopify/react-native-skia';
+import { Canvas, Image as SkiaImage, useImage, Fill, scale, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import LoadingAnimation from './LoadingAnimation';
 import { Link } from 'expo-router';
 import removeAccents from 'remove-accents';
@@ -51,6 +51,7 @@ export default function AstroCard({ background, icon, name, time, isVisible }: A
 					width={screenWidth}
 					height={cardHeight}
 					fit="contain"
+					sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 				/>
 			</Canvas>
 			<Link 
@@ -74,6 +75,7 @@ export default function AstroCard({ background, icon, name, time, isVisible }: A
                                     width={pixelPerfectIconSize}
                                     height={pixelPerfectIconSize}
                                     fit="contain"
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
                                 />
                             </Canvas>
                             <Text style={[

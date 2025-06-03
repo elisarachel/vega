@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Canvas, Image as SkiaImage, useAnimatedImageValue } from '@shopify/react-native-skia';
+import { Canvas, Image as SkiaImage, useAnimatedImageValue, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import { Dimensions, View, StyleSheet } from 'react-native';
 
 const ORIGINAL_DESIGN_WIDTH = 144;
@@ -34,6 +34,7 @@ const PixelLoader = () => {
 					width={iconSize}
 					height={iconSize}
 					fit="contain"
+					sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 				/>
 			</Canvas>
 		</View>

@@ -9,7 +9,7 @@ import IconButton from '@/components/Button';
 import { updateProfile } from 'firebase/auth';
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
 import { db } from '@/services/firebaseConfig';
-import { Canvas, Image, useImage } from '@shopify/react-native-skia';
+import { Canvas, Image, useImage, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 import Header from '@/components/Header';
 
 const ORIGINAL_WIDTH = 144;
@@ -187,8 +187,9 @@ export default function ProfileScreen() {
 									}
 									x={0}
 									y={0}
-									width={isEditingEmail ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)} // Edit icon is smaller
-									height={isEditingEmail ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)} // Edit icon is smaller
+									width={isEditingEmail ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)}
+									height={isEditingEmail ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)} 
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 								/>
 							</Canvas>
 						</TouchableOpacity>
@@ -201,6 +202,7 @@ export default function ProfileScreen() {
 										y={0}
 										width={Math.round(16 * scaleFactor)}
 										height={Math.round(16 * scaleFactor)}
+										sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 									/>
 								</Canvas>
 							</TouchableOpacity>
@@ -226,8 +228,9 @@ export default function ProfileScreen() {
 									image={isEditingName ? checkIcon : editIcon}
 									x={0}
 									y={0}
-									width={isEditingName ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)} // Edit icon is smaller
-									height={isEditingName ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)} // Edit icon is smaller
+									width={isEditingName ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)} 
+									height={isEditingName ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)}
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 								/>
 							</Canvas>
 						</TouchableOpacity>
@@ -240,6 +243,7 @@ export default function ProfileScreen() {
 										y={0}
 										width={Math.round(16 * scaleFactor)}
 										height={Math.round(16 * scaleFactor)}
+										sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 									/>
 								</Canvas>
 							</TouchableOpacity>
@@ -272,8 +276,9 @@ export default function ProfileScreen() {
 									image={isEditingBirthdate ? checkIcon : editIcon}
 									x={0}
 									y={0}
-									width={isEditingBirthdate ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)} // Edit icon is smaller
-									height={isEditingBirthdate ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)} // Edit icon is smaller
+									width={isEditingBirthdate ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)} 
+									height={isEditingBirthdate ? Math.round(16 * scaleFactor) : Math.round(12 * scaleFactor)} 
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 								/>
 							</Canvas>
 						</TouchableOpacity>
@@ -286,6 +291,7 @@ export default function ProfileScreen() {
 										y={0}
 										width={Math.round(16 * scaleFactor)}
 										height={Math.round(16 * scaleFactor)}
+										sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 									/>
 								</Canvas>
 							</TouchableOpacity>
@@ -302,6 +308,7 @@ export default function ProfileScreen() {
 									y={Math.round(2 * scaleFactor)}
 									width={Math.round(16 * scaleFactor)}
 									height={Math.round(16 * scaleFactor)}
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 								/>
 							</Canvas>
 							<Canvas style={styles.inlineIcon}>
@@ -311,6 +318,7 @@ export default function ProfileScreen() {
 									y={Math.round(5 * scaleFactor)}
 									width={Math.round(10 * scaleFactor)}
 									height={Math.round(10 * scaleFactor)}
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 								/>
 							</Canvas>
 						</View>
@@ -325,6 +333,7 @@ export default function ProfileScreen() {
 									y={Math.round(2 * scaleFactor)}
 									width={Math.round(16 * scaleFactor)}
 									height={Math.round(16 * scaleFactor)}
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 								/>
 							</Canvas>
 							<Canvas style={styles.inlineIcon}>
@@ -334,6 +343,7 @@ export default function ProfileScreen() {
 									y={Math.round(5 * scaleFactor)}
 									width={Math.round(10 * scaleFactor)}
 									height={Math.round(10 * scaleFactor)}
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 								/>
 							</Canvas>
 						</View>
@@ -348,6 +358,7 @@ export default function ProfileScreen() {
 									y={Math.round(5 * scaleFactor)}
 									width={Math.round(10 * scaleFactor)}
 									height={Math.round(10 * scaleFactor)}
+									sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 								/>
 							</Canvas>
 						</View>
@@ -399,7 +410,7 @@ export default function ProfileScreen() {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		justifyContent: 'flex-start', // Ensure content starts below the header
+		justifyContent: 'flex-start', 
 		backgroundColor: '#e9ecf5',
 		position: 'relative',
 	},

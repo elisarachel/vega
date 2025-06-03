@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Dimensions } from 'react-native';
-import { Canvas, Image as SkiaImage, useImage } from '@shopify/react-native-skia';
+import { Canvas, Image as SkiaImage, useImage, FilterMode, MipmapMode } from '@shopify/react-native-skia';
 
 const ORIGINAL_DESIGN_WIDTH = 144; // Largura de referência do design
 const ORIGINAL_ICON_SIZE = 11; // Tamanho original do ícone
@@ -36,6 +36,7 @@ export default function SectionHeader({ icon, text }: SectionHeaderProps) {
 					width={pixelPerfectIconSize}
 					height={pixelPerfectIconSize}
 					fit="contain"
+					sampling={{ filter: FilterMode.Nearest, mipmap: MipmapMode.None }}
 				/>
 			</Canvas>
 			<Text style={[styles.text, { fontSize: Math.round(16 * scaleFactor) }]}>
