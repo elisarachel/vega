@@ -84,6 +84,15 @@ export default function HomeScreen() {
         fetchFavorites();
     }, []);
 
+    useEffect(() => {
+        const updateFavorites = async () => {
+            const favs = await getFavorites();
+            setFavorites(favs);
+        };
+
+        updateFavorites(); // Atualiza os favoritos sempre que os astros visíveis mudam
+    }, [visibleAstros]);
+
     // Função para obter a localização do usuário
     const getLocation = async () => {
         try {
@@ -298,7 +307,9 @@ export default function HomeScreen() {
 							<SectionHeader icon={require('@/assets/images/eye_icon.png')} text="Visíveis agora" />
 							{visibleAstros.now.map((astro, index) => {
 								// Ensure consistent rendering logic
-								const isFavorite = favorites.includes((astroNamesPT[astro.name] || astro.name).toLowerCase());
+								const isFavorite = favorites.includes(
+									astroNamesPT[astro.name]?.toLowerCase() || astro.name.toLowerCase()
+								);
 								if (selectedType === 'Favoritos' && !isFavorite) return null;
 								if (selectedType && selectedType !== astro.type && selectedType !== 'Favoritos') return null;
 
@@ -322,7 +333,9 @@ export default function HomeScreen() {
 							<SectionHeader icon={require('@/assets/images/rise_icon.png')} text="Visíveis em breve" />
 							{visibleAstros.soon.map((astro, index) => {
 								// Ensure consistent rendering logic
-								const isFavorite = favorites.includes((astroNamesPT[astro.name] || astro.name).toLowerCase());
+								const isFavorite = favorites.includes(
+									astroNamesPT[astro.name]?.toLowerCase() || astro.name.toLowerCase()
+								);
 								if (selectedType === 'Favoritos' && !isFavorite) return null;
 								if (selectedType && selectedType !== astro.type && selectedType !== 'Favoritos') return null;
 

@@ -44,32 +44,39 @@ const CalendarOverlay = ({ year, month }: { year: number; month: number }) => {
 	const isResourcesLoaded = font && eventIcon && calendarBackground && starIcon;
 
 	useEffect(() => {
-		const fetchNotas = async () => {
-			const user = getAuth().currentUser;
-			setIsUserLoggedIn(!!user); // Update login state
-			if (!user) return;
+		const unsubscribe = getAuth().onAuthStateChanged(async (user) => {
+			if (user) {
+				setIsUserLoggedIn(true); // Update login state
+				const db = getFirestore();
+				const notasQuery = query(
+					collection(db, 'notas'),
+					where('userId', '==', user.uid)
+				);
+				const snapshot = await getDocs(notasQuery);
 
-			const db = getFirestore();
-			const notasQuery = query(
-				collection(db, 'notas'),
-				where('userId', '==', user.uid)
-			);
-			const snapshot = await getDocs(notasQuery);
+				const diasComNota = new Set<number>();
+				snapshot.forEach(doc => {
+					const dataStr = doc.data().data;
+					const data = DateTime.fromISO(dataStr);
+					if (data.year === year && data.month === month) {
+						diasComNota.add(data.day);
+					}
+				});
 
-			const diasComNota = new Set<number>();
-			snapshot.forEach(doc => {
-				const dataStr = doc.data().data;
-				const data = DateTime.fromISO(dataStr);
-				if (data.year === year && data.month === month) {
-					diasComNota.add(data.day);
-				}
-			});
+				setNotasDoMes(diasComNota);
+			} else {
+				setIsUserLoggedIn(false); // Ensure state is updated when logged out
+				setNotasDoMes(new Set()); // Clear notes when not logged in
+			}
+		});
 
-			setNotasDoMes(diasComNota);
-		};
-
-		fetchNotas();
+		return () => unsubscribe(); // Cleanup subscription on unmount
 	}, [year, month]);
+
+	useEffect(() => {
+		// Force re-render when login state changes
+		setNotasDoMes((prev) => (isUserLoggedIn ? prev : new Set()));
+	}, [isUserLoggedIn]);
 
 	if (!isResourcesLoaded) return null;
 
@@ -150,12 +157,30 @@ const CalendarOverlay = ({ year, month }: { year: number; month: number }) => {
 				/>
 			),
 			icons: [
-				events[day] && eventIcon && (
-					<SkiaImage key={`event-${day}`} image={eventIcon} x={x + (10 * scaleFactor)} y={y + (14 * scaleFactor)} width={10 * scaleFactor} height={10 * scaleFactor} />
-				),
-				isUserLoggedIn && notasDoMes.has(day) && starIcon && (
-					<SkiaImage key={`star-${day}`} image={starIcon} x={x + (2 * scaleFactor)} y={y + (20 * scaleFactor)} width={5 * scaleFactor} height={5 * scaleFactor} />
-				)
+				...(events[day] && eventIcon
+					? [
+						<SkiaImage
+							key={`event-${day}`}
+							image={eventIcon}
+							x={x + (10 * scaleFactor)}
+							y={y + (14 * scaleFactor)}
+							width={10 * scaleFactor}
+							height={10 * scaleFactor}
+						/>
+					]
+					: []),
+				...(isUserLoggedIn && notasDoMes.has(day) && starIcon
+					? [
+						<SkiaImage
+							key={`star-${day}`}
+							image={starIcon}
+							x={x + (2 * scaleFactor)}
+							y={y + (20 * scaleFactor)}
+							width={5 * scaleFactor}
+							height={5 * scaleFactor}
+						/>
+					]
+					: [])
 			]
 		});
 	}
@@ -173,7 +198,7 @@ const CalendarOverlay = ({ year, month }: { year: number; month: number }) => {
 				/>
 				{headers}
 				{cells.map(({ text }) => text)}
-				{cells.map(({ icons }) => icons)}
+				{cells.map(({ icons }) => icons.flat())}
 			</Canvas>
 			{cells.map(({ day, x, y }) => (
 				<TouchableOpacity
@@ -203,9 +228,13 @@ export default function Calendar() {
 	const starIcon = useImage(require('@/assets/images/mini_star.png'));
 
 	useEffect(() => {
-		const user = getAuth().currentUser;
-		setIsUserLoggedIn(!!user);
+		const unsubscribe = getAuth().onAuthStateChanged((user) => {
+			setIsUserLoggedIn(!!user);
+		});
+	
+		return () => unsubscribe(); // limpa o listener ao desmontar
 	}, []);
+	
 
 	const handleYearChange = (direction: 'prev' | 'next') => {
 		setCurrentYear((prevYear: number) => {
@@ -232,28 +261,28 @@ export default function Calendar() {
 			<Text style={styles.legendTitle}>LEGENDA</Text>
 			<View style={styles.legendContainer}>
 				<View style={styles.legendItem}>
-						<Canvas style={{ width: 5 * scaleFactor, height: 10 * scaleFactor }}>
+					<Canvas style={{ width: 5 * scaleFactor, height: 10 * scaleFactor }}>
+						<SkiaImage
+							image={eventIcon}
+							x={0}
+							y={0}
+							width={5 * scaleFactor}
+							height={10 * scaleFactor}
+						/>
+					</Canvas>
+					<Text style={styles.legendText}>Evento Astronômico</Text>
+				</View>
+				{isUserLoggedIn && (
+					<View style={styles.legendItem}>
+						<Canvas style={{ width: 5 * scaleFactor, height: 5 * scaleFactor }}>
 							<SkiaImage
-								image={eventIcon}
+								image={starIcon}
 								x={0}
 								y={0}
 								width={5 * scaleFactor}
-								height={10 * scaleFactor}
+								height={5 * scaleFactor}
 							/>
 						</Canvas>
-					<Text style={styles.legendText}>Evento Astronômico</Text>
-				</View>
-				{isUserLoggedIn && starIcon && (
-					<View style={styles.legendItem}>
-							<Canvas style={{ width: 5 * scaleFactor, height: 5 * scaleFactor }}>
-								<SkiaImage
-									image={starIcon}
-									x={0}
-									y={0}
-									width={5 * scaleFactor}
-									height={5 * scaleFactor}
-								/>
-							</Canvas>
 						<Text style={styles.legendText}>Dia com Nota</Text>
 					</View>
 				)}

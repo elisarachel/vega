@@ -276,7 +276,7 @@ export default function DateModal() {
 							</View>
 						))
 					) : (
-						<Text style={styles.noEventsText}>Sem dados</Text>
+						<Text style={styles.noEventsText}>Sem eventos</Text>
 					)}
 				</View>
 				<View style={styles.sectionTitleContainer}>

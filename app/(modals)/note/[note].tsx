@@ -99,11 +99,15 @@ export default function NovaNota() {
 				const savedAstros = Array.isArray(routerParams.astrosVisiveis)
 					? routerParams.astrosVisiveis
 					: routerParams.astrosVisiveis
-					? [routerParams.astrosVisiveis]
-					: [];
+						? routerParams.astrosVisiveis.split(',') // Split comma-separated values
+						: [];
 				setAstrosVisiveis(savedAstros.map((astro) => astroNamesPT[astro] || astro));
 			} else {
-				setAstrosVisiveis(Array.isArray(visibleAstros?.now) ? visibleAstros.now.map((astro) => astro.name) : []);
+				setAstrosVisiveis(
+					Array.isArray(visibleAstros?.now)
+						? visibleAstros.now.map((astro) => astroNamesPT[astro.name] || astro.name)
+						: []
+				);
 				const phase = MoonPhase(new Date());
 				if (phase >= 0 && phase < 45 || phase >= 315 && phase < 360) {
 					setFaseDaLua('Lua Nova');
@@ -270,7 +274,7 @@ export default function NovaNota() {
 						{isLoading ? (
 							<PixelLoader />
 						) : (
-							(Array.isArray(astrosVisiveis) ? astrosVisiveis : []).map((astro, idx) => {
+							astrosVisiveis.map((astro, idx) => {
 								const isSelected = selecionados.includes(astro);
 
 								return (
@@ -295,7 +299,7 @@ export default function NovaNota() {
 											{/* Nome do astro dentro do canvas */}
 											{font && (
 												<SkiaText
-													text={astroNamesPT[astro] || astro} // Fallback to original astro name
+													text={astro} // Display name in Portuguese
 													x={Math.round(16 * scaleFactor)}
 													y={BOX_HEIGHT / 2 + 2 * scaleFactor}
 													color="#18122B"
