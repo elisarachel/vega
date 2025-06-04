@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, ScrollView, Alert, StyleSheet, Dimensions } from 'react-native';
+import { View, ScrollView, Alert, StyleSheet, Dimensions, Image, TouchableOpacity, Text } from 'react-native';
 import * as Location from 'expo-location';
 import * as Notifications from 'expo-notifications';
 import { Equator, Horizon, Body, Observer, SearchRiseSet, AstroTime } from 'astronomy-engine';
@@ -11,6 +11,7 @@ import LoadingAnimation from '@/components/LoadingAnimation';
 import { getAstroType } from '@/services/database';
 import FilterPopup from '@/components/FilterPopup';
 import { getFavorites } from '@/services/favorites';
+import TextBox from '@/components/TextBox';
 
 const ORIGINAL_DESIGN_WIDTH = 144;
 
@@ -57,6 +58,8 @@ export default function HomeScreen() {
 	const [selectedType, setSelectedType] = useState<string | null>(null);
 	const [isFilterPopupVisible, setIsFilterPopupVisible] = useState(false);
     const [favorites, setFavorites] = useState<string[]>([]);
+    const [search, setSearch] = useState('');
+    const [isSearchFocused, setIsSearchFocused] = useState(false);
 
 	useEffect(() => {
 		const interval = setInterval(() => {
@@ -279,6 +282,27 @@ export default function HomeScreen() {
                 pinIcon={require('@/assets/images/pin_pink_outlined.png')}
             />
 
+            {/* Barra de pesquisa usando TextBox */}
+            <View style={styles.searchContainer}>
+                <Image
+                    source={require('@/assets/images/search.png')}
+                    style={styles.searchIcon}
+                />
+                <TextBox
+                    placeholder="Pesquisar astro..."
+                    value={search}
+                    onChangeText={setSearch}
+                    onFocus={() => setIsSearchFocused(true)}
+                    onBlur={() => setIsSearchFocused(false)}
+                    style={styles.textBoxInput}
+                />
+                {search.length > 0 && (
+                    <TouchableOpacity onPress={() => setSearch('')}>
+                        <Text style={styles.clearText}>×</Text>
+                    </TouchableOpacity>
+                )}
+            </View>
+
             <FilterHeader title="ASTROS" filterIcon={require('@/assets/images/filter_icon.png')}
 			onPress={() => setIsFilterPopupVisible(true)} />
 
@@ -376,5 +400,33 @@ const styles = StyleSheet.create({
 		alignItems: 'center',
 		backgroundColor: '#E9ECF5',
 		marginBottom: Math.round(52*(screenWidth / ORIGINAL_DESIGN_WIDTH)),
+	},
+	searchContainer: {
+		flexDirection: 'row',
+		alignItems: 'center',
+		backgroundColor: 'transparent',
+		borderRadius: 8,
+		marginHorizontal: 12,
+		marginTop: 12,
+		marginBottom: 4,
+		paddingHorizontal: 0,
+	},
+	searchIcon: {
+		width: 18,
+		height: 18,
+		tintColor: '#C77DFF',
+		marginRight: 6,
+		zIndex: 2,
+	},
+	textBoxInput: {
+		// Permite que o TextBox ocupe o espaço restante
+		flex: 1,
+	},
+	clearText: {
+		fontSize: 18,
+		color: '#C77DFF',
+		paddingHorizontal: 6,
+		paddingVertical: 2,
+		zIndex: 2,
 	},
 });

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, ScrollView, Dimensions } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, Dimensions, Share } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
 import { getFirestore, doc, getDoc } from 'firebase/firestore';
 import PageHeader from '@/components/PageHeader';
 import PixelLoader from '@/components/LoadingAnimation';
+import IconButton from '@/components/Button';
 
 const astroNamesPT: { [key: string]: string } = {
     'Mercury': 'Mercúrio',
@@ -37,6 +38,26 @@ export default function VerNota() {
 		};
 		fetchNota();
 	}, [id]);
+
+	const handleShare = async () => {
+		if (!nota) return;
+		const astroList = Array.isArray(nota.astrosSelecionados)
+			? nota.astrosSelecionados.map((astro: string) => astroNamesPT[astro] || astro).join(', ')
+			: '';
+		const message = 
+			`Nota de Observação Astronômica\n\n` +
+			`Data: ${nota.data}\n` +
+			`Fase da Lua: ${nota.faseDaLua}\n` +
+			`Clima: ${nota.condicaoObservacao}\n` +
+			`Astros selecionados: ${astroList}\n` +
+			`Texto: ${nota.texto}\n` +
+			`Cidade: ${nota.location}`;
+		try {
+			await Share.share({ message });
+		} catch (error) {
+			console.log(error);
+		}
+	};
 
 	if (loading) {
 		return (
@@ -77,6 +98,10 @@ export default function VerNota() {
 
 			<Text style={styles.label}>Cidade:</Text>
 			<Text style={styles.content}>{nota.location}</Text>
+
+			<View style={styles.shareButtonContainer}>
+				<IconButton text="Compartilhar" onPress={handleShare} image={require('@/assets/images/pink_button.png')}/>
+			</View>
 		</ScrollView>
 	);
 }
@@ -99,5 +124,8 @@ const styles = StyleSheet.create({
 		color: '#7A7D8D',
 		fontFamily: 'TinyUnicode',
 		marginBottom: Math.round(2 * scaleFactor),
+	},
+	shareButtonContainer: {
+		margin: Math.round(12 * scaleFactor),
 	},
 });
