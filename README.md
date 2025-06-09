@@ -1,13 +1,13 @@
 # Vega
-# 🌌 Aplicativo de Observação Astronômica
+# Aplicativo de Observação Astronômica
 
 Este é um projeto de aplicativo mobile voltado para a observação de corpos celestes, como planetas, estrelas e constelações. O app permite que o usuário explore o céu com recursos interativos, obtenha informações astronômicas em tempo real e registre suas observações.
 
-## 📋 Funcionalidades
+## Funcionalidades
 
 O projeto está sendo desenvolvido em três sprints, conforme o backlog definido:
 
-### ✅ Sprint 1 — Funcionalidades Concluídas
+### Sprint 1
 
 | Funcionalidade                                         | Descrição                                                                 | Requisitos |
 |--------------------------------------------------------|---------------------------------------------------------------------------|------------|
@@ -16,7 +16,7 @@ O projeto está sendo desenvolvido em três sprints, conforme o backlog definido
 | Bússola e termômetro astronômico                       | Mostra direção e altura do astro no céu em tempo real                     | 3          |
 | Filtro por tipo de astro                               | Permite selecionar apenas planetas, estrelas ou satélites                | 5          |
 
-### 🛠️ Sprint 2 — Em Desenvolvimento
+### 🛠Sprint 2
 
 | Funcionalidade                 | Descrição                                                                 | Requisitos |
 |--------------------------------|---------------------------------------------------------------------------|------------|
@@ -27,7 +27,7 @@ O projeto está sendo desenvolvido em três sprints, conforme o backlog definido
 | Condições de observação       | Exibe informações sobre as condições ideais para observar o céu           | 19         |
 | Lembretes de eventos astronômicos               | Envia alertas configuráveis para o usuário               | 18         |
 
-### 🚀 Sprint 3 — Funcionalidades Finais
+### Sprint 3 
 
 | Funcionalidade                                  | Descrição                                                                 | Requisitos |
 |-------------------------------------------------|---------------------------------------------------------------------------|------------|
@@ -38,7 +38,7 @@ O projeto está sendo desenvolvido em três sprints, conforme o backlog definido
 | Modo noturno                  | Interface adaptada para não prejudicar a visão durante observações        | 16         |
 | Busca por astro                                 | Localiza constelações ou planetas pelo nome              | 17         |
 
-## 🚧 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - React Native com Expo
 - Skia para renderização gráfica
