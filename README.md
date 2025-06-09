@@ -16,7 +16,7 @@ O projeto está sendo desenvolvido em três sprints, conforme o backlog definido
 | Bússola e termômetro astronômico                       | Mostra direção e altura do astro no céu em tempo real                     | 3          |
 | Filtro por tipo de astro                               | Permite selecionar apenas planetas, estrelas ou satélites                | 5          |
 
-### 🛠Sprint 2
+### Sprint 2
 
 | Funcionalidade                 | Descrição                                                                 | Requisitos |
 |--------------------------------|---------------------------------------------------------------------------|------------|
