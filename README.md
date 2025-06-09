@@ -46,6 +46,16 @@ O projeto está sendo desenvolvido em três sprints, conforme o backlog definido
 - Astronomy Engine (cálculo de posição dos astros)
 - Expo Location & Sensors
 
+## Instruções para gerar o APK
+1. Clone o repositório e instale as dependências
+```bash
+yarn install
+```
+2. Rode o seguinte comando:
+```bash
+npx expo run:android
+```
+
 ### Créditos
 Eventos: Dominic Ford (https://in-the-sky.org/)
 
